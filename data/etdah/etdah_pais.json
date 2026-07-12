@@ -88,8 +88,7 @@
       10,
       11,
       12
-    ],
-    "observacao": "A numeração dos itens reinicia em cada fator na planilha original."
+    ]
   },
   "itens_invertidos": {
     "F3_ComportamentoAdaptativo": "TODOS os 14 itens do Fator 3 são invertidos",
@@ -33536,5 +33535,367 @@
         }
       ]
     }
+  },
+  "itens": {
+    "F1_RegulacaoEmocional": [
+      {
+        "numero": 1,
+        "texto": "Faz amizade, mas não consegue mantê-las",
+        "invertido": false
+      },
+      {
+        "numero": 2,
+        "texto": "Implica com tudo",
+        "invertido": false
+      },
+      {
+        "numero": 3,
+        "texto": "Tem fortes reações emocionais (explosões de raiva)",
+        "invertido": false
+      },
+      {
+        "numero": 4,
+        "texto": "É irritadiço (tudo o incomoda)",
+        "invertido": false
+      },
+      {
+        "numero": 5,
+        "texto": "Muda facilmente de humor",
+        "invertido": false
+      },
+      {
+        "numero": 6,
+        "texto": "Explode com facilidade (é tipo \"pavio curto\")",
+        "invertido": false
+      },
+      {
+        "numero": 7,
+        "texto": "Dá a impressão de estar sempre insatisfeito",
+        "invertido": false
+      },
+      {
+        "numero": 8,
+        "texto": "É rebelde (não aceita nada)",
+        "invertido": false
+      },
+      {
+        "numero": 9,
+        "texto": "É agressivo",
+        "invertido": false
+      },
+      {
+        "numero": 10,
+        "texto": "Sente-se infeliz",
+        "invertido": false
+      },
+      {
+        "numero": 11,
+        "texto": "Faz birra quando quer algo",
+        "invertido": false
+      },
+      {
+        "numero": 12,
+        "texto": "Mostra-se tenso e rígido",
+        "invertido": false
+      },
+      {
+        "numero": 13,
+        "texto": "Implica com os irmãos",
+        "invertido": false
+      },
+      {
+        "numero": 14,
+        "texto": "As atividades e reuniões são desagradáveis",
+        "invertido": false
+      },
+      {
+        "numero": 15,
+        "texto": "Todos têm que fazer o que ele quer",
+        "invertido": false
+      },
+      {
+        "numero": 16,
+        "texto": "A hora de acordar e das refeições é desagradável",
+        "invertido": false
+      },
+      {
+        "numero": 17,
+        "texto": "Exige mais tempo e atenção dos pais do que outros filhos",
+        "invertido": false
+      },
+      {
+        "numero": 18,
+        "texto": "Tem dificuldade para se adaptar às mudanças",
+        "invertido": false
+      },
+      {
+        "numero": 19,
+        "texto": "É sensível",
+        "invertido": false
+      }
+    ],
+    "F2_HiperatividadeImpulsividade": [
+      {
+        "numero": 1,
+        "texto": "Movimenta-se muito (...)",
+        "invertido": false
+      },
+      {
+        "numero": 2,
+        "texto": "É inquieto e agitado",
+        "invertido": false
+      },
+      {
+        "numero": 3,
+        "texto": "Mexe-se e contorce-se durante as refeições (...)",
+        "invertido": false
+      },
+      {
+        "numero": 4,
+        "texto": "Tem sempre muita pressa",
+        "invertido": false
+      },
+      {
+        "numero": 5,
+        "texto": "Age sem pensar (é impulsivo)",
+        "invertido": false
+      },
+      {
+        "numero": 6,
+        "texto": "É inconsequente",
+        "invertido": false
+      },
+      {
+        "numero": 7,
+        "texto": "Intromete-se em assuntos que não lhe dizem respeito",
+        "invertido": false
+      },
+      {
+        "numero": 8,
+        "texto": "Responde antes de ouvir a pergunta inteira",
+        "invertido": false
+      },
+      {
+        "numero": 9,
+        "texto": "É imprudente",
+        "invertido": false
+      },
+      {
+        "numero": 10,
+        "texto": "Irrita os outros com suas palhaçadas",
+        "invertido": false
+      },
+      {
+        "numero": 11,
+        "texto": "Tende a discordar com as regras e normas de jogos",
+        "invertido": false
+      },
+      {
+        "numero": 12,
+        "texto": "É persistente e insiste diante de uma ideia",
+        "invertido": false
+      },
+      {
+        "numero": 13,
+        "texto": "Faz os deveres escolares rápido demais",
+        "invertido": false
+      }
+    ],
+    "F3_ComportamentoAdaptativo": [
+      {
+        "numero": 1,
+        "texto": "Aceita facilmente regras, normas e limites",
+        "invertido": true
+      },
+      {
+        "numero": 2,
+        "texto": "Parece ser uma criança tranquila e sossegada",
+        "invertido": true
+      },
+      {
+        "numero": 3,
+        "texto": "É tolerante, quando preciso",
+        "invertido": true
+      },
+      {
+        "numero": 4,
+        "texto": "Respeita normas e regras",
+        "invertido": true
+      },
+      {
+        "numero": 5,
+        "texto": "É obediente",
+        "invertido": true
+      },
+      {
+        "numero": 6,
+        "texto": "Obedece aos pais e as normas da casa",
+        "invertido": true
+      },
+      {
+        "numero": 7,
+        "texto": "Sabe aguardar sua vez (é paciente)",
+        "invertido": true
+      },
+      {
+        "numero": 8,
+        "texto": "Faz suas tarefas e almoça com bastante tranquilidade",
+        "invertido": true
+      },
+      {
+        "numero": 9,
+        "texto": "Faz as coisas com muito cuidado (...)",
+        "invertido": true
+      },
+      {
+        "numero": 10,
+        "texto": "Seu comportamento é adequado socialmente",
+        "invertido": true
+      },
+      {
+        "numero": 11,
+        "texto": "Fala pouco",
+        "invertido": true
+      },
+      {
+        "numero": 12,
+        "texto": "A criança permite que o ambiente familiar seja tranquilo (...)",
+        "invertido": true
+      },
+      {
+        "numero": 13,
+        "texto": "Consegue expressar claramente os seus pensamentos",
+        "invertido": true
+      },
+      {
+        "numero": 14,
+        "texto": "É atento quando conversa com alguém",
+        "invertido": true
+      }
+    ],
+    "F4_Atencao": [
+      {
+        "numero": 1,
+        "texto": "É independente para realizar suas tarefas de casa",
+        "invertido": true
+      },
+      {
+        "numero": 2,
+        "texto": "É distraído com quase tudo",
+        "invertido": false
+      },
+      {
+        "numero": 3,
+        "texto": "Evita atividades que exigem esforço mental constante",
+        "invertido": false
+      },
+      {
+        "numero": 4,
+        "texto": "Esquece rápido o que acabou de ser dito",
+        "invertido": false
+      },
+      {
+        "numero": 5,
+        "texto": "Inicia uma atividade com entusiasmo e facilmente chega ao final",
+        "invertido": false
+      },
+      {
+        "numero": 6,
+        "texto": "Tem dificuldade para realizar as coisas importantes",
+        "invertido": false
+      },
+      {
+        "numero": 7,
+        "texto": "Não termina o que começa",
+        "invertido": false
+      },
+      {
+        "numero": 8,
+        "texto": "Parece sonhar acordado (estar no mundo da lua)",
+        "invertido": false
+      },
+      {
+        "numero": 9,
+        "texto": "Mostra-se concentrado, apenas em atividades de seu interesse",
+        "invertido": false
+      },
+      {
+        "numero": 10,
+        "texto": "Dá impressão de que não ouve bem (só escuta o que quer)",
+        "invertido": false
+      },
+      {
+        "numero": 11,
+        "texto": "Dificilmente observa detalhes",
+        "invertido": false
+      },
+      {
+        "numero": 12,
+        "texto": "Ocorrem discussões entre os pais e a criança (...)",
+        "invertido": false
+      }
+    ]
+  },
+  "escala_resposta_valores": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "selecao_automatica_tabela": {
+    "regra": "Masculino/Feminino + idade em anos completos no momento da aplicação",
+    "faixas": [
+      {
+        "sexo": "Masculino",
+        "idade_min": 14,
+        "idade_max": 17,
+        "tabela": "Masculino 14-17 anos"
+      },
+      {
+        "sexo": "Masculino",
+        "idade_min": 10,
+        "idade_max": 13,
+        "tabela": "Masculino 10-13 anos"
+      },
+      {
+        "sexo": "Masculino",
+        "idade_min": 6,
+        "idade_max": 9,
+        "tabela": "Masculino 6-9 anos"
+      },
+      {
+        "sexo": "Masculino",
+        "idade_min": 2,
+        "idade_max": 5,
+        "tabela": "Masculino 2-5 anos"
+      },
+      {
+        "sexo": "Feminino",
+        "idade_min": 14,
+        "idade_max": 17,
+        "tabela": "Feminino 14-17 anos"
+      },
+      {
+        "sexo": "Feminino",
+        "idade_min": 10,
+        "idade_max": 13,
+        "tabela": "Feminino 10-13 anos"
+      },
+      {
+        "sexo": "Feminino",
+        "idade_min": 6,
+        "idade_max": 9,
+        "tabela": "Feminino 6-9 anos"
+      },
+      {
+        "sexo": "Feminino",
+        "idade_min": 2,
+        "idade_max": 5,
+        "tabela": "Feminino 2-5 anos"
+      }
+    ],
+    "observacao": "Na planilha original não há uso automático da tabela \"Amostra Geral\" — ela existe como referência. O motor usa \"Amostra Geral\" apenas como fallback explícito fora da faixa 2-17 anos, se solicitado."
   }
 }

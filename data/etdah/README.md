@@ -8,12 +8,101 @@ aplicativo. Instrumentos de **Edyleine Bellini Peroni Benczik**.
 
 | Arquivo | Conteúdo |
 |---|---|
-| `etdah_ad.json` | Tudo do E-TDAH (AD): normas, estatísticas, composição de fatores, itens invertidos, regras de classificação. |
-| `etdah_pais.json` | Tudo do E-TDAH (Pais): idem, com tabelas por sexo × faixa etária. |
-| `etdah_ad_normas.csv` | Tabela de percentis do AD em formato longo. |
+| **`etdah-ad.engine.js`** | **Motor de correção pronto para uso** (JS puro, sem dependências) — já embute todos os dados do `etdah_ad.json`. |
+| **`etdah-pais.engine.js`** | **Motor de correção pronto para uso** (JS puro, sem dependências) — já embute todos os dados do `etdah_pais.json`. |
+| `etdah_ad.json` | Dados brutos do E-TDAH (AD): itens (texto + fator + inversão), normas, estatísticas, composição de fatores, regras de classificação. |
+| `etdah_pais.json` | Dados brutos do E-TDAH (Pais): idem, com tabelas por sexo × faixa etária. |
+| `etdah_ad_normas.csv` | Tabela de percentis do AD em formato longo (referência / outros stacks). |
 | `etdah_ad_estatisticas.csv` | Média e desvio-padrão por amostra/fator (AD). |
-| `etdah_pais_normas.csv` | Tabela de percentis do Pais em formato longo. |
+| `etdah_pais_normas.csv` | Tabela de percentis do Pais em formato longo (referência / outros stacks). |
 | `etdah_pais_estatisticas.csv` | Média e desvio-padrão por tabela/fator (Pais). |
+
+## Motor de correção (JavaScript) — uso rápido
+
+Os arquivos `.engine.js` são **auto-contidos**: já têm os dados normativos
+embutidos, não precisam de `fetch` nem de build step. Funcionam tanto em
+`<script>` no navegador (expõem `window.ETDAH_AD` / `window.ETDAH_PAIS`)
+quanto via `require()` no Node.
+
+O time que for montar o HTML/CSS só precisa: (1) incluir o script, (2) montar
+o formulário a partir de `.itens` (já vem com o texto de cada pergunta),
+(3) juntar as respostas do usuário num objeto e chamar `.corrigir(...)`.
+
+### E-TDAH (AD)
+
+```html
+<script src="etdah-ad.engine.js"></script>
+<script>
+  // respostas: { numeroDoItem: valor(0-5) }, para os itens 1 a 69 — envie
+  // exatamente como o examinando respondeu, o motor cuida da inversão.
+  const respostas = { 1: 3, 2: 4, 3: 2, /* ...até o item 69 */ };
+
+  const resultado = ETDAH_AD.corrigir(respostas, { amostra: 'Amostra Geral' });
+  // amostra: 'Amostra Geral' | 'Ensino Fundamental' | 'Ensino Medio' | 'Ensino Superior'
+
+  console.log(resultado.fatores.F1_Desatencao);
+  // { nome, escoreBruto, percentil, classificacao,
+  //   media, desvioPadrao, zScore, pontoPonderado, percentilZ, classificacaoGuilmette,
+  //   itensRespondidos, itensEsperados, completo }
+</script>
+```
+
+Para montar o formulário: `ETDAH_AD.itens` é um array com
+`{ numero, texto, fator, invertido }` para os 69 itens — não é preciso
+recopiar as perguntas na mão.
+
+### E-TDAH (Pais)
+
+```html
+<script src="etdah-pais.engine.js"></script>
+<script>
+  // respostas agrupadas por fator; cada fator tem seus próprios itens 1..N
+  // (a numeração reinicia em cada fator, igual à planilha original).
+  const respostas = {
+    F1_RegulacaoEmocional:            { 1: 3, 2: 5, /* ...até 19 */ },
+    F2_HiperatividadeImpulsividade:   { 1: 4, 2: 4, /* ...até 13 */ },
+    F3_ComportamentoAdaptativo:       { 1: 3, 2: 2, /* ...até 14 */ },
+    F4_Atencao:                       { 1: 4, 2: 6, /* ...até 12 */ },
+  };
+
+  // A tabela normativa é escolhida automaticamente por sexo + idade da
+  // criança/adolescente (faixas 2-5, 6-9, 10-13, 14-17 anos):
+  const resultado = ETDAH_PAIS.corrigir(respostas, { sexo: 'Masculino', idadeAnos: 7 });
+
+  // ou force uma tabela específica (ex.: 'Amostra Geral'):
+  // ETDAH_PAIS.corrigir(respostas, { tabela: 'Amostra Geral' });
+
+  console.log(resultado.tabela);          // tabela usada, ex. "Masculino 6-9 anos"
+  console.log(resultado.fatores.F1_RegulacaoEmocional);
+  console.log(resultado.escoreGeral);     // { escoreBruto, percentil, classificacao, ... }
+</script>
+```
+
+`ETDAH_PAIS.itens` traz `{ F1_RegulacaoEmocional: [{numero,texto,invertido}, ...], F2_..., F3_..., F4_... }`
+com o texto de todos os 58 itens, prontos para renderizar o formulário.
+
+**Importante:** enviem sempre o valor **tal como o respondente marcou**
+(0–5 no AD, 1–6 no Pais). A inversão de itens (ex. Fator 4 do AD, Fator 3
+inteiro do Pais) é feita **internamente pelo motor** — não inverta nada na
+tela.
+
+### Erros tratados pelo motor
+
+- Amostra/tabela normativa inexistente → lança `Error` com a lista de opções válidas.
+- Pais sem `sexo`/`idadeAnos` (ou idade fora de 2–17 anos) e sem `tabela` forçada → lança `Error` explicando o que falta.
+- Fator sem nenhum item respondido → aquele fator vem como `null` no resultado (em vez de quebrar o cálculo dos demais).
+- Cada fator e o resultado geral trazem `itensRespondidos` / `itensEsperados` / `completo` para a UI avisar quando o questionário está incompleto.
+
+## Validação do motor
+
+O motor foi conferido contra um caso real da planilha (informante "mãe",
+Fator 1 = 60, Fator 2 = 26, Fator 3 = 53, Fator 4 = 57, Escore Geral = 196):
+rodando `ETDAH_PAIS.corrigir(...)` com `sexo: 'Masculino', idadeAnos: 7`, o
+motor seleciona sozinho a tabela `Masculino 6-9 anos` e devolve exatamente
+os mesmos percentis/classificações da planilha para os 4 fatores **e** o
+escore geral. A soma dos itens do Fator 1 e do Fator 2 (sem inversão) e do
+Fator 3 (com a inversão `7 − x` em todos os itens) também bateu item a item
+com os valores mostrados na planilha.
 
 Os CSV têm formato longo (uma linha por escore bruto):
 

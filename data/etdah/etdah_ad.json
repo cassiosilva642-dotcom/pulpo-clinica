@@ -7307,5 +7307,429 @@
         }
       ]
     }
-  }
+  },
+  "itens": [
+    {
+      "numero": 1,
+      "texto": "É atento quando conversa com alguém.",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 2,
+      "texto": "É afobado no trabalho.",
+      "fator": "F5_Hiperatividade",
+      "invertido": false
+    },
+    {
+      "numero": 3,
+      "texto": "Necessita fazer listas de tudo o que tem para fazer (...)",
+      "fator": "F5_Hiperatividade",
+      "invertido": false
+    },
+    {
+      "numero": 4,
+      "texto": "Sente-se chateado e infeliz.",
+      "fator": "F3_AspectosEmocionais",
+      "invertido": false
+    },
+    {
+      "numero": 5,
+      "texto": "Quando tem de seguir instruções segue passo a passo e em sequência, (...)",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 6,
+      "texto": "É desorganizado financeiramente.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 7,
+      "texto": "É solitário.",
+      "fator": "F3_AspectosEmocionais",
+      "invertido": false
+    },
+    {
+      "numero": 8,
+      "texto": "Termina tudo o que começa.",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 9,
+      "texto": "Explode com facilidade (é do tipo pavio curto).",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 10,
+      "texto": "É detalhista e minucioso.",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 11,
+      "texto": "Arruma encrenca e confusão facilmente.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 12,
+      "texto": "Mostra-se insensível à dor e ao perigo.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 13,
+      "texto": "Tem sono agitado, mexe-se na cama.",
+      "fator": "F5_Hiperatividade",
+      "invertido": false
+    },
+    {
+      "numero": 14,
+      "texto": "É bem-aceito por todos.",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 15,
+      "texto": "Costuma se dar mal por falar as coisas sem pensar.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 16,
+      "texto": "É persistente e insistente diante de uma ideia.",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 17,
+      "texto": "Acidenta-se com facilidade (cai, tropeça, esbarra em móveis).",
+      "fator": "F5_Hiperatividade",
+      "invertido": false
+    },
+    {
+      "numero": 18,
+      "texto": "Tende a discordar das regras e normas.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 19,
+      "texto": "Dá impressão de que não sabe o que quer.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 20,
+      "texto": "Evita trabalhos longos, detalhados e complicados.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 21,
+      "texto": "Tem dificuldade para se adaptar às mudanças.",
+      "fator": "F3_AspectosEmocionais",
+      "invertido": false
+    },
+    {
+      "numero": 22,
+      "texto": "A qualidade do trabalho é comprometida porque não presta atenção suficiente.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 23,
+      "texto": "Inicia uma atividade com entusiasmo e dificilmente chega ao fim (...)",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 24,
+      "texto": "Evita as atividades que exijam esforço mental prolongado (p.ex., leitura, filmes).",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 25,
+      "texto": "Perde a paciência com os familiares.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 26,
+      "texto": "É rebelde com as pessoas e as situações.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 27,
+      "texto": "Persiste quando quer alguma coisa.",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 28,
+      "texto": "Tem tendência a sonhar acordado.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 29,
+      "texto": "Faz planos cuidadosamente, considera todos os passos do começo ao fim.",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 30,
+      "texto": "Parece sonhar acordado.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 31,
+      "texto": "Faz seu trabalho rápido demais.",
+      "fator": "F5_Hiperatividade",
+      "invertido": false
+    },
+    {
+      "numero": 32,
+      "texto": "É distraído com tudo.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 33,
+      "texto": "Dificilmente chega ao final de um projeto.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 34,
+      "texto": "Seu hábito de trabalho é confuso e desorganizado.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 35,
+      "texto": "Necessita estar em constante movimentação.",
+      "fator": "F5_Hiperatividade",
+      "invertido": false
+    },
+    {
+      "numero": 36,
+      "texto": "Atrasa os pagamentos porque se esquece das datas de vencimento.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 37,
+      "texto": "Mostra-se apático e indiferente diante das situações.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 38,
+      "texto": "Tem fortes reações emocionais (...)",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 39,
+      "texto": "É agressivo.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 40,
+      "texto": "Tem problemas com a lei e/ou com a justiça.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 41,
+      "texto": "É impudente, arrisca sempre.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 42,
+      "texto": "É tolerante diante das situações.",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 43,
+      "texto": "Tem dificuldade para permanecer sentado (...)",
+      "fator": "F5_Hiperatividade",
+      "invertido": false
+    },
+    {
+      "numero": 44,
+      "texto": "É conhecido pelos outros como desligado, parecendo viver no espaço.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 45,
+      "texto": "Seu jeito de ser é motivo de discussão em casa.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 46,
+      "texto": "Tira conclusões mesmo antes de conhecer os fatos.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 47,
+      "texto": "Necessita estar em situações mais perigosas e arriscadas.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 48,
+      "texto": "Tem dificuldades em aceitar a opinião dos outros.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 49,
+      "texto": "Faz as coisas devagar, apresenta um ritmo de trabalho lento.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 50,
+      "texto": "Distrai-se enquanto trabalha e outras pessoas conversam.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 51,
+      "texto": "A mente voa longe enquanto lê.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 52,
+      "texto": "Faz tudo o que dá em sua cabeça.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 53,
+      "texto": "Costuma vingar-se das pessoas, não engole sapo.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 54,
+      "texto": "Precisa ser lembrado dos compromissos diários.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 55,
+      "texto": "Vive isolado, evita as atividades de grupo.",
+      "fator": "F3_AspectosEmocionais",
+      "invertido": false
+    },
+    {
+      "numero": 56,
+      "texto": "É mais desorganizado do que a maioria das pessoas.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 57,
+      "texto": "Não observa detalhes e minúcias.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 58,
+      "texto": "Persiste até o fim com os seus objetivos, (...)",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 59,
+      "texto": "Sabe aguardar a vez (p. ex., fila de banco, em consultório, etc.).",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 60,
+      "texto": "Responde antes de ouvir a pergunta inteira.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 61,
+      "texto": "É criticado por seu jeito de ser.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 62,
+      "texto": "Intromete-se em assuntos que não lhe dizem respeito.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 63,
+      "texto": "Costuma criticar os outros.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 64,
+      "texto": "Tem memória ruim para guardar instruções, (...)",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 65,
+      "texto": "Planeja suas ações.",
+      "fator": "F4_AAMA",
+      "invertido": true
+    },
+    {
+      "numero": 66,
+      "texto": "É impulsivo; age antes de pensar.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 67,
+      "texto": "Costuma se esquecer de datas, números de telefone, compromissos (...)",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    },
+    {
+      "numero": 68,
+      "texto": "Necessita de novidades e de variedades em sua vida.",
+      "fator": "F2_Impulsividade",
+      "invertido": false
+    },
+    {
+      "numero": 69,
+      "texto": "Tem dificuldade para processar as informações recebidas.",
+      "fator": "F1_Desatencao",
+      "invertido": false
+    }
+  ],
+  "escala_resposta_valores": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
 }
