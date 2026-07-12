@@ -1,0 +1,21 @@
+amostra,fator,media,desv_pad
+Amostra Geral,F1_Desatencao,36.5,16.06
+Amostra Geral,F2_Impulsividade,39.25,16.24
+Amostra Geral,F3_AspectosEmocionais,6.14,3.66
+Amostra Geral,F4_AAMA,19.13,7.39
+Amostra Geral,F5_Hiperatividade,14.11,5.32
+Ensino Fundamental,F1_Desatencao,42.3,17.39
+Ensino Fundamental,F2_Impulsividade,44.3,18.98
+Ensino Fundamental,F3_AspectosEmocionais,5.77,3.88
+Ensino Fundamental,F4_AAMA,21.21,8.05
+Ensino Fundamental,F5_Hiperatividade,14.35,5.51
+Ensino Medio,F1_Desatencao,36.19,16.04
+Ensino Medio,F2_Impulsividade,40.16,16.67
+Ensino Medio,F3_AspectosEmocionais,6.15,3.65
+Ensino Medio,F4_AAMA,18.68,7.63
+Ensino Medio,F5_Hiperatividade,14.19,5.26
+Ensino Superior,F1_Desatencao,34.35,14.53
+Ensino Superior,F2_Impulsividade,36.34,14.04
+Ensino Superior,F3_AspectosEmocionais,6.17,3.49
+Ensino Superior,F4_AAMA,18.76,6.65
+Ensino Superior,F5_Hiperatividade,13.84,5.2

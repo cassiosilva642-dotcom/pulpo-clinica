@@ -1,0 +1,1401 @@
+amostra,fator,escore_bruto,percentil,classificacao
+Amostra Geral,F1_Desatencao,0,< 1,Inferior
+Amostra Geral,F1_Desatencao,1,< 1,Inferior
+Amostra Geral,F1_Desatencao,2,< 1,Inferior
+Amostra Geral,F1_Desatencao,3,< 1,Inferior
+Amostra Geral,F1_Desatencao,4,< 1,Inferior
+Amostra Geral,F1_Desatencao,5,< 1,Inferior
+Amostra Geral,F1_Desatencao,6,1,Inferior
+Amostra Geral,F1_Desatencao,7,> 1 e < 5,Inferior
+Amostra Geral,F1_Desatencao,8,> 1 e < 5,Inferior
+Amostra Geral,F1_Desatencao,9,> 1 e < 5,Inferior
+Amostra Geral,F1_Desatencao,10,> 1 e < 5,Inferior
+Amostra Geral,F1_Desatencao,11,> 1 e < 5,Inferior
+Amostra Geral,F1_Desatencao,12,5,Inferior
+Amostra Geral,F1_Desatencao,13,> 5 e < 10,Inferior
+Amostra Geral,F1_Desatencao,14,> 5 e < 10,Inferior
+Amostra Geral,F1_Desatencao,15,> 5 e < 10,Inferior
+Amostra Geral,F1_Desatencao,16,> 5 e < 10,Inferior
+Amostra Geral,F1_Desatencao,17,10,Inferior
+Amostra Geral,F1_Desatencao,18,> 10 e < 15,Inferior
+Amostra Geral,F1_Desatencao,19,15,Inferior
+Amostra Geral,F1_Desatencao,20,> 15 e < 20,Inferior
+Amostra Geral,F1_Desatencao,21,> 15 e < 20,Inferior
+Amostra Geral,F1_Desatencao,22,20,Inferior
+Amostra Geral,F1_Desatencao,23,> 20 < 25,Inferior
+Amostra Geral,F1_Desatencao,24,> 20 < 25,Inferior
+Amostra Geral,F1_Desatencao,25,25,Média Inferior
+Amostra Geral,F1_Desatencao,26,> 25 e < 30,Média Inferior
+Amostra Geral,F1_Desatencao,27,30,Média Inferior
+Amostra Geral,F1_Desatencao,28,> 30 e < 25,Média Inferior
+Amostra Geral,F1_Desatencao,29,35,Média Inferior
+Amostra Geral,F1_Desatencao,30,> 35 e < 40,Média Inferior
+Amostra Geral,F1_Desatencao,31,40,Média Inferior
+Amostra Geral,F1_Desatencao,32,> 40 e < 45,Média Inferior
+Amostra Geral,F1_Desatencao,33,45,Média
+Amostra Geral,F1_Desatencao,34,> 45 e < 50,Média
+Amostra Geral,F1_Desatencao,35,50,Média
+Amostra Geral,F1_Desatencao,36,> 50 e < 55,Média
+Amostra Geral,F1_Desatencao,37,55,Média
+Amostra Geral,F1_Desatencao,38,> 55 e < 60,Média
+Amostra Geral,F1_Desatencao,39,> 55 e < 60,Média
+Amostra Geral,F1_Desatencao,40,60,Média
+Amostra Geral,F1_Desatencao,41,> 60 e < 65,Média
+Amostra Geral,F1_Desatencao,42,65,Média Superior
+Amostra Geral,F1_Desatencao,43,> 65 e < 70,Média Superior
+Amostra Geral,F1_Desatencao,44,70,Média Superior
+Amostra Geral,F1_Desatencao,45,> 70 e < 75,Média Superior
+Amostra Geral,F1_Desatencao,46,75,Média Superior
+Amostra Geral,F1_Desatencao,47,> 75 e <80,Média Superior
+Amostra Geral,F1_Desatencao,48,> 75 e <80,Média Superior
+Amostra Geral,F1_Desatencao,49,80,Média Superior
+Amostra Geral,F1_Desatencao,50,> 80 e < 85,Média Superior
+Amostra Geral,F1_Desatencao,51,> 80 e < 85,Média Superior
+Amostra Geral,F1_Desatencao,52,> 80 e < 85,Média Superior
+Amostra Geral,F1_Desatencao,53,> 80 e < 85,Média Superior
+Amostra Geral,F1_Desatencao,54,85,Superior
+Amostra Geral,F1_Desatencao,55,> 85 e < 90,Superior
+Amostra Geral,F1_Desatencao,56,> 85 e < 90,Superior
+Amostra Geral,F1_Desatencao,57,> 85 e < 90,Superior
+Amostra Geral,F1_Desatencao,58,90,Superior
+Amostra Geral,F1_Desatencao,59,> 90 e < 95,Superior
+Amostra Geral,F1_Desatencao,60,> 90 e < 95,Superior
+Amostra Geral,F1_Desatencao,61,> 90 e < 95,Superior
+Amostra Geral,F1_Desatencao,62,> 90 e < 95,Superior
+Amostra Geral,F1_Desatencao,63,> 90 e < 95,Superior
+Amostra Geral,F1_Desatencao,64,> 90 e < 95,Superior
+Amostra Geral,F1_Desatencao,65,> 90 e < 95,Superior
+Amostra Geral,F1_Desatencao,66,> 90 e < 95,Superior
+Amostra Geral,F1_Desatencao,67,95,Superior
+Amostra Geral,F1_Desatencao,68,> 95 e < 99,Superior
+Amostra Geral,F1_Desatencao,69,> 95 e < 99,Superior
+Amostra Geral,F1_Desatencao,70,> 95 e < 99,Superior
+Amostra Geral,F1_Desatencao,71,> 95 e < 99,Superior
+Amostra Geral,F1_Desatencao,72,> 95 e < 99,Superior
+Amostra Geral,F1_Desatencao,73,> 95 e < 99,Superior
+Amostra Geral,F1_Desatencao,74,> 95 e < 99,Superior
+Amostra Geral,F1_Desatencao,75,> 95 e < 99,Superior
+Amostra Geral,F1_Desatencao,76,> 95 e < 99,Superior
+Amostra Geral,F1_Desatencao,77,99,Superior
+Amostra Geral,F1_Desatencao,78,> 99,Superior
+Amostra Geral,F1_Desatencao,79,> 99,Superior
+Amostra Geral,F1_Desatencao,80,> 99,Superior
+Amostra Geral,F1_Desatencao,81,> 99,Superior
+Amostra Geral,F1_Desatencao,82,> 99,Superior
+Amostra Geral,F1_Desatencao,83,> 99,Superior
+Amostra Geral,F1_Desatencao,84,> 99,Superior
+Amostra Geral,F1_Desatencao,85,> 99,Superior
+Amostra Geral,F1_Desatencao,86,> 99,Superior
+Amostra Geral,F1_Desatencao,87,> 99,Superior
+Amostra Geral,F1_Desatencao,88,> 99,Superior
+Amostra Geral,F1_Desatencao,89,> 99,Superior
+Amostra Geral,F1_Desatencao,90,> 99,Superior
+Amostra Geral,F1_Desatencao,91,> 99,Superior
+Amostra Geral,F1_Desatencao,92,> 99,Superior
+Amostra Geral,F1_Desatencao,93,> 99,Superior
+Amostra Geral,F1_Desatencao,94,> 99,Superior
+Amostra Geral,F1_Desatencao,95,> 99,Superior
+Amostra Geral,F1_Desatencao,96,> 99,Superior
+Amostra Geral,F1_Desatencao,97,> 99,Superior
+Amostra Geral,F1_Desatencao,98,> 99,Superior
+Amostra Geral,F1_Desatencao,99,> 99,Superior
+Amostra Geral,F1_Desatencao,100,> 99,Superior
+Amostra Geral,F1_Desatencao,101,> 99,Superior
+Amostra Geral,F1_Desatencao,102,> 99,Superior
+Amostra Geral,F1_Desatencao,103,> 99,Superior
+Amostra Geral,F1_Desatencao,104,> 99,Superior
+Amostra Geral,F1_Desatencao,105,> 99,Superior
+Amostra Geral,F1_Desatencao,106,> 99,Superior
+Amostra Geral,F1_Desatencao,107,> 99,Superior
+Amostra Geral,F1_Desatencao,108,> 99,Superior
+Amostra Geral,F1_Desatencao,109,> 99,Superior
+Amostra Geral,F1_Desatencao,110,> 99,Superior
+Amostra Geral,F1_Desatencao,111,> 99,Superior
+Amostra Geral,F1_Desatencao,112,> 99,Superior
+Amostra Geral,F1_Desatencao,113,> 99,Superior
+Amostra Geral,F1_Desatencao,114,> 99,Superior
+Amostra Geral,F1_Desatencao,115,> 99,Superior
+Amostra Geral,F2_Impulsividade,0,< 1,Inferior
+Amostra Geral,F2_Impulsividade,1,< 1,Inferior
+Amostra Geral,F2_Impulsividade,2,< 1,Inferior
+Amostra Geral,F2_Impulsividade,3,< 1,Inferior
+Amostra Geral,F2_Impulsividade,4,< 1,Inferior
+Amostra Geral,F2_Impulsividade,5,< 1,Inferior
+Amostra Geral,F2_Impulsividade,6,< 1,Inferior
+Amostra Geral,F2_Impulsividade,7,< 1,Inferior
+Amostra Geral,F2_Impulsividade,8,< 1,Inferior
+Amostra Geral,F2_Impulsividade,9,1,Inferior
+Amostra Geral,F2_Impulsividade,10,> 1 e < 5,Inferior
+Amostra Geral,F2_Impulsividade,11,> 1 e < 5,Inferior
+Amostra Geral,F2_Impulsividade,12,> 1 e < 5,Inferior
+Amostra Geral,F2_Impulsividade,13,> 1 e < 5,Inferior
+Amostra Geral,F2_Impulsividade,14,> 1 e < 5,Inferior
+Amostra Geral,F2_Impulsividade,15,> 1 e < 5,Inferior
+Amostra Geral,F2_Impulsividade,16,5,Inferior
+Amostra Geral,F2_Impulsividade,17,> 5 e < 10,Inferior
+Amostra Geral,F2_Impulsividade,18,> 5 e < 10,Inferior
+Amostra Geral,F2_Impulsividade,19,10,Inferior
+Amostra Geral,F2_Impulsividade,20,> 10 e < 15,Inferior
+Amostra Geral,F2_Impulsividade,21,> 10 e < 15,Inferior
+Amostra Geral,F2_Impulsividade,22,> 10 e < 15,Inferior
+Amostra Geral,F2_Impulsividade,23,15,Inferior
+Amostra Geral,F2_Impulsividade,24,> 15 e < 20,Inferior
+Amostra Geral,F2_Impulsividade,25,20,Inferior
+Amostra Geral,F2_Impulsividade,26,> 20 < 25,Inferior
+Amostra Geral,F2_Impulsividade,27,> 20 < 25,Inferior
+Amostra Geral,F2_Impulsividade,28,25,Média Inferior
+Amostra Geral,F2_Impulsividade,29,30,Média Inferior
+Amostra Geral,F2_Impulsividade,30,> 30 e < 25,Média Inferior
+Amostra Geral,F2_Impulsividade,31,> 30 e < 25,Média Inferior
+Amostra Geral,F2_Impulsividade,32,35,Média Inferior
+Amostra Geral,F2_Impulsividade,33,> 35 e < 40,Média Inferior
+Amostra Geral,F2_Impulsividade,34,40,Média Inferior
+Amostra Geral,F2_Impulsividade,35,> 40 e < 45,Média Inferior
+Amostra Geral,F2_Impulsividade,36,45,Média
+Amostra Geral,F2_Impulsividade,37,> 45 e < 50,Média
+Amostra Geral,F2_Impulsividade,38,50,Média
+Amostra Geral,F2_Impulsividade,39,> 50 e < 55,Média
+Amostra Geral,F2_Impulsividade,40,55,Média
+Amostra Geral,F2_Impulsividade,41,> 55 e < 60,Média
+Amostra Geral,F2_Impulsividade,42,60,Média
+Amostra Geral,F2_Impulsividade,43,> 60 e < 65,Média
+Amostra Geral,F2_Impulsividade,44,65,Média Superior
+Amostra Geral,F2_Impulsividade,45,> 65 e < 70,Média Superior
+Amostra Geral,F2_Impulsividade,46,> 65 e < 70,Média Superior
+Amostra Geral,F2_Impulsividade,47,70,Média Superior
+Amostra Geral,F2_Impulsividade,48,> 70 e < 75,Média Superior
+Amostra Geral,F2_Impulsividade,49,75,Média Superior
+Amostra Geral,F2_Impulsividade,50,> 75 e <80,Média Superior
+Amostra Geral,F2_Impulsividade,51,> 75 e <80,Média Superior
+Amostra Geral,F2_Impulsividade,52,80,Média Superior
+Amostra Geral,F2_Impulsividade,53,> 80 e < 85,Média Superior
+Amostra Geral,F2_Impulsividade,54,> 80 e < 85,Média Superior
+Amostra Geral,F2_Impulsividade,55,> 80 e < 85,Média Superior
+Amostra Geral,F2_Impulsividade,56,85,Superior
+Amostra Geral,F2_Impulsividade,57,> 85 e < 90,Superior
+Amostra Geral,F2_Impulsividade,58,> 85 e < 90,Superior
+Amostra Geral,F2_Impulsividade,59,> 85 e < 90,Superior
+Amostra Geral,F2_Impulsividade,60,90,Superior
+Amostra Geral,F2_Impulsividade,61,> 90 e < 95,Superior
+Amostra Geral,F2_Impulsividade,62,> 90 e < 95,Superior
+Amostra Geral,F2_Impulsividade,63,> 90 e < 95,Superior
+Amostra Geral,F2_Impulsividade,64,> 90 e < 95,Superior
+Amostra Geral,F2_Impulsividade,65,> 90 e < 95,Superior
+Amostra Geral,F2_Impulsividade,66,> 90 e < 95,Superior
+Amostra Geral,F2_Impulsividade,67,> 90 e < 95,Superior
+Amostra Geral,F2_Impulsividade,68,> 90 e < 95,Superior
+Amostra Geral,F2_Impulsividade,69,95,Superior
+Amostra Geral,F2_Impulsividade,70,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,71,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,72,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,73,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,74,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,75,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,76,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,77,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,78,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,79,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,80,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,81,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,82,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,83,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,84,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,85,> 95 e < 99,Superior
+Amostra Geral,F2_Impulsividade,86,99,Superior
+Amostra Geral,F2_Impulsividade,87,> 99,Superior
+Amostra Geral,F2_Impulsividade,88,> 99,Superior
+Amostra Geral,F2_Impulsividade,89,> 99,Superior
+Amostra Geral,F2_Impulsividade,90,> 99,Superior
+Amostra Geral,F2_Impulsividade,91,> 99,Superior
+Amostra Geral,F2_Impulsividade,92,> 99,Superior
+Amostra Geral,F2_Impulsividade,93,> 99,Superior
+Amostra Geral,F2_Impulsividade,94,> 99,Superior
+Amostra Geral,F2_Impulsividade,95,> 99,Superior
+Amostra Geral,F2_Impulsividade,96,> 99,Superior
+Amostra Geral,F2_Impulsividade,97,> 99,Superior
+Amostra Geral,F2_Impulsividade,98,> 99,Superior
+Amostra Geral,F2_Impulsividade,99,> 99,Superior
+Amostra Geral,F2_Impulsividade,100,> 99,Superior
+Amostra Geral,F2_Impulsividade,101,> 99,Superior
+Amostra Geral,F2_Impulsividade,102,> 99,Superior
+Amostra Geral,F2_Impulsividade,103,> 99,Superior
+Amostra Geral,F2_Impulsividade,104,> 99,Superior
+Amostra Geral,F2_Impulsividade,105,> 99,Superior
+Amostra Geral,F2_Impulsividade,106,> 99,Superior
+Amostra Geral,F2_Impulsividade,107,> 99,Superior
+Amostra Geral,F2_Impulsividade,108,> 99,Superior
+Amostra Geral,F2_Impulsividade,109,> 99,Superior
+Amostra Geral,F2_Impulsividade,110,> 99,Superior
+Amostra Geral,F2_Impulsividade,111,> 99,Superior
+Amostra Geral,F2_Impulsividade,112,> 99,Superior
+Amostra Geral,F2_Impulsividade,113,> 99,Superior
+Amostra Geral,F2_Impulsividade,114,> 99,Superior
+Amostra Geral,F2_Impulsividade,115,> 99,Superior
+Amostra Geral,F3_AspectosEmocionais,0,< 1,Inferior
+Amostra Geral,F3_AspectosEmocionais,1,5,Inferior
+Amostra Geral,F3_AspectosEmocionais,2,10,Inferior
+Amostra Geral,F3_AspectosEmocionais,3,25,Média Inferior
+Amostra Geral,F3_AspectosEmocionais,4,35,Média Inferior
+Amostra Geral,F3_AspectosEmocionais,5,45,Média
+Amostra Geral,F3_AspectosEmocionais,6,55,Média
+Amostra Geral,F3_AspectosEmocionais,7,70,Média Superior
+Amostra Geral,F3_AspectosEmocionais,8,75,Média Superior
+Amostra Geral,F3_AspectosEmocionais,9,80,Média Superior
+Amostra Geral,F3_AspectosEmocionais,10,85,Superior
+Amostra Geral,F3_AspectosEmocionais,11,90,Superior
+Amostra Geral,F3_AspectosEmocionais,12,> 90 e < 95,Superior
+Amostra Geral,F3_AspectosEmocionais,13,95,Superior
+Amostra Geral,F3_AspectosEmocionais,14,> 95 e < 99,Superior
+Amostra Geral,F3_AspectosEmocionais,15,> 95 e < 99,Superior
+Amostra Geral,F3_AspectosEmocionais,16,> 95 e < 99,Superior
+Amostra Geral,F3_AspectosEmocionais,17,99,Superior
+Amostra Geral,F3_AspectosEmocionais,18,> 99,Superior
+Amostra Geral,F3_AspectosEmocionais,19,> 99,Superior
+Amostra Geral,F3_AspectosEmocionais,20,> 99,Superior
+Amostra Geral,F4_AAMA,0,< 1,Inferior
+Amostra Geral,F4_AAMA,1,< 1,Inferior
+Amostra Geral,F4_AAMA,2,< 1,Inferior
+Amostra Geral,F4_AAMA,3,< 1,Inferior
+Amostra Geral,F4_AAMA,4,1,Inferior
+Amostra Geral,F4_AAMA,5,> 1 e < 5,Inferior
+Amostra Geral,F4_AAMA,6,> 1 e < 5,Inferior
+Amostra Geral,F4_AAMA,7,5,Inferior
+Amostra Geral,F4_AAMA,8,> 5 e < 10,Inferior
+Amostra Geral,F4_AAMA,9,> 5 e < 10,Inferior
+Amostra Geral,F4_AAMA,10,10,Inferior
+Amostra Geral,F4_AAMA,11,> 10 e < 15,Inferior
+Amostra Geral,F4_AAMA,12,15,Inferior
+Amostra Geral,F4_AAMA,13,20,Inferior
+Amostra Geral,F4_AAMA,14,25,Média Inferior
+Amostra Geral,F4_AAMA,15,30,Média Inferior
+Amostra Geral,F4_AAMA,16,35,Média Inferior
+Amostra Geral,F4_AAMA,17,40,Média Inferior
+Amostra Geral,F4_AAMA,18,45,Média
+Amostra Geral,F4_AAMA,19,50,Média
+Amostra Geral,F4_AAMA,20,60,Média
+Amostra Geral,F4_AAMA,21,65,Média Superior
+Amostra Geral,F4_AAMA,22,70,Média Superior
+Amostra Geral,F4_AAMA,23,75,Média Superior
+Amostra Geral,F4_AAMA,24,> 75 e <80,Média Superior
+Amostra Geral,F4_AAMA,25,80,Média Superior
+Amostra Geral,F4_AAMA,26,> 80 e < 85,Média Superior
+Amostra Geral,F4_AAMA,27,85,Superior
+Amostra Geral,F4_AAMA,28,90,Superior
+Amostra Geral,F4_AAMA,29,> 90 e < 95,Superior
+Amostra Geral,F4_AAMA,30,> 90 e < 95,Superior
+Amostra Geral,F4_AAMA,31,> 90 e < 95,Superior
+Amostra Geral,F4_AAMA,32,95,Superior
+Amostra Geral,F4_AAMA,33,> 95 e < 99,Superior
+Amostra Geral,F4_AAMA,34,> 95 e < 99,Superior
+Amostra Geral,F4_AAMA,35,> 95 e < 99,Superior
+Amostra Geral,F4_AAMA,36,> 95 e < 99,Superior
+Amostra Geral,F4_AAMA,37,> 95 e < 99,Superior
+Amostra Geral,F4_AAMA,38,> 95 e < 99,Superior
+Amostra Geral,F4_AAMA,39,> 95 e < 99,Superior
+Amostra Geral,F4_AAMA,40,> 95 e < 99,Superior
+Amostra Geral,F4_AAMA,41,99,Superior
+Amostra Geral,F4_AAMA,42,> 99,Superior
+Amostra Geral,F4_AAMA,43,> 99,Superior
+Amostra Geral,F4_AAMA,44,> 99,Superior
+Amostra Geral,F4_AAMA,45,> 99,Superior
+Amostra Geral,F4_AAMA,46,> 99,Superior
+Amostra Geral,F4_AAMA,47,> 99,Superior
+Amostra Geral,F4_AAMA,48,> 99,Superior
+Amostra Geral,F4_AAMA,49,> 99,Superior
+Amostra Geral,F4_AAMA,50,> 99,Superior
+Amostra Geral,F4_AAMA,51,> 99,Superior
+Amostra Geral,F4_AAMA,52,> 99,Superior
+Amostra Geral,F4_AAMA,53,> 99,Superior
+Amostra Geral,F4_AAMA,54,> 99,Superior
+Amostra Geral,F4_AAMA,55,> 99,Superior
+Amostra Geral,F4_AAMA,56,> 99,Superior
+Amostra Geral,F4_AAMA,57,> 99,Superior
+Amostra Geral,F4_AAMA,58,> 99,Superior
+Amostra Geral,F4_AAMA,59,> 99,Superior
+Amostra Geral,F4_AAMA,60,> 99,Superior
+Amostra Geral,F5_Hiperatividade,0,< 1,Inferior
+Amostra Geral,F5_Hiperatividade,1,< 1,Inferior
+Amostra Geral,F5_Hiperatividade,2,< 1,Inferior
+Amostra Geral,F5_Hiperatividade,3,1,Inferior
+Amostra Geral,F5_Hiperatividade,4,> 1 e < 5,Inferior
+Amostra Geral,F5_Hiperatividade,5,> 1 e < 5,Inferior
+Amostra Geral,F5_Hiperatividade,6,5,Inferior
+Amostra Geral,F5_Hiperatividade,7,> 5 e < 10,Inferior
+Amostra Geral,F5_Hiperatividade,8,10,Inferior
+Amostra Geral,F5_Hiperatividade,9,15,Inferior
+Amostra Geral,F5_Hiperatividade,10,25,Média Inferior
+Amostra Geral,F5_Hiperatividade,11,30,Média Inferior
+Amostra Geral,F5_Hiperatividade,12,40,Média Inferior
+Amostra Geral,F5_Hiperatividade,13,45,Média
+Amostra Geral,F5_Hiperatividade,14,55,Média
+Amostra Geral,F5_Hiperatividade,15,60,Média
+Amostra Geral,F5_Hiperatividade,16,65,Média Superior
+Amostra Geral,F5_Hiperatividade,17,75,Média Superior
+Amostra Geral,F5_Hiperatividade,18,80,Média Superior
+Amostra Geral,F5_Hiperatividade,19,85,Superior
+Amostra Geral,F5_Hiperatividade,20,> 85 e < 90,Superior
+Amostra Geral,F5_Hiperatividade,21,90,Superior
+Amostra Geral,F5_Hiperatividade,22,> 90 e < 95,Superior
+Amostra Geral,F5_Hiperatividade,23,95,Superior
+Amostra Geral,F5_Hiperatividade,24,> 95 e < 99,Superior
+Amostra Geral,F5_Hiperatividade,25,> 95 e < 99,Superior
+Amostra Geral,F5_Hiperatividade,26,> 95 e < 99,Superior
+Amostra Geral,F5_Hiperatividade,27,> 95 e < 99,Superior
+Amostra Geral,F5_Hiperatividade,28,> 95 e < 99,Superior
+Amostra Geral,F5_Hiperatividade,29,99,Superior
+Amostra Geral,F5_Hiperatividade,30,> 99,Superior
+Amostra Geral,F5_Hiperatividade,31,> 99,Superior
+Amostra Geral,F5_Hiperatividade,32,> 99,Superior
+Amostra Geral,F5_Hiperatividade,33,> 99,Superior
+Amostra Geral,F5_Hiperatividade,34,> 99,Superior
+Amostra Geral,F5_Hiperatividade,35,> 99,Superior
+Ensino Fundamental,F1_Desatencao,0,< 1,Inferior
+Ensino Fundamental,F1_Desatencao,1,< 1,Inferior
+Ensino Fundamental,F1_Desatencao,2,< 1,Inferior
+Ensino Fundamental,F1_Desatencao,3,< 1,Inferior
+Ensino Fundamental,F1_Desatencao,4,< 1,Inferior
+Ensino Fundamental,F1_Desatencao,5,< 1,Inferior
+Ensino Fundamental,F1_Desatencao,6,1,Inferior
+Ensino Fundamental,F1_Desatencao,7,> 1 e < 5,Inferior
+Ensino Fundamental,F1_Desatencao,8,> 1 e < 5,Inferior
+Ensino Fundamental,F1_Desatencao,9,> 1 e < 5,Inferior
+Ensino Fundamental,F1_Desatencao,10,> 1 e < 5,Inferior
+Ensino Fundamental,F1_Desatencao,11,> 1 e < 5,Inferior
+Ensino Fundamental,F1_Desatencao,12,> 1 e < 5,Inferior
+Ensino Fundamental,F1_Desatencao,13,> 1 e < 5,Inferior
+Ensino Fundamental,F1_Desatencao,14,> 1 e < 5,Inferior
+Ensino Fundamental,F1_Desatencao,15,> 1 e < 5,Inferior
+Ensino Fundamental,F1_Desatencao,16,5,Inferior
+Ensino Fundamental,F1_Desatencao,17,> 5 e < 10,Inferior
+Ensino Fundamental,F1_Desatencao,18,> 5 e < 10,Inferior
+Ensino Fundamental,F1_Desatencao,19,> 5 e < 10,Inferior
+Ensino Fundamental,F1_Desatencao,20,> 5 e < 10,Inferior
+Ensino Fundamental,F1_Desatencao,21,10,Inferior
+Ensino Fundamental,F1_Desatencao,22,> 10 e < 15,Inferior
+Ensino Fundamental,F1_Desatencao,23,15,Inferior
+Ensino Fundamental,F1_Desatencao,24,> 15 e < 20,Inferior
+Ensino Fundamental,F1_Desatencao,25,> 15 e < 20,Inferior
+Ensino Fundamental,F1_Desatencao,26,20,Inferior
+Ensino Fundamental,F1_Desatencao,27,> 20 < 25,Inferior
+Ensino Fundamental,F1_Desatencao,28,> 20 < 25,Inferior
+Ensino Fundamental,F1_Desatencao,29,> 20 < 25,Inferior
+Ensino Fundamental,F1_Desatencao,30,25,Média Inferior
+Ensino Fundamental,F1_Desatencao,31,> 25 e < 30,Média Inferior
+Ensino Fundamental,F1_Desatencao,32,30,Média Inferior
+Ensino Fundamental,F1_Desatencao,33,> 30 e < 25,Média Inferior
+Ensino Fundamental,F1_Desatencao,34,35,Média Inferior
+Ensino Fundamental,F1_Desatencao,35,> 35 e < 40,Média Inferior
+Ensino Fundamental,F1_Desatencao,36,> 35 e < 40,Média Inferior
+Ensino Fundamental,F1_Desatencao,37,40,Média Inferior
+Ensino Fundamental,F1_Desatencao,38,> 40 e < 45,Média Inferior
+Ensino Fundamental,F1_Desatencao,39,45,Média
+Ensino Fundamental,F1_Desatencao,40,> 45 e < 50,Média
+Ensino Fundamental,F1_Desatencao,41,> 45 e < 50,Média
+Ensino Fundamental,F1_Desatencao,42,50,Média
+Ensino Fundamental,F1_Desatencao,43,55,Média
+Ensino Fundamental,F1_Desatencao,44,> 55 e < 60,Média
+Ensino Fundamental,F1_Desatencao,45,60,Média
+Ensino Fundamental,F1_Desatencao,46,> 60 e < 65,Média
+Ensino Fundamental,F1_Desatencao,47,65,Média Superior
+Ensino Fundamental,F1_Desatencao,48,> 65 e < 70,Média Superior
+Ensino Fundamental,F1_Desatencao,49,70,Média Superior
+Ensino Fundamental,F1_Desatencao,50,> 70 e < 75,Média Superior
+Ensino Fundamental,F1_Desatencao,51,> 70 e < 75,Média Superior
+Ensino Fundamental,F1_Desatencao,52,> 70 e < 75,Média Superior
+Ensino Fundamental,F1_Desatencao,53,> 70 e < 75,Média Superior
+Ensino Fundamental,F1_Desatencao,54,75,Média Superior
+Ensino Fundamental,F1_Desatencao,55,> 75 e <80,Média Superior
+Ensino Fundamental,F1_Desatencao,56,> 75 e <80,Média Superior
+Ensino Fundamental,F1_Desatencao,57,> 75 e <80,Média Superior
+Ensino Fundamental,F1_Desatencao,58,> 75 e <80,Média Superior
+Ensino Fundamental,F1_Desatencao,59,80,Média Superior
+Ensino Fundamental,F1_Desatencao,60,> 80 e < 85,Média Superior
+Ensino Fundamental,F1_Desatencao,61,> 80 e < 85,Média Superior
+Ensino Fundamental,F1_Desatencao,62,> 80 e < 85,Média Superior
+Ensino Fundamental,F1_Desatencao,63,85,Superior
+Ensino Fundamental,F1_Desatencao,64,> 85 e < 90,Superior
+Ensino Fundamental,F1_Desatencao,65,> 85 e < 90,Superior
+Ensino Fundamental,F1_Desatencao,66,> 85 e < 90,Superior
+Ensino Fundamental,F1_Desatencao,67,> 85 e < 90,Superior
+Ensino Fundamental,F1_Desatencao,68,90,Superior
+Ensino Fundamental,F1_Desatencao,69,> 90 e < 95,Superior
+Ensino Fundamental,F1_Desatencao,70,95,Superior
+Ensino Fundamental,F1_Desatencao,71,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,72,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,73,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,74,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,75,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,76,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,77,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,78,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,79,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,80,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,81,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,82,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,83,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,84,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,85,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,86,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,87,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,88,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,89,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,90,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,91,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,92,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,93,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,94,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,95,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,96,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,97,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,98,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,99,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,100,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,101,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,102,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,103,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,104,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,105,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,106,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,107,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,108,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,109,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,110,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,111,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,112,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,113,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,114,> 95 e < 99,Superior
+Ensino Fundamental,F1_Desatencao,115,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,0,< 1,Inferior
+Ensino Fundamental,F2_Impulsividade,1,< 1,Inferior
+Ensino Fundamental,F2_Impulsividade,2,< 1,Inferior
+Ensino Fundamental,F2_Impulsividade,3,< 1,Inferior
+Ensino Fundamental,F2_Impulsividade,4,< 1,Inferior
+Ensino Fundamental,F2_Impulsividade,5,< 1,Inferior
+Ensino Fundamental,F2_Impulsividade,6,< 1,Inferior
+Ensino Fundamental,F2_Impulsividade,7,< 1,Inferior
+Ensino Fundamental,F2_Impulsividade,8,1,Inferior
+Ensino Fundamental,F2_Impulsividade,9,> 1 e < 5,Inferior
+Ensino Fundamental,F2_Impulsividade,10,> 1 e < 5,Inferior
+Ensino Fundamental,F2_Impulsividade,11,> 1 e < 5,Inferior
+Ensino Fundamental,F2_Impulsividade,12,> 1 e < 5,Inferior
+Ensino Fundamental,F2_Impulsividade,13,> 1 e < 5,Inferior
+Ensino Fundamental,F2_Impulsividade,14,> 1 e < 5,Inferior
+Ensino Fundamental,F2_Impulsividade,15,5,Inferior
+Ensino Fundamental,F2_Impulsividade,16,> 5 e < 10,Inferior
+Ensino Fundamental,F2_Impulsividade,17,> 5 e < 10,Inferior
+Ensino Fundamental,F2_Impulsividade,18,> 5 e < 10,Inferior
+Ensino Fundamental,F2_Impulsividade,19,> 5 e < 10,Inferior
+Ensino Fundamental,F2_Impulsividade,20,> 5 e < 10,Inferior
+Ensino Fundamental,F2_Impulsividade,21,10,Inferior
+Ensino Fundamental,F2_Impulsividade,22,> 10 e < 15,Inferior
+Ensino Fundamental,F2_Impulsividade,23,> 10 e < 15,Inferior
+Ensino Fundamental,F2_Impulsividade,24,> 10 e < 15,Inferior
+Ensino Fundamental,F2_Impulsividade,25,> 10 e < 15,Inferior
+Ensino Fundamental,F2_Impulsividade,26,15,Inferior
+Ensino Fundamental,F2_Impulsividade,27,> 15 e < 20,Inferior
+Ensino Fundamental,F2_Impulsividade,28,20,Inferior
+Ensino Fundamental,F2_Impulsividade,29,> 20 < 25,Inferior
+Ensino Fundamental,F2_Impulsividade,30,> 20 < 25,Inferior
+Ensino Fundamental,F2_Impulsividade,31,25,Média Inferior
+Ensino Fundamental,F2_Impulsividade,32,> 25 e < 30,Média Inferior
+Ensino Fundamental,F2_Impulsividade,33,30,Média Inferior
+Ensino Fundamental,F2_Impulsividade,34,> 30 e < 25,Média Inferior
+Ensino Fundamental,F2_Impulsividade,35,35,Média Inferior
+Ensino Fundamental,F2_Impulsividade,36,> 35 e < 40,Média Inferior
+Ensino Fundamental,F2_Impulsividade,37,40,Média Inferior
+Ensino Fundamental,F2_Impulsividade,38,> 40 e < 45,Média Inferior
+Ensino Fundamental,F2_Impulsividade,39,45,Média
+Ensino Fundamental,F2_Impulsividade,40,> 45 e < 50,Média
+Ensino Fundamental,F2_Impulsividade,41,> 45 e < 50,Média
+Ensino Fundamental,F2_Impulsividade,42,50,Média
+Ensino Fundamental,F2_Impulsividade,43,> 50 e < 55,Média
+Ensino Fundamental,F2_Impulsividade,44,55,Média
+Ensino Fundamental,F2_Impulsividade,45,> 55 e < 60,Média
+Ensino Fundamental,F2_Impulsividade,46,> 55 e < 60,Média
+Ensino Fundamental,F2_Impulsividade,47,> 55 e < 60,Média
+Ensino Fundamental,F2_Impulsividade,48,> 55 e < 60,Média
+Ensino Fundamental,F2_Impulsividade,49,60,Média
+Ensino Fundamental,F2_Impulsividade,50,> 60 e < 65,Média
+Ensino Fundamental,F2_Impulsividade,51,65,Média Superior
+Ensino Fundamental,F2_Impulsividade,52,70,Média Superior
+Ensino Fundamental,F2_Impulsividade,53,> 70 e < 75,Média Superior
+Ensino Fundamental,F2_Impulsividade,54,75,Média Superior
+Ensino Fundamental,F2_Impulsividade,55,> 75 e <80,Média Superior
+Ensino Fundamental,F2_Impulsividade,56,> 75 e <80,Média Superior
+Ensino Fundamental,F2_Impulsividade,57,> 75 e <80,Média Superior
+Ensino Fundamental,F2_Impulsividade,58,80,Média Superior
+Ensino Fundamental,F2_Impulsividade,59,> 80 e < 85,Média Superior
+Ensino Fundamental,F2_Impulsividade,60,> 80 e < 85,Média Superior
+Ensino Fundamental,F2_Impulsividade,61,> 80 e < 85,Média Superior
+Ensino Fundamental,F2_Impulsividade,62,> 80 e < 85,Média Superior
+Ensino Fundamental,F2_Impulsividade,63,> 80 e < 85,Média Superior
+Ensino Fundamental,F2_Impulsividade,64,85,Superior
+Ensino Fundamental,F2_Impulsividade,65,> 85 e < 90,Superior
+Ensino Fundamental,F2_Impulsividade,66,> 85 e < 90,Superior
+Ensino Fundamental,F2_Impulsividade,67,> 85 e < 90,Superior
+Ensino Fundamental,F2_Impulsividade,68,> 85 e < 90,Superior
+Ensino Fundamental,F2_Impulsividade,69,> 85 e < 90,Superior
+Ensino Fundamental,F2_Impulsividade,70,> 85 e < 90,Superior
+Ensino Fundamental,F2_Impulsividade,71,90,Superior
+Ensino Fundamental,F2_Impulsividade,72,> 90 e < 95,Superior
+Ensino Fundamental,F2_Impulsividade,73,> 90 e < 95,Superior
+Ensino Fundamental,F2_Impulsividade,74,> 90 e < 95,Superior
+Ensino Fundamental,F2_Impulsividade,75,> 90 e < 95,Superior
+Ensino Fundamental,F2_Impulsividade,76,> 90 e < 95,Superior
+Ensino Fundamental,F2_Impulsividade,77,> 90 e < 95,Superior
+Ensino Fundamental,F2_Impulsividade,78,> 90 e < 95,Superior
+Ensino Fundamental,F2_Impulsividade,79,> 90 e < 95,Superior
+Ensino Fundamental,F2_Impulsividade,80,> 90 e < 95,Superior
+Ensino Fundamental,F2_Impulsividade,81,> 90 e < 95,Superior
+Ensino Fundamental,F2_Impulsividade,82,95,Superior
+Ensino Fundamental,F2_Impulsividade,83,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,84,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,85,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,86,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,87,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,88,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,89,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,90,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,91,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,92,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,93,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,94,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,95,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,96,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,97,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,98,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,99,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,100,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,101,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,102,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,103,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,104,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,105,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,106,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,107,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,108,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,109,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,110,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,111,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,112,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,113,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,114,> 95 e < 99,Superior
+Ensino Fundamental,F2_Impulsividade,115,> 95 e < 99,Superior
+Ensino Fundamental,F3_AspectosEmocionais,0,< 1,Inferior
+Ensino Fundamental,F3_AspectosEmocionais,1,< 1,Inferior
+Ensino Fundamental,F3_AspectosEmocionais,2,20,Inferior
+Ensino Fundamental,F3_AspectosEmocionais,3,30,Média Inferior
+Ensino Fundamental,F3_AspectosEmocionais,4,40,Média Inferior
+Ensino Fundamental,F3_AspectosEmocionais,5,50,Média
+Ensino Fundamental,F3_AspectosEmocionais,6,60,Média
+Ensino Fundamental,F3_AspectosEmocionais,7,75,Média Superior
+Ensino Fundamental,F3_AspectosEmocionais,8,80,Média Superior
+Ensino Fundamental,F3_AspectosEmocionais,9,> 80 e < 85,Média Superior
+Ensino Fundamental,F3_AspectosEmocionais,10,85,Superior
+Ensino Fundamental,F3_AspectosEmocionais,11,> 85 e < 90,Superior
+Ensino Fundamental,F3_AspectosEmocionais,12,90,Superior
+Ensino Fundamental,F3_AspectosEmocionais,13,> 90 e < 95,Superior
+Ensino Fundamental,F3_AspectosEmocionais,14,> 90 e < 95,Superior
+Ensino Fundamental,F3_AspectosEmocionais,15,95,Superior
+Ensino Fundamental,F3_AspectosEmocionais,16,> 95 e < 99,Superior
+Ensino Fundamental,F3_AspectosEmocionais,17,> 95 e < 99,Superior
+Ensino Fundamental,F3_AspectosEmocionais,18,> 95 e < 99,Superior
+Ensino Fundamental,F3_AspectosEmocionais,19,> 95 e < 99,Superior
+Ensino Fundamental,F3_AspectosEmocionais,20,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,0,< 1,Inferior
+Ensino Fundamental,F4_AAMA,1,< 1,Inferior
+Ensino Fundamental,F4_AAMA,2,1,Inferior
+Ensino Fundamental,F4_AAMA,3,> 1 e < 5,Inferior
+Ensino Fundamental,F4_AAMA,4,> 1 e < 5,Inferior
+Ensino Fundamental,F4_AAMA,5,> 1 e < 5,Inferior
+Ensino Fundamental,F4_AAMA,6,> 1 e < 5,Inferior
+Ensino Fundamental,F4_AAMA,7,> 1 e < 5,Inferior
+Ensino Fundamental,F4_AAMA,8,5,Inferior
+Ensino Fundamental,F4_AAMA,9,> 5 e < 10,Inferior
+Ensino Fundamental,F4_AAMA,10,> 5 e < 10,Inferior
+Ensino Fundamental,F4_AAMA,11,> 5 e < 10,Inferior
+Ensino Fundamental,F4_AAMA,12,10,Inferior
+Ensino Fundamental,F4_AAMA,13,15,Inferior
+Ensino Fundamental,F4_AAMA,14,20,Inferior
+Ensino Fundamental,F4_AAMA,15,> 20 < 25,Inferior
+Ensino Fundamental,F4_AAMA,16,> 20 < 25,Inferior
+Ensino Fundamental,F4_AAMA,17,25,Média Inferior
+Ensino Fundamental,F4_AAMA,18,30,Média Inferior
+Ensino Fundamental,F4_AAMA,19,40,Média Inferior
+Ensino Fundamental,F4_AAMA,20,45,Média
+Ensino Fundamental,F4_AAMA,21,55,Média
+Ensino Fundamental,F4_AAMA,22,60,Média
+Ensino Fundamental,F4_AAMA,23,65,Média Superior
+Ensino Fundamental,F4_AAMA,24,70,Média Superior
+Ensino Fundamental,F4_AAMA,25,75,Média Superior
+Ensino Fundamental,F4_AAMA,26,> 75 e <80,Média Superior
+Ensino Fundamental,F4_AAMA,27,80,Média Superior
+Ensino Fundamental,F4_AAMA,28,85,Superior
+Ensino Fundamental,F4_AAMA,29,> 85 e < 90,Superior
+Ensino Fundamental,F4_AAMA,30,> 85 e < 90,Superior
+Ensino Fundamental,F4_AAMA,31,90,Superior
+Ensino Fundamental,F4_AAMA,32,> 90 e < 95,Superior
+Ensino Fundamental,F4_AAMA,33,> 90 e < 95,Superior
+Ensino Fundamental,F4_AAMA,34,> 90 e < 95,Superior
+Ensino Fundamental,F4_AAMA,35,> 90 e < 95,Superior
+Ensino Fundamental,F4_AAMA,36,95,Superior
+Ensino Fundamental,F4_AAMA,37,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,38,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,39,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,40,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,41,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,42,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,43,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,44,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,45,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,46,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,47,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,48,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,49,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,50,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,51,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,52,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,53,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,54,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,55,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,56,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,57,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,58,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,59,> 95 e < 99,Superior
+Ensino Fundamental,F4_AAMA,60,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,0,< 1,Inferior
+Ensino Fundamental,F5_Hiperatividade,1,< 1,Inferior
+Ensino Fundamental,F5_Hiperatividade,2,1,Inferior
+Ensino Fundamental,F5_Hiperatividade,3,> 1 e < 5,Inferior
+Ensino Fundamental,F5_Hiperatividade,4,> 1 e < 5,Inferior
+Ensino Fundamental,F5_Hiperatividade,5,> 1 e < 5,Inferior
+Ensino Fundamental,F5_Hiperatividade,6,5,Inferior
+Ensino Fundamental,F5_Hiperatividade,7,> 5 e < 10,Inferior
+Ensino Fundamental,F5_Hiperatividade,8,15,Inferior
+Ensino Fundamental,F5_Hiperatividade,9,> 15 e < 20,Inferior
+Ensino Fundamental,F5_Hiperatividade,10,20,Inferior
+Ensino Fundamental,F5_Hiperatividade,11,25,Média Inferior
+Ensino Fundamental,F5_Hiperatividade,12,35,Média Inferior
+Ensino Fundamental,F5_Hiperatividade,13,45,Média
+Ensino Fundamental,F5_Hiperatividade,14,55,Média
+Ensino Fundamental,F5_Hiperatividade,15,60,Média
+Ensino Fundamental,F5_Hiperatividade,16,65,Média Superior
+Ensino Fundamental,F5_Hiperatividade,17,70,Média Superior
+Ensino Fundamental,F5_Hiperatividade,18,75,Média Superior
+Ensino Fundamental,F5_Hiperatividade,19,> 75 e <80,Média Superior
+Ensino Fundamental,F5_Hiperatividade,20,85,Superior
+Ensino Fundamental,F5_Hiperatividade,21,90,Superior
+Ensino Fundamental,F5_Hiperatividade,22,95,Superior
+Ensino Fundamental,F5_Hiperatividade,23,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,24,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,25,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,26,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,27,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,28,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,29,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,30,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,31,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,32,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,33,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,34,> 95 e < 99,Superior
+Ensino Fundamental,F5_Hiperatividade,35,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,0,< 1,Inferior
+Ensino Medio,F1_Desatencao,1,< 1,Inferior
+Ensino Medio,F1_Desatencao,2,< 1,Inferior
+Ensino Medio,F1_Desatencao,3,< 1,Inferior
+Ensino Medio,F1_Desatencao,4,< 1,Inferior
+Ensino Medio,F1_Desatencao,5,< 1,Inferior
+Ensino Medio,F1_Desatencao,6,1,Inferior
+Ensino Medio,F1_Desatencao,7,> 1 e < 5,Inferior
+Ensino Medio,F1_Desatencao,8,> 1 e < 5,Inferior
+Ensino Medio,F1_Desatencao,9,> 1 e < 5,Inferior
+Ensino Medio,F1_Desatencao,10,> 1 e < 5,Inferior
+Ensino Medio,F1_Desatencao,11,> 1 e < 5,Inferior
+Ensino Medio,F1_Desatencao,12,> 1 e < 5,Inferior
+Ensino Medio,F1_Desatencao,13,5,Inferior
+Ensino Medio,F1_Desatencao,14,> 5 e < 10,Inferior
+Ensino Medio,F1_Desatencao,15,> 5 e < 10,Inferior
+Ensino Medio,F1_Desatencao,16,> 5 e < 10,Inferior
+Ensino Medio,F1_Desatencao,17,10,Inferior
+Ensino Medio,F1_Desatencao,18,> 10 e < 15,Inferior
+Ensino Medio,F1_Desatencao,19,15,Inferior
+Ensino Medio,F1_Desatencao,20,> 15 e < 20,Inferior
+Ensino Medio,F1_Desatencao,21,> 15 e < 20,Inferior
+Ensino Medio,F1_Desatencao,22,20,Inferior
+Ensino Medio,F1_Desatencao,23,> 20 < 25,Inferior
+Ensino Medio,F1_Desatencao,24,> 20 < 25,Inferior
+Ensino Medio,F1_Desatencao,25,25,Média Inferior
+Ensino Medio,F1_Desatencao,26,> 25 e < 30,Média Inferior
+Ensino Medio,F1_Desatencao,27,30,Média Inferior
+Ensino Medio,F1_Desatencao,28,> 30 e < 25,Média Inferior
+Ensino Medio,F1_Desatencao,29,35,Média Inferior
+Ensino Medio,F1_Desatencao,30,> 35 e < 40,Média Inferior
+Ensino Medio,F1_Desatencao,31,40,Média Inferior
+Ensino Medio,F1_Desatencao,32,> 40 e < 45,Média Inferior
+Ensino Medio,F1_Desatencao,33,45,Média
+Ensino Medio,F1_Desatencao,34,> 45 e < 50,Média
+Ensino Medio,F1_Desatencao,35,50,Média
+Ensino Medio,F1_Desatencao,36,> 50 e < 55,Média
+Ensino Medio,F1_Desatencao,37,55,Média
+Ensino Medio,F1_Desatencao,38,> 55 e < 60,Média
+Ensino Medio,F1_Desatencao,39,> 55 e < 60,Média
+Ensino Medio,F1_Desatencao,40,60,Média
+Ensino Medio,F1_Desatencao,41,65,Média Superior
+Ensino Medio,F1_Desatencao,42,> 65 e < 70,Média Superior
+Ensino Medio,F1_Desatencao,43,70,Média Superior
+Ensino Medio,F1_Desatencao,44,> 70 e < 75,Média Superior
+Ensino Medio,F1_Desatencao,45,> 70 e < 75,Média Superior
+Ensino Medio,F1_Desatencao,46,75,Média Superior
+Ensino Medio,F1_Desatencao,47,> 75 e <80,Média Superior
+Ensino Medio,F1_Desatencao,48,> 75 e <80,Média Superior
+Ensino Medio,F1_Desatencao,49,80,Média Superior
+Ensino Medio,F1_Desatencao,50,> 80 e < 85,Média Superior
+Ensino Medio,F1_Desatencao,51,> 80 e < 85,Média Superior
+Ensino Medio,F1_Desatencao,52,> 80 e < 85,Média Superior
+Ensino Medio,F1_Desatencao,53,> 80 e < 85,Média Superior
+Ensino Medio,F1_Desatencao,54,85,Superior
+Ensino Medio,F1_Desatencao,55,> 85 e < 90,Superior
+Ensino Medio,F1_Desatencao,56,> 85 e < 90,Superior
+Ensino Medio,F1_Desatencao,57,90,Superior
+Ensino Medio,F1_Desatencao,58,> 90 e < 95,Superior
+Ensino Medio,F1_Desatencao,59,> 90 e < 95,Superior
+Ensino Medio,F1_Desatencao,60,> 90 e < 95,Superior
+Ensino Medio,F1_Desatencao,61,> 90 e < 95,Superior
+Ensino Medio,F1_Desatencao,62,> 90 e < 95,Superior
+Ensino Medio,F1_Desatencao,63,> 90 e < 95,Superior
+Ensino Medio,F1_Desatencao,64,> 90 e < 95,Superior
+Ensino Medio,F1_Desatencao,65,> 90 e < 95,Superior
+Ensino Medio,F1_Desatencao,66,> 90 e < 95,Superior
+Ensino Medio,F1_Desatencao,67,95,Superior
+Ensino Medio,F1_Desatencao,68,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,69,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,70,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,71,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,72,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,73,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,74,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,75,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,76,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,77,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,78,> 95 e < 99,Superior
+Ensino Medio,F1_Desatencao,79,99,Superior
+Ensino Medio,F1_Desatencao,80,> 99,Superior
+Ensino Medio,F1_Desatencao,81,> 99,Superior
+Ensino Medio,F1_Desatencao,82,> 99,Superior
+Ensino Medio,F1_Desatencao,83,> 99,Superior
+Ensino Medio,F1_Desatencao,84,> 99,Superior
+Ensino Medio,F1_Desatencao,85,> 99,Superior
+Ensino Medio,F1_Desatencao,86,> 99,Superior
+Ensino Medio,F1_Desatencao,87,> 99,Superior
+Ensino Medio,F1_Desatencao,88,> 99,Superior
+Ensino Medio,F1_Desatencao,89,> 99,Superior
+Ensino Medio,F1_Desatencao,90,> 99,Superior
+Ensino Medio,F1_Desatencao,91,> 99,Superior
+Ensino Medio,F1_Desatencao,92,> 99,Superior
+Ensino Medio,F1_Desatencao,93,> 99,Superior
+Ensino Medio,F1_Desatencao,94,> 99,Superior
+Ensino Medio,F1_Desatencao,95,> 99,Superior
+Ensino Medio,F1_Desatencao,96,> 99,Superior
+Ensino Medio,F1_Desatencao,97,> 99,Superior
+Ensino Medio,F1_Desatencao,98,> 99,Superior
+Ensino Medio,F1_Desatencao,99,> 99,Superior
+Ensino Medio,F1_Desatencao,100,> 99,Superior
+Ensino Medio,F1_Desatencao,101,> 99,Superior
+Ensino Medio,F1_Desatencao,102,> 99,Superior
+Ensino Medio,F1_Desatencao,103,> 99,Superior
+Ensino Medio,F1_Desatencao,104,> 99,Superior
+Ensino Medio,F1_Desatencao,105,> 99,Superior
+Ensino Medio,F1_Desatencao,106,> 99,Superior
+Ensino Medio,F1_Desatencao,107,> 99,Superior
+Ensino Medio,F1_Desatencao,108,> 99,Superior
+Ensino Medio,F1_Desatencao,109,> 99,Superior
+Ensino Medio,F1_Desatencao,110,> 99,Superior
+Ensino Medio,F1_Desatencao,111,> 99,Superior
+Ensino Medio,F1_Desatencao,112,> 99,Superior
+Ensino Medio,F1_Desatencao,113,> 99,Superior
+Ensino Medio,F1_Desatencao,114,> 99,Superior
+Ensino Medio,F1_Desatencao,115,> 99,Superior
+Ensino Medio,F2_Impulsividade,0,< 1,Inferior
+Ensino Medio,F2_Impulsividade,1,< 1,Inferior
+Ensino Medio,F2_Impulsividade,2,< 1,Inferior
+Ensino Medio,F2_Impulsividade,3,< 1,Inferior
+Ensino Medio,F2_Impulsividade,4,< 1,Inferior
+Ensino Medio,F2_Impulsividade,5,< 1,Inferior
+Ensino Medio,F2_Impulsividade,6,< 1,Inferior
+Ensino Medio,F2_Impulsividade,7,< 1,Inferior
+Ensino Medio,F2_Impulsividade,8,1,Inferior
+Ensino Medio,F2_Impulsividade,9,> 1 e < 5,Inferior
+Ensino Medio,F2_Impulsividade,10,> 1 e < 5,Inferior
+Ensino Medio,F2_Impulsividade,11,> 1 e < 5,Inferior
+Ensino Medio,F2_Impulsividade,12,> 1 e < 5,Inferior
+Ensino Medio,F2_Impulsividade,13,> 1 e < 5,Inferior
+Ensino Medio,F2_Impulsividade,14,> 1 e < 5,Inferior
+Ensino Medio,F2_Impulsividade,15,> 1 e < 5,Inferior
+Ensino Medio,F2_Impulsividade,16,5,Inferior
+Ensino Medio,F2_Impulsividade,17,> 5 e < 10,Inferior
+Ensino Medio,F2_Impulsividade,18,> 5 e < 10,Inferior
+Ensino Medio,F2_Impulsividade,19,10,Inferior
+Ensino Medio,F2_Impulsividade,20,> 10 e < 15,Inferior
+Ensino Medio,F2_Impulsividade,21,> 10 e < 15,Inferior
+Ensino Medio,F2_Impulsividade,22,> 10 e < 15,Inferior
+Ensino Medio,F2_Impulsividade,23,15,Inferior
+Ensino Medio,F2_Impulsividade,24,> 15 e < 20,Inferior
+Ensino Medio,F2_Impulsividade,25,20,Inferior
+Ensino Medio,F2_Impulsividade,26,> 20 < 25,Inferior
+Ensino Medio,F2_Impulsividade,27,> 20 < 25,Inferior
+Ensino Medio,F2_Impulsividade,28,25,Média Inferior
+Ensino Medio,F2_Impulsividade,29,> 25 e < 30,Média Inferior
+Ensino Medio,F2_Impulsividade,30,30,Média Inferior
+Ensino Medio,F2_Impulsividade,31,> 30 e < 25,Média Inferior
+Ensino Medio,F2_Impulsividade,32,> 30 e < 25,Média Inferior
+Ensino Medio,F2_Impulsividade,33,35,Média Inferior
+Ensino Medio,F2_Impulsividade,34,> 35 e < 40,Média Inferior
+Ensino Medio,F2_Impulsividade,35,> 35 e < 40,Média Inferior
+Ensino Medio,F2_Impulsividade,36,40,Média Inferior
+Ensino Medio,F2_Impulsividade,37,45,Média
+Ensino Medio,F2_Impulsividade,38,> 45 e < 50,Média
+Ensino Medio,F2_Impulsividade,39,50,Média
+Ensino Medio,F2_Impulsividade,40,55,Média
+Ensino Medio,F2_Impulsividade,41,> 55 e < 60,Média
+Ensino Medio,F2_Impulsividade,42,60,Média
+Ensino Medio,F2_Impulsividade,43,> 60 e < 65,Média
+Ensino Medio,F2_Impulsividade,44,> 60 e < 65,Média
+Ensino Medio,F2_Impulsividade,45,65,Média Superior
+Ensino Medio,F2_Impulsividade,46,> 65 e < 70,Média Superior
+Ensino Medio,F2_Impulsividade,47,> 65 e < 70,Média Superior
+Ensino Medio,F2_Impulsividade,48,70,Média Superior
+Ensino Medio,F2_Impulsividade,49,> 70 e < 75,Média Superior
+Ensino Medio,F2_Impulsividade,50,> 70 e < 75,Média Superior
+Ensino Medio,F2_Impulsividade,51,75,Média Superior
+Ensino Medio,F2_Impulsividade,52,> 75 e <80,Média Superior
+Ensino Medio,F2_Impulsividade,53,> 75 e <80,Média Superior
+Ensino Medio,F2_Impulsividade,54,80,Média Superior
+Ensino Medio,F2_Impulsividade,55,> 80 e < 85,Média Superior
+Ensino Medio,F2_Impulsividade,56,> 80 e < 85,Média Superior
+Ensino Medio,F2_Impulsividade,57,85,Superior
+Ensino Medio,F2_Impulsividade,58,> 85 e < 90,Superior
+Ensino Medio,F2_Impulsividade,59,> 85 e < 90,Superior
+Ensino Medio,F2_Impulsividade,60,> 85 e < 90,Superior
+Ensino Medio,F2_Impulsividade,61,90,Superior
+Ensino Medio,F2_Impulsividade,62,> 90 e < 95,Superior
+Ensino Medio,F2_Impulsividade,63,> 90 e < 95,Superior
+Ensino Medio,F2_Impulsividade,64,> 90 e < 95,Superior
+Ensino Medio,F2_Impulsividade,65,> 90 e < 95,Superior
+Ensino Medio,F2_Impulsividade,66,> 90 e < 95,Superior
+Ensino Medio,F2_Impulsividade,67,> 90 e < 95,Superior
+Ensino Medio,F2_Impulsividade,68,> 90 e < 95,Superior
+Ensino Medio,F2_Impulsividade,69,> 90 e < 95,Superior
+Ensino Medio,F2_Impulsividade,70,95,Superior
+Ensino Medio,F2_Impulsividade,71,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,72,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,73,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,74,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,75,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,76,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,77,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,78,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,79,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,80,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,81,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,82,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,83,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,84,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,85,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,86,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,87,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,88,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,89,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,90,> 95 e < 99,Superior
+Ensino Medio,F2_Impulsividade,91,99,Superior
+Ensino Medio,F2_Impulsividade,92,> 99,Superior
+Ensino Medio,F2_Impulsividade,93,> 99,Superior
+Ensino Medio,F2_Impulsividade,94,> 99,Superior
+Ensino Medio,F2_Impulsividade,95,> 99,Superior
+Ensino Medio,F2_Impulsividade,96,> 99,Superior
+Ensino Medio,F2_Impulsividade,97,> 99,Superior
+Ensino Medio,F2_Impulsividade,98,> 99,Superior
+Ensino Medio,F2_Impulsividade,99,> 99,Superior
+Ensino Medio,F2_Impulsividade,100,> 99,Superior
+Ensino Medio,F2_Impulsividade,101,> 99,Superior
+Ensino Medio,F2_Impulsividade,102,> 99,Superior
+Ensino Medio,F2_Impulsividade,103,> 99,Superior
+Ensino Medio,F2_Impulsividade,104,> 99,Superior
+Ensino Medio,F2_Impulsividade,105,> 99,Superior
+Ensino Medio,F2_Impulsividade,106,> 99,Superior
+Ensino Medio,F2_Impulsividade,107,> 99,Superior
+Ensino Medio,F2_Impulsividade,108,> 99,Superior
+Ensino Medio,F2_Impulsividade,109,> 99,Superior
+Ensino Medio,F2_Impulsividade,110,> 99,Superior
+Ensino Medio,F2_Impulsividade,111,> 99,Superior
+Ensino Medio,F2_Impulsividade,112,> 99,Superior
+Ensino Medio,F2_Impulsividade,113,> 99,Superior
+Ensino Medio,F2_Impulsividade,114,> 99,Superior
+Ensino Medio,F2_Impulsividade,115,> 99,Superior
+Ensino Medio,F3_AspectosEmocionais,0,< 1,Inferior
+Ensino Medio,F3_AspectosEmocionais,1,5,Inferior
+Ensino Medio,F3_AspectosEmocionais,2,10,Inferior
+Ensino Medio,F3_AspectosEmocionais,3,25,Média Inferior
+Ensino Medio,F3_AspectosEmocionais,4,35,Média Inferior
+Ensino Medio,F3_AspectosEmocionais,5,45,Média
+Ensino Medio,F3_AspectosEmocionais,6,55,Média
+Ensino Medio,F3_AspectosEmocionais,7,65,Média Superior
+Ensino Medio,F3_AspectosEmocionais,8,75,Média Superior
+Ensino Medio,F3_AspectosEmocionais,9,80,Média Superior
+Ensino Medio,F3_AspectosEmocionais,10,85,Superior
+Ensino Medio,F3_AspectosEmocionais,11,90,Superior
+Ensino Medio,F3_AspectosEmocionais,12,> 90 e < 95,Superior
+Ensino Medio,F3_AspectosEmocionais,13,95,Superior
+Ensino Medio,F3_AspectosEmocionais,14,> 95 e < 99,Superior
+Ensino Medio,F3_AspectosEmocionais,15,> 95 e < 99,Superior
+Ensino Medio,F3_AspectosEmocionais,16,99,Superior
+Ensino Medio,F3_AspectosEmocionais,17,> 99,Superior
+Ensino Medio,F3_AspectosEmocionais,18,> 99,Superior
+Ensino Medio,F3_AspectosEmocionais,19,> 99,Superior
+Ensino Medio,F3_AspectosEmocionais,20,> 99,Superior
+Ensino Medio,F4_AAMA,0,< 1,Inferior
+Ensino Medio,F4_AAMA,1,< 1,Inferior
+Ensino Medio,F4_AAMA,2,< 1,Inferior
+Ensino Medio,F4_AAMA,3,< 1,Inferior
+Ensino Medio,F4_AAMA,4,1,Inferior
+Ensino Medio,F4_AAMA,5,> 1 e < 5,Inferior
+Ensino Medio,F4_AAMA,6,> 1 e < 5,Inferior
+Ensino Medio,F4_AAMA,7,5,Inferior
+Ensino Medio,F4_AAMA,8,> 5 e < 10,Inferior
+Ensino Medio,F4_AAMA,9,10,Inferior
+Ensino Medio,F4_AAMA,10,> 10 e < 15,Inferior
+Ensino Medio,F4_AAMA,11,15,Inferior
+Ensino Medio,F4_AAMA,12,> 15 e < 20,Inferior
+Ensino Medio,F4_AAMA,13,20,Inferior
+Ensino Medio,F4_AAMA,14,25,Média Inferior
+Ensino Medio,F4_AAMA,15,30,Média Inferior
+Ensino Medio,F4_AAMA,16,40,Média Inferior
+Ensino Medio,F4_AAMA,17,45,Média
+Ensino Medio,F4_AAMA,18,50,Média
+Ensino Medio,F4_AAMA,19,55,Média
+Ensino Medio,F4_AAMA,20,65,Média Superior
+Ensino Medio,F4_AAMA,21,> 65 e < 70,Média Superior
+Ensino Medio,F4_AAMA,22,70,Média Superior
+Ensino Medio,F4_AAMA,23,75,Média Superior
+Ensino Medio,F4_AAMA,24,80,Média Superior
+Ensino Medio,F4_AAMA,25,> 80 e < 85,Média Superior
+Ensino Medio,F4_AAMA,26,85,Superior
+Ensino Medio,F4_AAMA,27,> 85 e < 90,Superior
+Ensino Medio,F4_AAMA,28,90,Superior
+Ensino Medio,F4_AAMA,29,> 90 e < 95,Superior
+Ensino Medio,F4_AAMA,30,> 90 e < 95,Superior
+Ensino Medio,F4_AAMA,31,> 90 e < 95,Superior
+Ensino Medio,F4_AAMA,32,95,Superior
+Ensino Medio,F4_AAMA,33,> 95 e < 99,Superior
+Ensino Medio,F4_AAMA,34,> 95 e < 99,Superior
+Ensino Medio,F4_AAMA,35,> 95 e < 99,Superior
+Ensino Medio,F4_AAMA,36,> 95 e < 99,Superior
+Ensino Medio,F4_AAMA,37,> 95 e < 99,Superior
+Ensino Medio,F4_AAMA,38,> 95 e < 99,Superior
+Ensino Medio,F4_AAMA,39,> 95 e < 99,Superior
+Ensino Medio,F4_AAMA,40,> 95 e < 99,Superior
+Ensino Medio,F4_AAMA,41,> 95 e < 99,Superior
+Ensino Medio,F4_AAMA,42,> 95 e < 99,Superior
+Ensino Medio,F4_AAMA,43,99,Superior
+Ensino Medio,F4_AAMA,44,> 99,Superior
+Ensino Medio,F4_AAMA,45,> 99,Superior
+Ensino Medio,F4_AAMA,46,> 99,Superior
+Ensino Medio,F4_AAMA,47,> 99,Superior
+Ensino Medio,F4_AAMA,48,> 99,Superior
+Ensino Medio,F4_AAMA,49,> 99,Superior
+Ensino Medio,F4_AAMA,50,> 99,Superior
+Ensino Medio,F4_AAMA,51,> 99,Superior
+Ensino Medio,F4_AAMA,52,> 99,Superior
+Ensino Medio,F4_AAMA,53,> 99,Superior
+Ensino Medio,F4_AAMA,54,> 99,Superior
+Ensino Medio,F4_AAMA,55,> 99,Superior
+Ensino Medio,F4_AAMA,56,> 99,Superior
+Ensino Medio,F4_AAMA,57,> 99,Superior
+Ensino Medio,F4_AAMA,58,> 99,Superior
+Ensino Medio,F4_AAMA,59,> 99,Superior
+Ensino Medio,F4_AAMA,60,> 99,Superior
+Ensino Medio,F5_Hiperatividade,0,< 1,Inferior
+Ensino Medio,F5_Hiperatividade,1,< 1,Inferior
+Ensino Medio,F5_Hiperatividade,2,< 1,Inferior
+Ensino Medio,F5_Hiperatividade,3,1,Inferior
+Ensino Medio,F5_Hiperatividade,4,> 1 e < 5,Inferior
+Ensino Medio,F5_Hiperatividade,5,> 1 e < 5,Inferior
+Ensino Medio,F5_Hiperatividade,6,5,Inferior
+Ensino Medio,F5_Hiperatividade,7,> 5 e < 10,Inferior
+Ensino Medio,F5_Hiperatividade,8,10,Inferior
+Ensino Medio,F5_Hiperatividade,9,15,Inferior
+Ensino Medio,F5_Hiperatividade,10,25,Média Inferior
+Ensino Medio,F5_Hiperatividade,11,30,Média Inferior
+Ensino Medio,F5_Hiperatividade,12,40,Média Inferior
+Ensino Medio,F5_Hiperatividade,13,45,Média
+Ensino Medio,F5_Hiperatividade,14,50,Média
+Ensino Medio,F5_Hiperatividade,15,60,Média
+Ensino Medio,F5_Hiperatividade,16,65,Média Superior
+Ensino Medio,F5_Hiperatividade,17,75,Média Superior
+Ensino Medio,F5_Hiperatividade,18,80,Média Superior
+Ensino Medio,F5_Hiperatividade,19,85,Superior
+Ensino Medio,F5_Hiperatividade,20,> 85 e < 90,Superior
+Ensino Medio,F5_Hiperatividade,21,90,Superior
+Ensino Medio,F5_Hiperatividade,22,> 90 e < 95,Superior
+Ensino Medio,F5_Hiperatividade,23,95,Superior
+Ensino Medio,F5_Hiperatividade,24,> 95 e < 99,Superior
+Ensino Medio,F5_Hiperatividade,25,> 95 e < 99,Superior
+Ensino Medio,F5_Hiperatividade,26,> 95 e < 99,Superior
+Ensino Medio,F5_Hiperatividade,27,> 95 e < 99,Superior
+Ensino Medio,F5_Hiperatividade,28,> 95 e < 99,Superior
+Ensino Medio,F5_Hiperatividade,29,99,Superior
+Ensino Medio,F5_Hiperatividade,30,> 99,Superior
+Ensino Medio,F5_Hiperatividade,31,> 99,Superior
+Ensino Medio,F5_Hiperatividade,32,> 99,Superior
+Ensino Medio,F5_Hiperatividade,33,> 99,Superior
+Ensino Medio,F5_Hiperatividade,34,> 99,Superior
+Ensino Medio,F5_Hiperatividade,35,> 99,Superior
+Ensino Superior,F1_Desatencao,0,< 1,Inferior
+Ensino Superior,F1_Desatencao,1,< 1,Inferior
+Ensino Superior,F1_Desatencao,2,< 1,Inferior
+Ensino Superior,F1_Desatencao,3,< 1,Inferior
+Ensino Superior,F1_Desatencao,4,< 1,Inferior
+Ensino Superior,F1_Desatencao,5,< 1,Inferior
+Ensino Superior,F1_Desatencao,6,< 1,Inferior
+Ensino Superior,F1_Desatencao,7,1,Inferior
+Ensino Superior,F1_Desatencao,8,> 1 e < 5,Inferior
+Ensino Superior,F1_Desatencao,9,> 1 e < 5,Inferior
+Ensino Superior,F1_Desatencao,10,> 1 e < 5,Inferior
+Ensino Superior,F1_Desatencao,11,5,Inferior
+Ensino Superior,F1_Desatencao,12,> 5 e < 10,Inferior
+Ensino Superior,F1_Desatencao,13,> 5 e < 10,Inferior
+Ensino Superior,F1_Desatencao,14,> 5 e < 10,Inferior
+Ensino Superior,F1_Desatencao,15,> 5 e < 10,Inferior
+Ensino Superior,F1_Desatencao,16,10,Inferior
+Ensino Superior,F1_Desatencao,17,> 10 e < 15,Inferior
+Ensino Superior,F1_Desatencao,18,> 10 e < 15,Inferior
+Ensino Superior,F1_Desatencao,19,15,Inferior
+Ensino Superior,F1_Desatencao,20,> 15 e < 20,Inferior
+Ensino Superior,F1_Desatencao,21,20,Inferior
+Ensino Superior,F1_Desatencao,22,> 20 < 25,Inferior
+Ensino Superior,F1_Desatencao,23,> 20 < 25,Inferior
+Ensino Superior,F1_Desatencao,24,25,Média Inferior
+Ensino Superior,F1_Desatencao,25,> 25 e < 30,Média Inferior
+Ensino Superior,F1_Desatencao,26,30,Média Inferior
+Ensino Superior,F1_Desatencao,27,> 30 e < 25,Média Inferior
+Ensino Superior,F1_Desatencao,28,35,Média Inferior
+Ensino Superior,F1_Desatencao,29,40,Média Inferior
+Ensino Superior,F1_Desatencao,30,> 40 e < 45,Média Inferior
+Ensino Superior,F1_Desatencao,31,45,Média
+Ensino Superior,F1_Desatencao,32,> 45 e < 50,Média
+Ensino Superior,F1_Desatencao,33,50,Média
+Ensino Superior,F1_Desatencao,34,> 50 e < 55,Média
+Ensino Superior,F1_Desatencao,35,55,Média
+Ensino Superior,F1_Desatencao,36,> 55 e < 60,Média
+Ensino Superior,F1_Desatencao,37,> 55 e < 60,Média
+Ensino Superior,F1_Desatencao,38,60,Média
+Ensino Superior,F1_Desatencao,39,> 60 e < 65,Média
+Ensino Superior,F1_Desatencao,40,65,Média Superior
+Ensino Superior,F1_Desatencao,41,> 65 e < 70,Média Superior
+Ensino Superior,F1_Desatencao,42,70,Média Superior
+Ensino Superior,F1_Desatencao,43,> 70 e < 75,Média Superior
+Ensino Superior,F1_Desatencao,44,75,Média Superior
+Ensino Superior,F1_Desatencao,45,> 75 e <80,Média Superior
+Ensino Superior,F1_Desatencao,46,80,Média Superior
+Ensino Superior,F1_Desatencao,47,> 80 e < 85,Média Superior
+Ensino Superior,F1_Desatencao,48,> 80 e < 85,Média Superior
+Ensino Superior,F1_Desatencao,49,> 80 e < 85,Média Superior
+Ensino Superior,F1_Desatencao,50,85,Superior
+Ensino Superior,F1_Desatencao,51,> 85 e < 90,Superior
+Ensino Superior,F1_Desatencao,52,> 85 e < 90,Superior
+Ensino Superior,F1_Desatencao,53,> 85 e < 90,Superior
+Ensino Superior,F1_Desatencao,54,90,Superior
+Ensino Superior,F1_Desatencao,55,> 90 e < 95,Superior
+Ensino Superior,F1_Desatencao,56,> 90 e < 95,Superior
+Ensino Superior,F1_Desatencao,57,> 90 e < 95,Superior
+Ensino Superior,F1_Desatencao,58,> 90 e < 95,Superior
+Ensino Superior,F1_Desatencao,59,> 90 e < 95,Superior
+Ensino Superior,F1_Desatencao,60,> 90 e < 95,Superior
+Ensino Superior,F1_Desatencao,61,> 90 e < 95,Superior
+Ensino Superior,F1_Desatencao,62,95,Superior
+Ensino Superior,F1_Desatencao,63,> 95 e < 99,Superior
+Ensino Superior,F1_Desatencao,64,> 95 e < 99,Superior
+Ensino Superior,F1_Desatencao,65,> 95 e < 99,Superior
+Ensino Superior,F1_Desatencao,66,> 95 e < 99,Superior
+Ensino Superior,F1_Desatencao,67,> 95 e < 99,Superior
+Ensino Superior,F1_Desatencao,68,> 95 e < 99,Superior
+Ensino Superior,F1_Desatencao,69,> 95 e < 99,Superior
+Ensino Superior,F1_Desatencao,70,> 95 e < 99,Superior
+Ensino Superior,F1_Desatencao,71,> 95 e < 99,Superior
+Ensino Superior,F1_Desatencao,72,99,Superior
+Ensino Superior,F1_Desatencao,73,> 99,Superior
+Ensino Superior,F1_Desatencao,74,> 99,Superior
+Ensino Superior,F1_Desatencao,75,> 99,Superior
+Ensino Superior,F1_Desatencao,76,> 99,Superior
+Ensino Superior,F1_Desatencao,77,> 99,Superior
+Ensino Superior,F1_Desatencao,78,> 99,Superior
+Ensino Superior,F1_Desatencao,79,> 99,Superior
+Ensino Superior,F1_Desatencao,80,> 99,Superior
+Ensino Superior,F1_Desatencao,81,> 99,Superior
+Ensino Superior,F1_Desatencao,82,> 99,Superior
+Ensino Superior,F1_Desatencao,83,> 99,Superior
+Ensino Superior,F1_Desatencao,84,> 99,Superior
+Ensino Superior,F1_Desatencao,85,> 99,Superior
+Ensino Superior,F1_Desatencao,86,> 99,Superior
+Ensino Superior,F1_Desatencao,87,> 99,Superior
+Ensino Superior,F1_Desatencao,88,> 99,Superior
+Ensino Superior,F1_Desatencao,89,> 99,Superior
+Ensino Superior,F1_Desatencao,90,> 99,Superior
+Ensino Superior,F1_Desatencao,91,> 99,Superior
+Ensino Superior,F1_Desatencao,92,> 99,Superior
+Ensino Superior,F1_Desatencao,93,> 99,Superior
+Ensino Superior,F1_Desatencao,94,> 99,Superior
+Ensino Superior,F1_Desatencao,95,> 99,Superior
+Ensino Superior,F1_Desatencao,96,> 99,Superior
+Ensino Superior,F1_Desatencao,97,> 99,Superior
+Ensino Superior,F1_Desatencao,98,> 99,Superior
+Ensino Superior,F1_Desatencao,99,> 99,Superior
+Ensino Superior,F1_Desatencao,100,> 99,Superior
+Ensino Superior,F1_Desatencao,101,> 99,Superior
+Ensino Superior,F1_Desatencao,102,> 99,Superior
+Ensino Superior,F1_Desatencao,103,> 99,Superior
+Ensino Superior,F1_Desatencao,104,> 99,Superior
+Ensino Superior,F1_Desatencao,105,> 99,Superior
+Ensino Superior,F1_Desatencao,106,> 99,Superior
+Ensino Superior,F1_Desatencao,107,> 99,Superior
+Ensino Superior,F1_Desatencao,108,> 99,Superior
+Ensino Superior,F1_Desatencao,109,> 99,Superior
+Ensino Superior,F1_Desatencao,110,> 99,Superior
+Ensino Superior,F1_Desatencao,111,> 99,Superior
+Ensino Superior,F1_Desatencao,112,> 99,Superior
+Ensino Superior,F1_Desatencao,113,> 99,Superior
+Ensino Superior,F1_Desatencao,114,> 99,Superior
+Ensino Superior,F1_Desatencao,115,> 99,Superior
+Ensino Superior,F2_Impulsividade,0,< 1,Inferior
+Ensino Superior,F2_Impulsividade,1,< 1,Inferior
+Ensino Superior,F2_Impulsividade,2,< 1,Inferior
+Ensino Superior,F2_Impulsividade,3,< 1,Inferior
+Ensino Superior,F2_Impulsividade,4,< 1,Inferior
+Ensino Superior,F2_Impulsividade,5,< 1,Inferior
+Ensino Superior,F2_Impulsividade,6,< 1,Inferior
+Ensino Superior,F2_Impulsividade,7,< 1,Inferior
+Ensino Superior,F2_Impulsividade,8,< 1,Inferior
+Ensino Superior,F2_Impulsividade,9,< 1,Inferior
+Ensino Superior,F2_Impulsividade,10,1,Inferior
+Ensino Superior,F2_Impulsividade,11,> 1 e < 5,Inferior
+Ensino Superior,F2_Impulsividade,12,> 1 e < 5,Inferior
+Ensino Superior,F2_Impulsividade,13,> 1 e < 5,Inferior
+Ensino Superior,F2_Impulsividade,14,> 1 e < 5,Inferior
+Ensino Superior,F2_Impulsividade,15,5,Inferior
+Ensino Superior,F2_Impulsividade,16,> 5 e < 10,Inferior
+Ensino Superior,F2_Impulsividade,17,> 5 e < 10,Inferior
+Ensino Superior,F2_Impulsividade,18,> 5 e < 10,Inferior
+Ensino Superior,F2_Impulsividade,19,10,Inferior
+Ensino Superior,F2_Impulsividade,20,> 10 e < 15,Inferior
+Ensino Superior,F2_Impulsividade,21,15,Inferior
+Ensino Superior,F2_Impulsividade,22,> 15 e < 20,Inferior
+Ensino Superior,F2_Impulsividade,23,> 15 e < 20,Inferior
+Ensino Superior,F2_Impulsividade,24,20,Inferior
+Ensino Superior,F2_Impulsividade,25,> 20 < 25,Inferior
+Ensino Superior,F2_Impulsividade,26,25,Média Inferior
+Ensino Superior,F2_Impulsividade,27,> 25 e < 30,Média Inferior
+Ensino Superior,F2_Impulsividade,28,30,Média Inferior
+Ensino Superior,F2_Impulsividade,29,35,Média Inferior
+Ensino Superior,F2_Impulsividade,30,> 35 e < 40,Média Inferior
+Ensino Superior,F2_Impulsividade,31,40,Média Inferior
+Ensino Superior,F2_Impulsividade,32,> 40 e < 45,Média Inferior
+Ensino Superior,F2_Impulsividade,33,45,Média
+Ensino Superior,F2_Impulsividade,34,> 45 e < 50,Média
+Ensino Superior,F2_Impulsividade,35,50,Média
+Ensino Superior,F2_Impulsividade,36,> 50 e < 55,Média
+Ensino Superior,F2_Impulsividade,37,55,Média
+Ensino Superior,F2_Impulsividade,38,> 55 e < 60,Média
+Ensino Superior,F2_Impulsividade,39,60,Média
+Ensino Superior,F2_Impulsividade,40,> 60 e < 65,Média
+Ensino Superior,F2_Impulsividade,41,65,Média Superior
+Ensino Superior,F2_Impulsividade,42,> 65 e < 70,Média Superior
+Ensino Superior,F2_Impulsividade,43,70,Média Superior
+Ensino Superior,F2_Impulsividade,44,> 70 e < 75,Média Superior
+Ensino Superior,F2_Impulsividade,45,> 70 e < 75,Média Superior
+Ensino Superior,F2_Impulsividade,46,75,Média Superior
+Ensino Superior,F2_Impulsividade,47,> 75 e <80,Média Superior
+Ensino Superior,F2_Impulsividade,48,80,Média Superior
+Ensino Superior,F2_Impulsividade,49,> 80 e < 85,Média Superior
+Ensino Superior,F2_Impulsividade,50,> 80 e < 85,Média Superior
+Ensino Superior,F2_Impulsividade,51,> 80 e < 85,Média Superior
+Ensino Superior,F2_Impulsividade,52,85,Superior
+Ensino Superior,F2_Impulsividade,53,> 85 e < 90,Superior
+Ensino Superior,F2_Impulsividade,54,> 85 e < 90,Superior
+Ensino Superior,F2_Impulsividade,55,> 85 e < 90,Superior
+Ensino Superior,F2_Impulsividade,56,90,Superior
+Ensino Superior,F2_Impulsividade,57,> 90 e < 95,Superior
+Ensino Superior,F2_Impulsividade,58,> 90 e < 95,Superior
+Ensino Superior,F2_Impulsividade,59,> 90 e < 95,Superior
+Ensino Superior,F2_Impulsividade,60,95,Superior
+Ensino Superior,F2_Impulsividade,61,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,62,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,63,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,64,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,65,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,66,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,67,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,68,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,69,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,70,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,71,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,72,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,73,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,74,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,75,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,76,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,77,> 95 e < 99,Superior
+Ensino Superior,F2_Impulsividade,78,99,Superior
+Ensino Superior,F2_Impulsividade,79,> 99,Superior
+Ensino Superior,F2_Impulsividade,80,> 99,Superior
+Ensino Superior,F2_Impulsividade,81,> 99,Superior
+Ensino Superior,F2_Impulsividade,82,> 99,Superior
+Ensino Superior,F2_Impulsividade,83,> 99,Superior
+Ensino Superior,F2_Impulsividade,84,> 99,Superior
+Ensino Superior,F2_Impulsividade,85,> 99,Superior
+Ensino Superior,F2_Impulsividade,86,> 99,Superior
+Ensino Superior,F2_Impulsividade,87,> 99,Superior
+Ensino Superior,F2_Impulsividade,88,> 99,Superior
+Ensino Superior,F2_Impulsividade,89,> 99,Superior
+Ensino Superior,F2_Impulsividade,90,> 99,Superior
+Ensino Superior,F2_Impulsividade,91,> 99,Superior
+Ensino Superior,F2_Impulsividade,92,> 99,Superior
+Ensino Superior,F2_Impulsividade,93,> 99,Superior
+Ensino Superior,F2_Impulsividade,94,> 99,Superior
+Ensino Superior,F2_Impulsividade,95,> 99,Superior
+Ensino Superior,F2_Impulsividade,96,> 99,Superior
+Ensino Superior,F2_Impulsividade,97,> 99,Superior
+Ensino Superior,F2_Impulsividade,98,> 99,Superior
+Ensino Superior,F2_Impulsividade,99,> 99,Superior
+Ensino Superior,F2_Impulsividade,100,> 99,Superior
+Ensino Superior,F2_Impulsividade,101,> 99,Superior
+Ensino Superior,F2_Impulsividade,102,> 99,Superior
+Ensino Superior,F2_Impulsividade,103,> 99,Superior
+Ensino Superior,F2_Impulsividade,104,> 99,Superior
+Ensino Superior,F2_Impulsividade,105,> 99,Superior
+Ensino Superior,F2_Impulsividade,106,> 99,Superior
+Ensino Superior,F2_Impulsividade,107,> 99,Superior
+Ensino Superior,F2_Impulsividade,108,> 99,Superior
+Ensino Superior,F2_Impulsividade,109,> 99,Superior
+Ensino Superior,F2_Impulsividade,110,> 99,Superior
+Ensino Superior,F2_Impulsividade,111,> 99,Superior
+Ensino Superior,F2_Impulsividade,112,> 99,Superior
+Ensino Superior,F2_Impulsividade,113,> 99,Superior
+Ensino Superior,F2_Impulsividade,114,> 99,Superior
+Ensino Superior,F2_Impulsividade,115,> 99,Superior
+Ensino Superior,F3_AspectosEmocionais,0,< 1,Inferior
+Ensino Superior,F3_AspectosEmocionais,1,< 1,Inferior
+Ensino Superior,F3_AspectosEmocionais,2,10,Inferior
+Ensino Superior,F3_AspectosEmocionais,3,25,Média Inferior
+Ensino Superior,F3_AspectosEmocionais,4,30,Média Inferior
+Ensino Superior,F3_AspectosEmocionais,5,45,Média
+Ensino Superior,F3_AspectosEmocionais,6,55,Média
+Ensino Superior,F3_AspectosEmocionais,7,70,Média Superior
+Ensino Superior,F3_AspectosEmocionais,8,75,Média Superior
+Ensino Superior,F3_AspectosEmocionais,9,85,Superior
+Ensino Superior,F3_AspectosEmocionais,10,> 85 e < 90,Superior
+Ensino Superior,F3_AspectosEmocionais,11,90,Superior
+Ensino Superior,F3_AspectosEmocionais,12,> 90 e < 95,Superior
+Ensino Superior,F3_AspectosEmocionais,13,95,Superior
+Ensino Superior,F3_AspectosEmocionais,14,> 95 e < 99,Superior
+Ensino Superior,F3_AspectosEmocionais,15,> 95 e < 99,Superior
+Ensino Superior,F3_AspectosEmocionais,16,> 95 e < 99,Superior
+Ensino Superior,F3_AspectosEmocionais,17,99,Superior
+Ensino Superior,F3_AspectosEmocionais,18,> 99,Superior
+Ensino Superior,F3_AspectosEmocionais,19,> 99,Superior
+Ensino Superior,F3_AspectosEmocionais,20,> 99,Superior
+Ensino Superior,F4_AAMA,0,< 1,Inferior
+Ensino Superior,F4_AAMA,1,< 1,Inferior
+Ensino Superior,F4_AAMA,2,< 1,Inferior
+Ensino Superior,F4_AAMA,3,< 1,Inferior
+Ensino Superior,F4_AAMA,4,1,Inferior
+Ensino Superior,F4_AAMA,5,> 1 e < 5,Inferior
+Ensino Superior,F4_AAMA,6,> 1 e < 5,Inferior
+Ensino Superior,F4_AAMA,7,> 1 e < 5,Inferior
+Ensino Superior,F4_AAMA,8,5,Inferior
+Ensino Superior,F4_AAMA,9,> 5 e < 10,Inferior
+Ensino Superior,F4_AAMA,10,> 5 e < 10,Inferior
+Ensino Superior,F4_AAMA,11,10,Inferior
+Ensino Superior,F4_AAMA,12,15,Inferior
+Ensino Superior,F4_AAMA,13,> 15 e < 20,Inferior
+Ensino Superior,F4_AAMA,14,20,Inferior
+Ensino Superior,F4_AAMA,15,30,Média Inferior
+Ensino Superior,F4_AAMA,16,35,Média Inferior
+Ensino Superior,F4_AAMA,17,45,Média
+Ensino Superior,F4_AAMA,18,50,Média
+Ensino Superior,F4_AAMA,19,55,Média
+Ensino Superior,F4_AAMA,20,60,Média
+Ensino Superior,F4_AAMA,21,65,Média Superior
+Ensino Superior,F4_AAMA,22,70,Média Superior
+Ensino Superior,F4_AAMA,23,75,Média Superior
+Ensino Superior,F4_AAMA,24,80,Média Superior
+Ensino Superior,F4_AAMA,25,> 80 e < 85,Média Superior
+Ensino Superior,F4_AAMA,26,85,Superior
+Ensino Superior,F4_AAMA,27,90,Superior
+Ensino Superior,F4_AAMA,28,> 90 e < 95,Superior
+Ensino Superior,F4_AAMA,29,> 90 e < 95,Superior
+Ensino Superior,F4_AAMA,30,> 90 e < 95,Superior
+Ensino Superior,F4_AAMA,31,95,Superior
+Ensino Superior,F4_AAMA,32,> 95 e < 99,Superior
+Ensino Superior,F4_AAMA,33,> 95 e < 99,Superior
+Ensino Superior,F4_AAMA,34,> 95 e < 99,Superior
+Ensino Superior,F4_AAMA,35,> 95 e < 99,Superior
+Ensino Superior,F4_AAMA,36,> 95 e < 99,Superior
+Ensino Superior,F4_AAMA,37,99,Superior
+Ensino Superior,F4_AAMA,38,> 99,Superior
+Ensino Superior,F4_AAMA,39,> 99,Superior
+Ensino Superior,F4_AAMA,40,> 99,Superior
+Ensino Superior,F4_AAMA,41,> 99,Superior
+Ensino Superior,F4_AAMA,42,> 99,Superior
+Ensino Superior,F4_AAMA,43,> 99,Superior
+Ensino Superior,F4_AAMA,44,> 99,Superior
+Ensino Superior,F4_AAMA,45,> 99,Superior
+Ensino Superior,F4_AAMA,46,> 99,Superior
+Ensino Superior,F4_AAMA,47,> 99,Superior
+Ensino Superior,F4_AAMA,48,> 99,Superior
+Ensino Superior,F4_AAMA,49,> 99,Superior
+Ensino Superior,F4_AAMA,50,> 99,Superior
+Ensino Superior,F4_AAMA,51,> 99,Superior
+Ensino Superior,F4_AAMA,52,> 99,Superior
+Ensino Superior,F4_AAMA,53,> 99,Superior
+Ensino Superior,F4_AAMA,54,> 99,Superior
+Ensino Superior,F4_AAMA,55,> 99,Superior
+Ensino Superior,F4_AAMA,56,> 99,Superior
+Ensino Superior,F4_AAMA,57,> 99,Superior
+Ensino Superior,F4_AAMA,58,> 99,Superior
+Ensino Superior,F4_AAMA,59,> 99,Superior
+Ensino Superior,F4_AAMA,60,> 99,Superior
+Ensino Superior,F5_Hiperatividade,0,< 1,Inferior
+Ensino Superior,F5_Hiperatividade,1,< 1,Inferior
+Ensino Superior,F5_Hiperatividade,2,< 1,Inferior
+Ensino Superior,F5_Hiperatividade,3,< 1,Inferior
+Ensino Superior,F5_Hiperatividade,4,1,Inferior
+Ensino Superior,F5_Hiperatividade,5,> 1 e < 5,Inferior
+Ensino Superior,F5_Hiperatividade,6,5,Inferior
+Ensino Superior,F5_Hiperatividade,7,10,Inferior
+Ensino Superior,F5_Hiperatividade,8,> 10 e < 15,Inferior
+Ensino Superior,F5_Hiperatividade,9,15,Inferior
+Ensino Superior,F5_Hiperatividade,10,25,Média Inferior
+Ensino Superior,F5_Hiperatividade,11,30,Média Inferior
+Ensino Superior,F5_Hiperatividade,12,40,Média Inferior
+Ensino Superior,F5_Hiperatividade,13,50,Média
+Ensino Superior,F5_Hiperatividade,14,60,Média
+Ensino Superior,F5_Hiperatividade,15,65,Média Superior
+Ensino Superior,F5_Hiperatividade,16,70,Média Superior
+Ensino Superior,F5_Hiperatividade,17,75,Média Superior
+Ensino Superior,F5_Hiperatividade,18,80,Média Superior
+Ensino Superior,F5_Hiperatividade,19,85,Superior
+Ensino Superior,F5_Hiperatividade,20,> 85 e < 90,Superior
+Ensino Superior,F5_Hiperatividade,21,90,Superior
+Ensino Superior,F5_Hiperatividade,22,> 90 e < 95,Superior
+Ensino Superior,F5_Hiperatividade,23,95,Superior
+Ensino Superior,F5_Hiperatividade,24,> 95 e < 99,Superior
+Ensino Superior,F5_Hiperatividade,25,> 95 e < 99,Superior
+Ensino Superior,F5_Hiperatividade,26,> 95 e < 99,Superior
+Ensino Superior,F5_Hiperatividade,27,> 95 e < 99,Superior
+Ensino Superior,F5_Hiperatividade,28,> 95 e < 99,Superior
+Ensino Superior,F5_Hiperatividade,29,99,Superior
+Ensino Superior,F5_Hiperatividade,30,> 99,Superior
+Ensino Superior,F5_Hiperatividade,31,> 99,Superior
+Ensino Superior,F5_Hiperatividade,32,> 99,Superior
+Ensino Superior,F5_Hiperatividade,33,> 99,Superior
+Ensino Superior,F5_Hiperatividade,34,> 99,Superior
+Ensino Superior,F5_Hiperatividade,35,> 99,Superior

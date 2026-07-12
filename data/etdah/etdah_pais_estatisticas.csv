@@ -1,0 +1,46 @@
+tabela,fator,media,desv_pad
+Amostra Geral,EscoreGeral,159,47.58
+Amostra Geral,F1_RegulacaoEmocional,45.7,18.26
+Amostra Geral,F2_HiperatividadeImpulsividade,35.7,15.2
+Amostra Geral,F3_ComportamentoAdaptativo,48.3,14.14
+Amostra Geral,F4_Atencao,30.6,12.64
+Feminino 2-5 anos,EscoreGeral,162.4,44.21
+Feminino 2-5 anos,F1_RegulacaoEmocional,46.2,13.64
+Feminino 2-5 anos,F2_HiperatividadeImpulsividade,39.3,18.41
+Feminino 2-5 anos,F3_ComportamentoAdaptativo,48.2,15.92
+Feminino 2-5 anos,F4_Atencao,27.1,12.22
+Feminino 6-9 anos,EscoreGeral,155.7,39.74
+Feminino 6-9 anos,F1_RegulacaoEmocional,46,14.3
+Feminino 6-9 anos,F2_HiperatividadeImpulsividade,34.11,12.45
+Feminino 6-9 anos,F3_ComportamentoAdaptativo,46.6,15.15
+Feminino 6-9 anos,F4_Atencao,27.5,7.23
+Feminino 10-13 anos,EscoreGeral,146,43.83
+Feminino 10-13 anos,F1_RegulacaoEmocional,44,16.99
+Feminino 10-13 anos,F2_HiperatividadeImpulsividade,28.37725,10.95
+Feminino 10-13 anos,F3_ComportamentoAdaptativo,43.9525,14.55
+Feminino 10-13 anos,F4_Atencao,28.635,13.26
+Feminino 14-17 anos,EscoreGeral,116.3,28.45
+Feminino 14-17 anos,F1_RegulacaoEmocional,33.03947,6.13
+Feminino 14-17 anos,F2_HiperatividadeImpulsividade,24.88421,6.95
+Feminino 14-17 anos,F3_ComportamentoAdaptativo,35.10263,10.93
+Feminino 14-17 anos,F4_Atencao,22.05789,8.42
+Masculino 2-5 anos,EscoreGeral,160.3,25.61
+Masculino 2-5 anos,F1_RegulacaoEmocional,42.2,8.83
+Masculino 2-5 anos,F2_HiperatividadeImpulsividade,37.9,11.84
+Masculino 2-5 anos,F3_ComportamentoAdaptativo,52.2,8.63
+Masculino 2-5 anos,F4_Atencao,27.5,6.21
+Masculino 6-9 anos,EscoreGeral,160.6,42.48
+Masculino 6-9 anos,F1_RegulacaoEmocional,43.7,16.67
+Masculino 6-9 anos,F2_HiperatividadeImpulsividade,35.7,12.23
+Masculino 6-9 anos,F3_ComportamentoAdaptativo,49.3,11.11
+Masculino 6-9 anos,F4_Atencao,31.4,10.97
+Masculino 10-13 anos,EscoreGeral,171.1,45.13
+Masculino 10-13 anos,F1_RegulacaoEmocional,45.5,17.49
+Masculino 10-13 anos,F2_HiperatividadeImpulsividade,38,14
+Masculino 10-13 anos,F3_ComportamentoAdaptativo,51.5,11.05
+Masculino 10-13 anos,F4_Atencao,33.9,12.28
+Masculino 14-17 anos,EscoreGeral,142.8,39.03
+Masculino 14-17 anos,F1_RegulacaoEmocional,40.7,21.08
+Masculino 14-17 anos,F2_HiperatividadeImpulsividade,29.7,8.57
+Masculino 14-17 anos,F3_ComportamentoAdaptativo,44.6,12.61
+Masculino 14-17 anos,F4_Atencao,27.2,8.8

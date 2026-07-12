@@ -1,0 +1,7311 @@
+{
+  "instrumento": "E-TDAH (AD) - Escala de Transtorno de Déficit de Atenção/Hiperatividade - Adultos",
+  "autora": "Edyleine Bellini Peroni Benczik",
+  "faixa_etaria": "12 a 87 anos",
+  "fonte": "Planilha PULPO_NEURO_MODELO_V1 - abas ETDAH-AD e ETDAH-AD-Normas",
+  "escala_resposta": "0 a 5 (Nunca=0 ... Sempre=5)",
+  "amostras_normativas": [
+    "Amostra Geral",
+    "Ensino Fundamental",
+    "Ensino Medio",
+    "Ensino Superior"
+  ],
+  "fatores": {
+    "F1_Desatencao": "Fator 1 - Desatenção (D)",
+    "F2_Impulsividade": "Fator 2 - Impulsividade (I)",
+    "F3_AspectosEmocionais": "Fator 3 - Aspectos Emocionais (AE)",
+    "F4_AAMA": "Fator 4 - Autorregulação da Atenção, Motivação e Ação (AMAA)",
+    "F5_Hiperatividade": "Fator 5 - Hiperatividade (H)"
+  },
+  "composicao_itens": {
+    "F1_Desatencao": [
+      6,
+      19,
+      20,
+      22,
+      23,
+      24,
+      28,
+      30,
+      32,
+      33,
+      34,
+      36,
+      37,
+      44,
+      49,
+      50,
+      51,
+      54,
+      56,
+      57,
+      64,
+      67,
+      69
+    ],
+    "F2_Impulsividade": [
+      9,
+      11,
+      12,
+      15,
+      18,
+      25,
+      26,
+      38,
+      39,
+      40,
+      41,
+      45,
+      46,
+      47,
+      48,
+      52,
+      53,
+      60,
+      61,
+      62,
+      63,
+      66,
+      68
+    ],
+    "F3_AspectosEmocionais": [
+      4,
+      7,
+      21,
+      55
+    ],
+    "F4_AAMA": [
+      1,
+      5,
+      8,
+      10,
+      14,
+      16,
+      27,
+      29,
+      42,
+      58,
+      59,
+      65
+    ],
+    "F5_Hiperatividade": [
+      2,
+      3,
+      13,
+      17,
+      31,
+      35,
+      43
+    ]
+  },
+  "itens_invertidos": {
+    "lista": [
+      1,
+      5,
+      8,
+      10,
+      14,
+      16,
+      27,
+      29,
+      42,
+      58,
+      59,
+      65
+    ],
+    "regra": "0=5, 1=4, 2=3, 3=2, 4=1, 5=0 (aplicada aos itens do Fator 4 - AMAA)"
+  },
+  "classificacao_percentil_manual": [
+    {
+      "percentil_min": 85,
+      "classificacao": "Superior"
+    },
+    {
+      "percentil_min": 65,
+      "classificacao": "Média Superior"
+    },
+    {
+      "percentil_min": 45,
+      "classificacao": "Média"
+    },
+    {
+      "percentil_min": 25,
+      "classificacao": "Média Inferior"
+    },
+    {
+      "percentil_min": 0,
+      "classificacao": "Inferior"
+    }
+  ],
+  "classificacao_zscore_guilmette": [
+    {
+      "z_min": 2.0,
+      "classificacao": "Muito Superior"
+    },
+    {
+      "z_min": 1.333,
+      "classificacao": "Superior"
+    },
+    {
+      "z_min": 0.667,
+      "classificacao": "Média Superior"
+    },
+    {
+      "z_min": -0.666,
+      "classificacao": "Média"
+    },
+    {
+      "z_min": -1.333,
+      "classificacao": "Média Inferior"
+    },
+    {
+      "z_min": -2.0,
+      "classificacao": "Limítrofe"
+    },
+    {
+      "z_min": null,
+      "classificacao": "Deficitário (z < -2)"
+    }
+  ],
+  "formula_zscore": "z = (escore_bruto - media) / desv_pad ; ponto_ponderado = z*3 + 10 ; percentil = NORM.S.DIST(z)*100",
+  "estatisticas": {
+    "Amostra Geral": {
+      "F1_Desatencao": {
+        "media": 36.5,
+        "desv_pad": 16.06
+      },
+      "F2_Impulsividade": {
+        "media": 39.25,
+        "desv_pad": 16.24
+      },
+      "F3_AspectosEmocionais": {
+        "media": 6.14,
+        "desv_pad": 3.66
+      },
+      "F4_AAMA": {
+        "media": 19.13,
+        "desv_pad": 7.39
+      },
+      "F5_Hiperatividade": {
+        "media": 14.11,
+        "desv_pad": 5.32
+      }
+    },
+    "Ensino Fundamental": {
+      "F1_Desatencao": {
+        "media": 42.3,
+        "desv_pad": 17.39
+      },
+      "F2_Impulsividade": {
+        "media": 44.3,
+        "desv_pad": 18.98
+      },
+      "F3_AspectosEmocionais": {
+        "media": 5.77,
+        "desv_pad": 3.88
+      },
+      "F4_AAMA": {
+        "media": 21.21,
+        "desv_pad": 8.05
+      },
+      "F5_Hiperatividade": {
+        "media": 14.35,
+        "desv_pad": 5.51
+      }
+    },
+    "Ensino Medio": {
+      "F1_Desatencao": {
+        "media": 36.19,
+        "desv_pad": 16.04
+      },
+      "F2_Impulsividade": {
+        "media": 40.16,
+        "desv_pad": 16.67
+      },
+      "F3_AspectosEmocionais": {
+        "media": 6.15,
+        "desv_pad": 3.65
+      },
+      "F4_AAMA": {
+        "media": 18.68,
+        "desv_pad": 7.63
+      },
+      "F5_Hiperatividade": {
+        "media": 14.19,
+        "desv_pad": 5.26
+      }
+    },
+    "Ensino Superior": {
+      "F1_Desatencao": {
+        "media": 34.35,
+        "desv_pad": 14.53
+      },
+      "F2_Impulsividade": {
+        "media": 36.34,
+        "desv_pad": 14.04
+      },
+      "F3_AspectosEmocionais": {
+        "media": 6.17,
+        "desv_pad": 3.49
+      },
+      "F4_AAMA": {
+        "media": 18.76,
+        "desv_pad": 6.65
+      },
+      "F5_Hiperatividade": {
+        "media": 13.84,
+        "desv_pad": 5.2
+      }
+    }
+  },
+  "normas_percentil": {
+    "Amostra Geral": {
+      "F1_Desatencao": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "> 25 e < 30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "> 30 e < 25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 35 e < 40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 40 e < 45",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 45 e < 50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "> 50 e < 55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "> 60 e < 65",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "> 65 e < 70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 61,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 62,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 63,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 64,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 65,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 66,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 67,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 68,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 69,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 70,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 71,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 72,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 73,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 74,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 75,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 76,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 77,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 78,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 79,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 80,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 81,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 82,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 83,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 84,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 85,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 86,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 87,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 88,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 89,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 90,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 91,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 92,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 93,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 94,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 95,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 96,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 97,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 98,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 99,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 100,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 101,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 102,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 103,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 104,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 105,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 106,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 107,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 108,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 109,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 110,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 111,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 112,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 113,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 114,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 115,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F2_Impulsividade": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 30 e < 25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "> 30 e < 25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "> 35 e < 40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 40 e < 45",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "> 45 e < 50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "> 50 e < 55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "> 60 e < 65",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "> 65 e < 70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "> 65 e < 70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 61,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 62,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 63,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 64,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 65,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 66,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 67,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 68,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 69,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 70,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 71,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 72,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 73,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 74,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 75,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 76,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 77,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 78,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 79,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 80,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 81,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 82,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 83,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 84,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 85,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 86,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 87,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 88,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 89,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 90,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 91,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 92,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 93,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 94,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 95,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 96,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 97,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 98,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 99,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 100,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 101,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 102,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 103,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 104,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 105,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 106,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 107,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 108,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 109,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 110,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 111,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 112,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 113,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 114,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 115,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F3_AspectosEmocionais": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F4_AAMA": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F5_Hiperatividade": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ]
+    },
+    "Ensino Fundamental": {
+      "F1_Desatencao": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "> 25 e < 30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "> 30 e < 25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 35 e < 40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "> 35 e < 40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "> 40 e < 45",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "> 45 e < 50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "> 45 e < 50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "> 60 e < 65",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "> 65 e < 70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 61,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 62,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 63,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 64,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 65,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 66,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 67,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 68,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 69,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 70,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 71,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 72,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 73,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 74,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 75,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 76,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 77,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 78,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 79,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 80,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 81,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 82,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 83,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 84,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 85,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 86,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 87,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 88,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 89,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 90,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 91,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 92,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 93,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 94,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 95,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 96,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 97,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 98,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 99,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 100,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 101,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 102,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 103,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 104,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 105,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 106,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 107,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 108,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 109,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 110,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 111,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 112,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 113,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 114,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 115,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F2_Impulsividade": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 25 e < 30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 30 e < 25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "> 35 e < 40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "> 40 e < 45",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "> 45 e < 50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "> 45 e < 50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "> 50 e < 55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 60 e < 65",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 61,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 62,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 63,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 64,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 65,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 66,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 67,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 68,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 69,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 70,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 71,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 72,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 73,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 74,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 75,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 76,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 77,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 78,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 79,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 80,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 81,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 82,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 83,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 84,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 85,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 86,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 87,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 88,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 89,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 90,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 91,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 92,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 93,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 94,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 95,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 96,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 97,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 98,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 99,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 100,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 101,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 102,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 103,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 104,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 105,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 106,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 107,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 108,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 109,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 110,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 111,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 112,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 113,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 114,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 115,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F3_AspectosEmocionais": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F4_AAMA": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F5_Hiperatividade": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        }
+      ]
+    },
+    "Ensino Medio": {
+      "F1_Desatencao": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "> 25 e < 30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "> 30 e < 25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 35 e < 40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 40 e < 45",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 45 e < 50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "> 50 e < 55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "> 65 e < 70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 61,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 62,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 63,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 64,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 65,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 66,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 67,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 68,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 69,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 70,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 71,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 72,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 73,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 74,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 75,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 76,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 77,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 78,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 79,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 80,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 81,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 82,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 83,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 84,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 85,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 86,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 87,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 88,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 89,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 90,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 91,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 92,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 93,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 94,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 95,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 96,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 97,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 98,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 99,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 100,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 101,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 102,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 103,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 104,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 105,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 106,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 107,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 108,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 109,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 110,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 111,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 112,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 113,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 114,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 115,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F2_Impulsividade": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "> 25 e < 30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "> 30 e < 25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 30 e < 25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 35 e < 40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 35 e < 40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "> 45 e < 50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "> 60 e < 65",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "> 60 e < 65",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "> 65 e < 70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "> 65 e < 70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 61,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 62,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 63,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 64,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 65,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 66,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 67,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 68,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 69,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 70,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 71,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 72,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 73,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 74,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 75,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 76,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 77,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 78,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 79,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 80,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 81,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 82,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 83,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 84,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 85,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 86,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 87,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 88,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 89,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 90,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 91,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 92,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 93,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 94,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 95,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 96,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 97,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 98,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 99,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 100,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 101,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 102,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 103,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 104,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 105,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 106,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 107,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 108,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 109,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 110,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 111,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 112,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 113,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 114,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 115,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F3_AspectosEmocionais": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F4_AAMA": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "> 65 e < 70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F5_Hiperatividade": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ]
+    },
+    "Ensino Superior": {
+      "F1_Desatencao": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "> 25 e < 30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 30 e < 25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 40 e < 45",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 45 e < 50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 50 e < 55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "> 60 e < 65",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "> 65 e < 70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 61,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 62,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 63,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 64,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 65,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 66,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 67,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 68,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 69,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 70,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 71,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 72,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 73,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 74,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 75,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 76,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 77,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 78,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 79,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 80,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 81,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 82,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 83,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 84,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 85,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 86,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 87,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 88,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 89,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 90,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 91,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 92,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 93,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 94,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 95,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 96,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 97,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 98,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 99,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 100,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 101,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 102,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 103,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 104,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 105,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 106,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 107,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 108,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 109,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 110,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 111,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 112,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 113,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 114,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 115,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F2_Impulsividade": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "> 20 < 25",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 25 e < 30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 35 e < 40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 40 e < 45",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 45 e < 50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "> 50 e < 55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "> 55 e < 60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "> 60 e < 65",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "> 65 e < 70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "> 70 e < 75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "> 75 e <80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 61,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 62,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 63,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 64,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 65,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 66,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 67,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 68,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 69,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 70,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 71,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 72,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 73,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 74,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 75,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 76,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 77,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 78,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 79,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 80,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 81,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 82,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 83,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 84,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 85,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 86,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 87,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 88,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 89,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 90,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 91,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 92,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 93,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 94,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 95,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 96,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 97,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 98,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 99,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 100,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 101,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 102,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 103,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 104,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 105,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 106,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 107,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 108,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 109,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 110,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 111,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 112,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 113,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 114,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 115,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F3_AspectosEmocionais": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F4_AAMA": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "> 5 e < 10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "> 15 e < 20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "20",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "35",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "45",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "55",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "> 80 e < 85",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 36,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 37,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 38,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 39,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 40,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 41,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 42,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 43,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 44,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 45,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 46,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 47,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 48,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 49,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 50,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 51,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 52,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 53,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 54,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 55,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 56,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 57,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 58,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 59,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 60,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ],
+      "F5_Hiperatividade": [
+        {
+          "escore_bruto": 0,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 1,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 2,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 3,
+          "percentil": "< 1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 4,
+          "percentil": "1",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 5,
+          "percentil": "> 1 e < 5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 6,
+          "percentil": "5",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 7,
+          "percentil": "10",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 8,
+          "percentil": "> 10 e < 15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 9,
+          "percentil": "15",
+          "classificacao": "Inferior"
+        },
+        {
+          "escore_bruto": 10,
+          "percentil": "25",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 11,
+          "percentil": "30",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 12,
+          "percentil": "40",
+          "classificacao": "Média Inferior"
+        },
+        {
+          "escore_bruto": 13,
+          "percentil": "50",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 14,
+          "percentil": "60",
+          "classificacao": "Média"
+        },
+        {
+          "escore_bruto": 15,
+          "percentil": "65",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 16,
+          "percentil": "70",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 17,
+          "percentil": "75",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 18,
+          "percentil": "80",
+          "classificacao": "Média Superior"
+        },
+        {
+          "escore_bruto": 19,
+          "percentil": "85",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 20,
+          "percentil": "> 85 e < 90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 21,
+          "percentil": "90",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 22,
+          "percentil": "> 90 e < 95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 23,
+          "percentil": "95",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 24,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 25,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 26,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 27,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 28,
+          "percentil": "> 95 e < 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 29,
+          "percentil": "99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 30,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 31,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 32,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 33,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 34,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        },
+        {
+          "escore_bruto": 35,
+          "percentil": "> 99",
+          "classificacao": "Superior"
+        }
+      ]
+    }
+  }
+}
