@@ -1,0 +1,202 @@
+(function (root, factory) {
+  if (typeof module === 'object' && module.exports) {
+    module.exports = factory();
+  } else {
+    root.SONR = factory();
+  }
+})(typeof self !== 'undefined' ? self : this, function () {
+  'use strict';
+
+  // ---------------------------------------------------------------------
+  // DADOS: SON-R 2 1/2-7[a] - Teste Nao-verbal de Inteligencia.
+  // Extraido do manual (Hogrefe CETEPP, 2a ed. 2016). Ver DADOS.estado_de_verificacao
+  // para o status de validacao de cada parte antes de uso clinico.
+  // Gerado automaticamente -- nao editar manualmente.
+  // ---------------------------------------------------------------------
+  var DADOS = {"instrumento": "SON-R 2½-7[a] - Teste Não-verbal de Inteligência (versão reduzida)", "autores": "P.J. Tellegen, J.A. Laros, G.R. de Jesus, C.A. Karino (adaptação e normatização brasileira)", "editora": "Hogrefe CETEPP, 2ª edição, 2016", "faixa_etaria": "2 anos e 6 meses a 7 anos e 11 meses", "aplicacao": "Individual, com materiais físicos (blocos, cartões, formulário de desenho). Este motor cobre apenas a etapa de CORREÇÃO (bruto -> normatizado -> EE/ER/QI -> classificação); a aplicação em si (decidir se um item foi acertado, quando interromper, etc.) continua sendo feita pelo psicólogo seguindo o manual.", "subtestes": {"Mos": {"nome": "Mosaicos", "escala": "Execução (SON-EE)", "itens_total": 15, "tarefa": "Reproduzir modelos com quadrados coloridos numa moldura."}, "Cat": {"nome": "Categorias", "escala": "Raciocínio (SON-ER)", "itens_total": 15, "tarefa": "Classificar cartões conforme a categoria a que pertencem."}, "Sit": {"nome": "Situações", "escala": "Raciocínio (SON-ER)", "itens_total": 14, "tarefa": "Escolher, entre alternativas, a peça que completa a situação-problema."}, "Pad": {"nome": "Padrões", "escala": "Execução (SON-EE)", "itens_total": 16, "tarefa": "Copiar desenhos formados por pontos conectados por linhas."}}, "regras_pontuacao": {"valores_item": {"+": "Item pulado pelo procedimento adaptativo de entrada (idade/série) — conta como correto (1).", "1": "Item correto (respondido de forma independente, dentro do tempo-limite quando aplicável).", "0": "Item incorreto (não resolvido, resolvido com ajuda, ou fora do tempo-limite).", "-": "Item recusado — conta como incorreto (0) no escore, mas 2 recusas consecutivas interrompem e invalidam o subteste inteiro para fins de SON-QI."}, "formula_escore_bruto": "escore_bruto = número do ÚLTIMO item aplicado − quantidade de itens incorretos (0) − quantidade de itens recusados (-). Itens pulados no início pelo procedimento adaptativo (+) contam como corretos e não entram na subtração. EXCEÇÃO: quando a criança precisa voltar a itens anteriores (por errar os itens iniciais do ponto de entrada 3 ou 5) e comete mais de 3 erros no subteste, o escore é calculado a partir do item em que o critério de interrupção foi atingido como último item aplicado (não o item mais alto tentado). Ver manual, Capítulo 7, \"Uma situação especial: começar e voltar para itens anteriores\", para os casos completos.", "procedimento_entrada": {"item_1": "Crianças de 2 ou 3 anos, ou quando se suspeita de atraso cognitivo relevante.", "item_3": "Crianças de 4 ou 5 anos (ou 6-7 anos defasados no ensino fundamental).", "item_5": "Crianças de 6 ou 7 anos."}, "regras_interrupcao": {"regra_A": "O subteste é interrompido ao atingir 3 respostas incorretas no total (não precisam ser consecutivas).", "regra_B": "(Somente Mosaicos e Padrões, Parte II) interrompido também com 2 erros CONSECUTIVOS na Parte II.", "regra_C": "Interrompido quando a criança recusa 2 itens consecutivos — nesse caso o subteste NÃO é pontuado e não pode ser usado para o SON-QI."}}, "normas_subtestes": {"2;6": {"Mos": [6, 9, 12, 14, 15, 16, 17, 18, 19, 19, 19, 19, 19, 19, 19, 19, null], "Cat": [9, 12, 12, 13, 14, 15, 15, 16, 17, 19, 19, 19, 19, 19, 19, 19, null], "Sit": [7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, null, null], "Pad": [6, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 19, 19, 19, 19, 19, 19]}, "2;7": {"Mos": [5, 9, 12, 14, 15, 16, 17, 18, 19, 19, 19, 19, 19, 19, 19, 19, null], "Cat": [8, 11, 12, 13, 15, 16, 17, 18, 19, 19, 19, 19, 19, 19, 19, 19, null], "Sit": [7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, null, null], "Pad": [6, 8, 9, 10, 11, 13, 14, 15, 16, 18, 19, 19, 19, 19, 19, 19, 19]}, "2;8": {"Mos": [5, 9, 12, 14, 15, 15, 16, 17, 19, 19, 19, 19, 19, 19, 19, 19, null], "Cat": [8, 11, 12, 12, 13, 14, 15, 16, 17, 19, 19, 19, 19, 19, 19, 19, null], "Sit": [6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, null, null], "Pad": [6, 8, 9, 10, 11, 12, 14, 15, 17, 18, 19, 19, 19, 19, 19, 19, 19]}, "2;9": {"Mos": [5, 9, 11, 13, 14, 15, 16, 17, 19, 19, 19, 19, 19, 19, 19, 19, null], "Cat": [8, 11, 11, 12, 13, 14, 15, 16, 19, 19, 19, 19, 19, 19, 19, 19, null], "Sit": [6, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, null, null], "Pad": [6, 8, 9, 9, 11, 12, 13, 15, 16, 18, 19, 19, 19, 19, 19, 19, 19]}, "2;10": {"Mos": [5, 9, 11, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, 19, 19, 19, null], "Cat": [8, 10, 11, 12, 13, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, 19, null], "Sit": [6, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, null, null], "Pad": [5, 7, 8, 9, 10, 12, 13, 14, 16, 17, 18, 19, 19, 19, 19, 19, 19]}, "2;11": {"Mos": [5, 8, 11, 13, 14, 15, 15, 17, 18, 19, 19, 19, 19, 19, 19, 19, null], "Cat": [7, 10, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, 19, null], "Sit": [6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 19, 19, 19, null, null], "Pad": [5, 7, 8, 9, 10, 11, 13, 14, 16, 17, 19, 19, 19, 19, 19, 19, 19]}, "3;0": {"Mos": [4, 8, 11, 12, 13, 14, 15, 16, 18, 19, 19, 19, 19, 19, 19, 19, null], "Cat": [7, 10, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, 19, null], "Sit": [5, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 19, 19, 19, null, null], "Pad": [5, 7, 7, 8, 9, 11, 12, 14, 15, 17, 18, 19, 19, 19, 19, 19, 19]}, "3;1": {"Mos": [4, 8, 10, 12, 13, 14, 15, 16, 17, 19, 19, 19, 19, 19, 19, 19, null], "Cat": [7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19, 19, 19, 19, null], "Sit": [5, 7, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 19, 19, 19, null, null], "Pad": [4, 6, 7, 8, 9, 10, 12, 13, 15, 17, 18, 19, 19, 19, 19, 19, 19]}, "3;2": {"Mos": [4, 8, 10, 12, 13, 14, 15, 16, 17, 19, 19, 19, 19, 19, 19, 19, null], "Cat": [7, 9, 10, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, null], "Sit": [5, 7, 8, 9, 11, 12, 13, 14, 15, 16, 18, 19, 19, 19, 19, null, null], "Pad": [4, 6, 7, 8, 9, 10, 12, 13, 15, 16, 18, 19, 19, 19, 19, 19, 19]}, "3;3": {"Mos": [4, 7, 10, 11, 12, 13, 14, 15, 17, 19, 19, 19, 19, 19, 19, 19, null], "Cat": [7, 9, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, null], "Sit": [5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 18, 19, 19, 19, 19, null, null], "Pad": [4, 6, 6, 7, 8, 10, 11, 13, 14, 16, 17, 19, 19, 19, 19, 19, 19]}, "3;4": {"Mos": [4, 7, 9, 11, 12, 13, 14, 15, 17, 18, 19, 19, 19, 19, 19, 19, null], "Cat": [6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, 19, null], "Sit": [5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 18, 19, 19, 19, 19, null, null], "Pad": [3, 5, 6, 7, 8, 9, 11, 13, 14, 16, 17, 18, 19, 19, 19, 19, 19]}, "3;5": {"Mos": [4, 7, 9, 11, 12, 13, 14, 15, 16, 18, 19, 19, 19, 19, 19, 19, null], "Cat": [6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 19, 19, 19, 19, null], "Sit": [4, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 19, 19, 19, null, null], "Pad": [3, 5, 6, 7, 8, 9, 11, 12, 14, 15, 17, 18, 19, 19, 19, 19, 19]}, "3;6": {"Mos": [3, 7, 9, 10, 11, 12, 13, 15, 16, 18, 19, 19, 19, 19, 19, 19, null], "Cat": [6, 8, 8, 9, 10, 11, 12, 13, 15, 16, 16, 17, 19, 19, 19, 19, null], "Sit": [4, 6, 7, 9, 10, 11, 12, 13, 15, 16, 17, 19, 19, 19, 19, null, null], "Pad": [3, 5, 6, 6, 7, 9, 10, 12, 14, 15, 17, 18, 19, 19, 19, 19, 19]}, "3;7": {"Mos": [3, 7, 9, 10, 11, 12, 13, 14, 16, 18, 19, 19, 19, 19, 19, 19, null], "Cat": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, null], "Sit": [4, 6, 7, 8, 10, 11, 12, 13, 14, 16, 17, 19, 19, 19, 19, null, null], "Pad": [3, 4, 5, 6, 7, 8, 10, 12, 13, 15, 16, 18, 19, 19, 19, 19, 19]}, "3;8": {"Mos": [3, 6, 8, 10, 11, 12, 13, 14, 16, 17, 19, 19, 19, 19, 19, 19, null], "Cat": [5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, null], "Sit": [4, 6, 7, 8, 9, 10, 12, 13, 14, 16, 17, 18, 19, 19, 19, null, null], "Pad": [2, 4, 5, 6, 7, 8, 10, 11, 13, 15, 16, 17, 19, 19, 19, 19, 19]}, "3;9": {"Mos": [3, 6, 8, 9, 10, 11, 12, 14, 15, 17, 19, 19, 19, 19, 19, 19, null], "Cat": [5, 7, 8, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 19, 19, null], "Sit": [4, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19, 19, 19, null, null], "Pad": [2, 4, 5, 5, 6, 8, 9, 11, 13, 14, 16, 17, 18, 19, 19, 19, 19]}, "3;10": {"Mos": [3, 6, 8, 9, 10, 11, 12, 14, 15, 17, 19, 19, 19, 19, 19, 19, null], "Cat": [5, 7, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 19, 19, null], "Sit": [3, 5, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 19, 19, 19, null, null], "Pad": [2, 4, 4, 5, 6, 7, 9, 11, 12, 14, 15, 17, 18, 19, 19, 19, 19]}, "3;11": {"Mos": [3, 6, 8, 9, 10, 11, 12, 13, 15, 17, 19, 19, 19, 19, 19, 19, null], "Cat": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 19, 19, null], "Sit": [3, 5, 6, 8, 9, 10, 11, 12, 14, 15, 16, 18, 19, 19, 19, null, null], "Pad": [2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 17, 18, 19, 19, 19, 19]}, "4;0": {"Mos": [2, 5, 7, 9, 10, 11, 12, 13, 15, 16, 19, 19, 19, 19, 19, 19, null], "Cat": [4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 19, 19, null], "Sit": [3, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 18, 19, 19, 19, null, null], "Pad": [1, 3, 4, 5, 6, 7, 8, 10, 12, 13, 15, 16, 18, 19, 19, 19, 19]}, "4;1": {"Mos": [2, 5, 7, 8, 9, 10, 11, 13, 14, 16, 18, 19, 19, 19, 19, 19, null], "Cat": [4, 6, 7, 7, 8, 9, 11, 12, 13, 14, 15, 16, 18, 19, 19, 19, null], "Sit": [3, 5, 6, 7, 8, 10, 11, 12, 13, 15, 16, 17, 19, 19, 19, null, null], "Pad": [1, 3, 4, 4, 5, 7, 8, 10, 11, 13, 15, 16, 17, 19, 19, 19, 19]}, "4;2": {"Mos": [2, 5, 7, 8, 9, 10, 11, 12, 14, 16, 18, 19, 19, 19, 19, 19, null], "Cat": [4, 6, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 19, null], "Sit": [3, 5, 6, 7, 8, 9, 11, 12, 13, 15, 16, 18, 19, 19, 19, null, null], "Pad": [1, 3, 3, 4, 5, 6, 8, 9, 11, 13, 14, 16, 17, 18, 19, 19, 19]}, "4;3": {"Mos": [2, 5, 7, 8, 9, 10, 11, 12, 14, 16, 18, 19, 19, 19, 19, 19, null], "Cat": [4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 19, null], "Sit": [3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 16, 17, 19, 19, 19, null, null], "Pad": [1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 14, 16, 17, 18, 19, 19, 19]}, "4;4": {"Mos": [2, 5, 6, 8, 8, 9, 11, 12, 14, 16, 18, 19, 19, 19, 19, 19, null], "Cat": [4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 19, 19, null], "Sit": [2, 4, 5, 7, 8, 9, 10, 12, 13, 14, 16, 17, 19, 19, 19, null, null], "Pad": [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 17, 18, 19, 19, 19]}, "4;5": {"Mos": [2, 5, 6, 7, 8, 9, 10, 12, 13, 15, 17, 19, 19, 19, 19, 19, null], "Cat": [3, 5, 6, 6, 7, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 19, null], "Sit": [2, 4, 5, 6, 8, 9, 10, 11, 13, 14, 16, 17, 19, 19, 19, null, null], "Pad": [1, 2, 3, 3, 4, 5, 7, 8, 10, 12, 14, 15, 16, 18, 19, 19, 19]}, "4;6": {"Mos": [2, 4, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 19, 19, 19, 19, null], "Cat": [3, 5, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 18, 19, 19, null], "Sit": [2, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 17, 19, 19, 19, null, null], "Pad": [1, 2, 2, 3, 4, 5, 7, 8, 10, 12, 13, 15, 16, 17, 19, 19, 19]}, "4;7": {"Mos": [2, 4, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 19, 19, 19, 19, null], "Cat": [3, 5, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 19, null], "Sit": [2, 4, 5, 6, 7, 8, 10, 11, 12, 14, 15, 17, 18, 19, 19, null, null], "Pad": [1, 1, 2, 3, 4, 5, 6, 8, 10, 11, 13, 14, 16, 17, 18, 19, 19]}, "4;8": {"Mos": [1, 4, 6, 7, 7, 8, 9, 11, 13, 15, 17, 19, 19, 19, 19, 19, null], "Cat": [3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 19, 19, null], "Sit": [2, 4, 5, 6, 7, 8, 10, 11, 12, 14, 15, 17, 18, 19, 19, null, null], "Pad": [1, 1, 2, 3, 4, 5, 6, 8, 9, 11, 13, 14, 16, 17, 18, 19, 19]}, "4;9": {"Mos": [1, 4, 5, 6, 7, 8, 9, 11, 12, 14, 16, 19, 19, 19, 19, 19, null], "Cat": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 17, 18, 19, 19, null], "Sit": [2, 3, 5, 6, 7, 8, 9, 11, 12, 14, 15, 17, 18, 19, 19, null, null], "Pad": [1, 1, 2, 2, 3, 4, 6, 7, 9, 11, 13, 14, 16, 17, 18, 19, 19]}, "4;10": {"Mos": [1, 4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 18, 19, 19, 19, 19, null], "Cat": [2, 4, 5, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 19, 19, null], "Sit": [1, 3, 4, 6, 7, 8, 9, 11, 12, 13, 15, 16, 18, 19, 19, null, null], "Pad": [1, 1, 1, 2, 3, 4, 6, 7, 9, 11, 12, 14, 15, 16, 18, 19, 19]}, "4;11": {"Mos": [1, 4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 18, 19, 19, 19, 19, null], "Cat": [2, 4, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 16, 17, 19, 19, null], "Sit": [1, 3, 4, 5, 7, 8, 9, 10, 12, 13, 15, 16, 18, 19, 19, null, null], "Pad": [1, 1, 1, 2, 3, 4, 5, 7, 9, 10, 12, 13, 15, 16, 18, 19, 19]}, "5;0": {"Mos": [1, 3, 5, 6, 6, 7, 8, 10, 12, 14, 16, 18, 19, 19, 19, 19, null], "Cat": [2, 4, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 19, null], "Sit": [1, 3, 4, 5, 6, 8, 9, 10, 12, 13, 15, 16, 18, 19, 19, null, null], "Pad": [1, 1, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 15, 16, 17, 19, 19]}, "5;1": {"Mos": [1, 3, 5, 5, 6, 7, 8, 10, 12, 13, 16, 18, 19, 19, 19, 19, null], "Cat": [2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19, null], "Sit": [1, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 16, 18, 19, 19, null, null], "Pad": [1, 1, 1, 2, 2, 4, 5, 6, 8, 10, 11, 13, 14, 16, 17, 19, 19]}, "5;2": {"Mos": [1, 3, 4, 5, 6, 7, 8, 9, 11, 13, 15, 17, 19, 19, 19, 19, null], "Cat": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 18, 19, null], "Sit": [1, 3, 4, 5, 6, 7, 8, 10, 11, 13, 14, 16, 17, 19, 19, null, null], "Pad": [1, 1, 1, 1, 2, 3, 5, 6, 8, 10, 11, 13, 14, 16, 17, 19, 19]}, "5;3": {"Mos": [1, 3, 4, 5, 6, 7, 8, 9, 11, 13, 15, 17, 19, 19, 19, 19, null], "Cat": [2, 3, 4, 5, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 18, 19, null], "Sit": [1, 3, 4, 5, 6, 7, 8, 10, 11, 13, 14, 16, 17, 19, 19, null, null], "Pad": [1, 1, 1, 1, 2, 3, 4, 6, 8, 9, 11, 13, 14, 15, 17, 18, 19]}, "5;4": {"Mos": [1, 3, 4, 5, 6, 6, 8, 9, 11, 13, 15, 17, 19, 19, 19, 19, null], "Cat": [1, 3, 4, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 16, 18, 19, null], "Sit": [1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 14, 16, 17, 19, 19, null, null], "Pad": [1, 1, 1, 1, 2, 3, 4, 6, 7, 9, 11, 12, 14, 15, 17, 18, 19]}, "5;5": {"Mos": [1, 3, 4, 5, 5, 6, 7, 9, 11, 13, 15, 17, 19, 19, 19, 19, null], "Cat": [1, 3, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 15, 17, 19, 19, null], "Sit": [1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 13, 15, 16, 18, 19, null, null], "Pad": [1, 1, 1, 1, 2, 3, 4, 5, 7, 9, 10, 12, 13, 15, 16, 18, 19]}, "5;6": {"Mos": [1, 2, 4, 4, 5, 6, 7, 9, 10, 12, 14, 16, 18, 19, 19, 19, null], "Cat": [1, 3, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 16, 18, 19, null], "Sit": [1, 2, 3, 4, 5, 7, 8, 9, 11, 12, 14, 15, 17, 19, 19, null, null], "Pad": [1, 1, 1, 1, 1, 3, 4, 5, 7, 9, 10, 12, 13, 15, 16, 18, 19]}, "5;7": {"Mos": [1, 2, 4, 4, 5, 6, 7, 8, 10, 12, 14, 16, 18, 19, 19, 19, null], "Cat": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 16, 17, 19, null], "Sit": [1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 14, 15, 17, 18, 19, null, null], "Pad": [1, 1, 1, 1, 1, 2, 4, 5, 7, 8, 10, 12, 13, 14, 16, 18, 19]}, "5;8": {"Mos": [1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 14, 16, 18, 19, 19, 19, null], "Cat": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 19, null], "Sit": [1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 13, 15, 17, 18, 19, null, null], "Pad": [1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 10, 11, 13, 14, 16, 17, 19]}, "5;9": {"Mos": [1, 2, 3, 4, 5, 5, 7, 8, 10, 12, 14, 16, 18, 19, 19, 19, null], "Cat": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 19, null], "Sit": [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, null, null], "Pad": [1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 10, 11, 13, 14, 16, 17, 19]}, "5;10": {"Mos": [1, 2, 3, 4, 4, 5, 6, 8, 10, 12, 14, 16, 18, 19, 19, 19, null], "Cat": [1, 2, 3, 4, 4, 5, 6, 8, 9, 10, 11, 12, 14, 15, 17, 19, null], "Sit": [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, null, null], "Pad": [1, 1, 1, 1, 1, 2, 3, 4, 6, 8, 9, 11, 12, 14, 15, 17, 19]}, "5;11": {"Mos": [1, 2, 3, 4, 4, 5, 6, 8, 9, 11, 13, 15, 17, 19, 19, 19, null], "Cat": [1, 2, 3, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 19, null], "Sit": [1, 1, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15, 16, 18, 19, null, null], "Pad": [1, 1, 1, 1, 1, 2, 3, 4, 6, 7, 9, 11, 12, 14, 15, 17, 19]}, "6;0": {"Mos": [1, 2, 3, 3, 4, 5, 6, 7, 9, 11, 13, 15, 17, 19, 19, 19, null], "Cat": [1, 2, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 15, 17, 19, null], "Sit": [1, 1, 2, 4, 5, 6, 7, 8, 10, 11, 13, 14, 16, 18, 19, null, null], "Pad": [1, 1, 1, 1, 1, 1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 17, 19]}, "6;1": {"Mos": [1, 2, 3, 3, 4, 5, 6, 7, 9, 11, 13, 15, 17, 19, 19, 19, null], "Cat": [1, 2, 2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 14, 16, 18, 19, null], "Sit": [1, 1, 2, 3, 5, 6, 7, 8, 10, 11, 12, 13, 15, 16, 19, null, null], "Pad": [1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 9, 10, 12, 13, 15, 16, 17]}, "6;2": {"Mos": [1, 2, 2, 3, 4, 5, 6, 7, 9, 11, 13, 15, 17, 18, 19, 19, null], "Cat": [1, 2, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 19, null], "Sit": [1, 1, 2, 3, 4, 6, 7, 8, 9, 11, 13, 14, 16, 19, 19, null, null], "Pad": [1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 8, 10, 12, 13, 15, 16, 19]}, "6;3": {"Mos": [1, 1, 2, 3, 4, 4, 5, 7, 9, 11, 13, 15, 16, 18, 19, 19, null], "Cat": [1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 16, 19, null], "Sit": [1, 1, 2, 3, 4, 5, 7, 8, 9, 11, 12, 14, 16, 17, 19, null, null], "Pad": [1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 19]}, "6;4": {"Mos": [1, 1, 2, 3, 3, 4, 5, 7, 9, 10, 12, 14, 16, 18, 19, 19, null], "Cat": [1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 16, 19, null], "Sit": [1, 1, 2, 3, 4, 5, 6, 8, 9, 11, 12, 14, 16, 17, 19, null, null], "Pad": [1, 1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 10, 11, 13, 14, 16, 19]}, "6;5": {"Mos": [1, 1, 2, 3, 3, 4, 5, 7, 8, 10, 12, 14, 16, 18, 19, 19, null], "Cat": [1, 1, 2, 3, 4, 4, 6, 7, 8, 9, 10, 11, 13, 14, 16, 19, null], "Sit": [1, 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 14, 15, 17, 19, null, null], "Pad": [1, 1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 9, 11, 12, 14, 16, 18]}, "6;6": {"Mos": [1, 1, 2, 3, 3, 4, 5, 6, 8, 10, 12, 14, 16, 17, 19, 19, null], "Cat": [1, 1, 2, 3, 3, 4, 5, 6, 8, 9, 10, 11, 12, 14, 16, 18, null], "Sit": [1, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 17, 19, null, null], "Pad": [1, 1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 9, 11, 12, 14, 16, 18]}, "6;7": {"Mos": [1, 1, 2, 2, 3, 4, 5, 6, 8, 10, 12, 14, 15, 17, 19, 19, null], "Cat": [1, 1, 2, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 16, 18, null], "Sit": [1, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 17, 19, null, null], "Pad": [1, 1, 1, 1, 1, 1, 2, 3, 4, 6, 7, 9, 11, 12, 14, 15, 18]}, "6;8": {"Mos": [1, 1, 2, 2, 3, 4, 5, 6, 8, 10, 12, 14, 15, 17, 18, 19, null], "Cat": [1, 1, 2, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 14, 16, 18, null], "Sit": [1, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 17, 19, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 18]}, "6;9": {"Mos": [1, 1, 2, 2, 3, 3, 5, 6, 8, 10, 12, 13, 15, 17, 18, 19, null], "Cat": [1, 1, 1, 2, 3, 3, 5, 6, 7, 8, 9, 11, 12, 14, 16, 18, null], "Sit": [1, 1, 1, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15, 17, 18, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 18]}, "6;10": {"Mos": [1, 1, 1, 2, 3, 3, 4, 6, 8, 9, 11, 13, 15, 16, 18, 19, null], "Cat": [1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14, 15, 18, null], "Sit": [1, 1, 1, 2, 4, 5, 6, 7, 8, 10, 11, 13, 15, 16, 18, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 8, 10, 12, 13, 15, 18]}, "6;11": {"Mos": [1, 1, 1, 2, 2, 3, 4, 6, 7, 9, 11, 13, 15, 16, 17, 19, null], "Cat": [1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 18, null], "Sit": [1, 1, 1, 2, 3, 4, 6, 7, 8, 10, 11, 13, 15, 16, 19, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 8, 10, 11, 13, 15, 18]}, "7;0": {"Mos": [1, 1, 1, 2, 2, 3, 4, 6, 7, 9, 11, 12, 14, 15, 17, 19, null], "Cat": [1, 1, 2, 2, 3, 4, 6, 7, 9, 11, 13, 14, 16, 17, 19, 19, null], "Sit": [1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 14, 16, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 8, 10, 11, 13, 15, 17]}, "7;1": {"Mos": [1, 1, 1, 2, 2, 3, 4, 5, 7, 9, 10, 12, 13, 14, 15, 16, null], "Cat": [1, 1, 1, 2, 3, 4, 5, 7, 9, 11, 13, 14, 16, 17, 19, 19, null], "Sit": [1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 9, 11, 13, 14, 15]}, "7;2": {"Mos": [1, 1, 1, 2, 2, 3, 4, 5, 7, 9, 11, 13, 14, 15, 17, 19, null], "Cat": [1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 18, null], "Sit": [1, 1, 1, 2, 3, 4, 5, 6, 8, 9, 11, 12, 14, 16, 18, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 9, 11, 12, 14, 17]}, "7;3": {"Mos": [1, 1, 1, 1, 2, 3, 4, 5, 7, 9, 11, 12, 14, 15, 16, 18, null], "Cat": [1, 1, 1, 2, 3, 4, 4, 5, 7, 8, 9, 10, 11, 13, 15, 18, null], "Sit": [1, 1, 1, 2, 3, 4, 5, 6, 8, 9, 11, 12, 14, 16, 18, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 9, 11, 12, 14, 17]}, "7;4": {"Mos": [1, 1, 1, 1, 2, 3, 4, 5, 7, 9, 10, 12, 14, 15, 16, 18, null], "Cat": [1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 15, 17, null], "Sit": [1, 1, 1, 2, 3, 4, 5, 6, 8, 9, 11, 12, 14, 16, 18, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 9, 11, 12, 14, 17]}, "7;5": {"Mos": [1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 14, 16, null], "Cat": [1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 15, 17, null], "Sit": [1, 1, 1, 2, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 16, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 4, 6, 7, 9, 10, 12, 14]}, "7;6": {"Mos": [1, 1, 1, 1, 2, 2, 3, 5, 7, 8, 10, 12, 13, 15, 16, 18, null], "Cat": [1, 1, 1, 2, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15, 17, null], "Sit": [1, 1, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 18, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 1, 3, 4, 6, 7, 9, 10, 12, 14, 17]}, "7;7": {"Mos": [1, 1, 1, 1, 2, 2, 3, 5, 6, 8, 10, 12, 13, 14, 15, 17, null], "Cat": [1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 15, 17, null], "Sit": [1, 1, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 18, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 1, 3, 4, 6, 7, 9, 10, 12, 14, 17]}, "7;8": {"Mos": [1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 10, 12, 13, 14, 15, 17, null], "Cat": [1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14, 17, null], "Sit": [1, 1, 1, 1, 3, 4, 5, 6, 7, 8, 10, 12, 13, 15, 18, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 1, 3, 4, 5, 7, 8, 10, 12, 14, 16]}, "7;9": {"Mos": [1, 1, 1, 1, 1, 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, null], "Cat": [1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14, 17, null], "Sit": [1, 1, 1, 1, 2, 3, 5, 6, 7, 8, 10, 11, 12, 14, 17, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 8, 10, 11, 13, 16]}, "7;10": {"Mos": [1, 1, 1, 1, 1, 2, 3, 4, 6, 8, 10, 11, 13, 14, 15, 17, null], "Cat": [1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14, 17, null], "Sit": [1, 1, 1, 1, 2, 3, 4, 6, 7, 8, 10, 11, 13, 15, 17, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 8, 10, 11, 13, 16]}, "7;11": {"Mos": [1, 1, 1, 1, 1, 2, 3, 4, 6, 8, 10, 11, 13, 14, 14, 16, null], "Cat": [1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14, 16, null], "Sit": [1, 1, 1, 1, 2, 3, 4, 6, 7, 8, 10, 11, 13, 15, 17, null, null], "Pad": [1, 1, 1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 8, 10, 11, 13, 16]}}, "combinacao_ee_er_qi": {"soma_ee": {"2": 52, "3": 54, "4": 57, "5": 59, "6": 62, "7": 65, "8": 67, "9": 70, "10": 73, "11": 75, "12": 78, "13": 81, "14": 83, "15": 86, "16": 89, "17": 92, "18": 94, "19": 97, "20": 100, "21": 103, "22": 105, "23": 108, "24": 111, "25": 114, "26": 117, "27": 119, "28": 122, "29": 125, "30": 128, "31": 131, "32": 134, "33": 137, "34": 140, "35": 142, "36": 145, "37": 148, "38": 150}, "soma_er": {"2": 52, "3": 55, "4": 57, "5": 60, "6": 62, "7": 65, "8": 67, "9": 70, "10": 72, "11": 75, "12": 78, "13": 80, "14": 83, "15": 86, "16": 89, "17": 91, "18": 94, "19": 97, "20": 100, "21": 103, "22": 105, "23": 108, "24": 111, "25": 114, "26": 117, "27": 120, "28": 123, "29": 126, "30": 129, "31": 132, "32": 135, "33": 138, "34": 141, "35": 145, "36": 148, "37": 150, "38": 150}, "soma_qi": {"4": {"qi": 50, "ic80_min": 47, "ic80_max": 62, "percentil": 1}, "5": {"qi": 50, "ic80_min": 47, "ic80_max": 62, "percentil": 1}, "6": {"qi": 51, "ic80_min": 48, "ic80_max": 63, "percentil": 1}, "7": {"qi": 52, "ic80_min": 49, "ic80_max": 64, "percentil": 1}, "8": {"qi": 53, "ic80_min": 50, "ic80_max": 65, "percentil": 1}, "9": {"qi": 55, "ic80_min": 51, "ic80_max": 66, "percentil": 1}, "10": {"qi": 56, "ic80_min": 53, "ic80_max": 68, "percentil": 1}, "11": {"qi": 57, "ic80_min": 54, "ic80_max": 69, "percentil": 1}, "12": {"qi": 59, "ic80_min": 55, "ic80_max": 70, "percentil": 1}, "13": {"qi": 60, "ic80_min": 56, "ic80_max": 71, "percentil": 1}, "14": {"qi": 62, "ic80_min": 58, "ic80_max": 73, "percentil": 1}, "15": {"qi": 63, "ic80_min": 59, "ic80_max": 74, "percentil": 1}, "16": {"qi": 64, "ic80_min": 60, "ic80_max": 75, "percentil": 1}, "17": {"qi": 66, "ic80_min": 61, "ic80_max": 76, "percentil": 1}, "18": {"qi": 67, "ic80_min": 63, "ic80_max": 78, "percentil": 1}, "19": {"qi": 69, "ic80_min": 64, "ic80_max": 79, "percentil": 2}, "20": {"qi": 70, "ic80_min": 65, "ic80_max": 80, "percentil": 2}, "21": {"qi": 71, "ic80_min": 66, "ic80_max": 82, "percentil": 3}, "22": {"qi": 73, "ic80_min": 68, "ic80_max": 83, "percentil": 4}, "23": {"qi": 74, "ic80_min": 69, "ic80_max": 84, "percentil": 4}, "24": {"qi": 76, "ic80_min": 70, "ic80_max": 85, "percentil": 5}, "25": {"qi": 77, "ic80_min": 72, "ic80_max": 87, "percentil": 6}, "26": {"qi": 79, "ic80_min": 73, "ic80_max": 88, "percentil": 8}, "27": {"qi": 80, "ic80_min": 74, "ic80_max": 89, "percentil": 9}, "28": {"qi": 82, "ic80_min": 76, "ic80_max": 91, "percentil": 12}, "29": {"qi": 83, "ic80_min": 77, "ic80_max": 92, "percentil": 13}, "30": {"qi": 85, "ic80_min": 78, "ic80_max": 93, "percentil": 16}, "31": {"qi": 86, "ic80_min": 80, "ic80_max": 95, "percentil": 18}, "32": {"qi": 87, "ic80_min": 81, "ic80_max": 96, "percentil": 19}, "33": {"qi": 89, "ic80_min": 82, "ic80_max": 98, "percentil": 23}, "34": {"qi": 91, "ic80_min": 84, "ic80_max": 99, "percentil": 27}, "35": {"qi": 92, "ic80_min": 85, "ic80_max": 100, "percentil": 30}, "36": {"qi": 94, "ic80_min": 87, "ic80_max": 102, "percentil": 34}, "37": {"qi": 95, "ic80_min": 88, "ic80_max": 103, "percentil": 37}, "38": {"qi": 97, "ic80_min": 89, "ic80_max": 104, "percentil": 42}, "39": {"qi": 98, "ic80_min": 91, "ic80_max": 106, "percentil": 45}, "40": {"qi": 100, "ic80_min": 92, "ic80_max": 107, "percentil": 50}, "41": {"qi": 101, "ic80_min": 94, "ic80_max": 109, "percentil": 53}, "42": {"qi": 103, "ic80_min": 95, "ic80_max": 110, "percentil": 58}, "43": {"qi": 104, "ic80_min": 96, "ic80_max": 112, "percentil": 61}, "44": {"qi": 106, "ic80_min": 98, "ic80_max": 113, "percentil": 66}, "45": {"qi": 108, "ic80_min": 99, "ic80_max": 114, "percentil": 70}, "46": {"qi": 109, "ic80_min": 101, "ic80_max": 116, "percentil": 73}, "47": {"qi": 111, "ic80_min": 102, "ic80_max": 117, "percentil": 77}, "48": {"qi": 112, "ic80_min": 104, "ic80_max": 119, "percentil": 79}, "49": {"qi": 114, "ic80_min": 105, "ic80_max": 120, "percentil": 82}, "50": {"qi": 115, "ic80_min": 107, "ic80_max": 122, "percentil": 84}, "51": {"qi": 117, "ic80_min": 108, "ic80_max": 123, "percentil": 87}, "52": {"qi": 119, "ic80_min": 109, "ic80_max": 125, "percentil": 90}, "53": {"qi": 120, "ic80_min": 111, "ic80_max": 126, "percentil": 91}, "54": {"qi": 122, "ic80_min": 112, "ic80_max": 128, "percentil": 93}, "55": {"qi": 124, "ic80_min": 114, "ic80_max": 129, "percentil": 95}, "56": {"qi": 125, "ic80_min": 115, "ic80_max": 131, "percentil": 95}, "57": {"qi": 127, "ic80_min": 117, "ic80_max": 132, "percentil": 96}, "58": {"qi": 129, "ic80_min": 118, "ic80_max": 134, "percentil": 97}, "59": {"qi": 130, "ic80_min": 120, "ic80_max": 135, "percentil": 98}, "60": {"qi": 132, "ic80_min": 121, "ic80_max": 137, "percentil": 98}, "61": {"qi": 134, "ic80_min": 123, "ic80_max": 138, "percentil": 99}, "62": {"qi": 135, "ic80_min": 125, "ic80_max": 140, "percentil": 99}, "63": {"qi": 137, "ic80_min": 126, "ic80_max": 141, "percentil": 99}, "64": {"qi": 139, "ic80_min": 128, "ic80_max": 143, "percentil": 99}, "65": {"qi": 140, "ic80_min": 129, "ic80_max": 144, "percentil": 99}, "66": {"qi": 142, "ic80_min": 131, "ic80_max": 146, "percentil": 99}, "67": {"qi": 144, "ic80_min": 132, "ic80_max": 147, "percentil": 99}, "68": {"qi": 146, "ic80_min": 134, "ic80_max": 149, "percentil": 99}, "69": {"qi": 147, "ic80_min": 135, "ic80_max": 151, "percentil": 99}, "70": {"qi": 149, "ic80_min": 137, "ic80_max": 152, "percentil": 99}, "71": {"qi": 150, "ic80_min": 138, "ic80_max": 153, "percentil": 99}, "72": {"qi": 150, "ic80_min": 138, "ic80_max": 153, "percentil": 99}, "73": {"qi": 150, "ic80_min": 138, "ic80_max": 153, "percentil": 99}, "74": {"qi": 150, "ic80_min": 138, "ic80_max": 153, "percentil": 99}, "75": {"qi": 150, "ic80_min": 138, "ic80_max": 153, "percentil": 99}, "76": {"qi": 150, "ic80_min": 138, "ic80_max": 153, "percentil": 99}}}, "classificacao_qi": [{"qi_min": 131, "qi_max": null, "classificacao": "Muito alto", "pct_populacao": 2}, {"qi_min": 121, "qi_max": 130, "classificacao": "Alto", "pct_populacao": 7}, {"qi_min": 111, "qi_max": 120, "classificacao": "Acima da média", "pct_populacao": 16}, {"qi_min": 90, "qi_max": 110, "classificacao": "Médio", "pct_populacao": 50}, {"qi_min": 80, "qi_max": 89, "classificacao": "Abaixo da média", "pct_populacao": 16}, {"qi_min": 70, "qi_max": 79, "classificacao": "Baixo", "pct_populacao": 7}, {"qi_min": null, "qi_max": 69, "classificacao": "Muito baixo", "pct_populacao": 2}], "intervalos_confianca_80_simplificados": {"observacao": "A Tabela 76 já traz o IC 80% exato do SON-QI para cada soma. Para SON-EE e SON-ER individualmente, o manual oferece um método simplificado (Tabela 58) com amplitude FIXA, mais simples que o método por \"escore verdadeiro\" (que exige coeficientes de fidedignidade por idade, não incluídos aqui): IC80% = escore ± metade da amplitude.", "SON_QI": {"amplitude": 16, "meia_amplitude": 8}, "SON_EE": {"amplitude": 18, "meia_amplitude": 9}, "SON_ER": {"amplitude": 20, "meia_amplitude": 10}}, "diferenca_ee_er_significativa": {"observacao": "Para testar se a diferença entre SON-EE e SON-ER é estatisticamente significativa, o manual usa a Razão Crítica (RC) com erro padrão de mensuração por idade (Tabela 30/31, não incluída neste motor). Como referência fixa aproximada dada pelo próprio manual (Tabela 76, rodapé): diferença ≥ 16 pontos é significativa a p<0,05; diferença ≥ 20 pontos é significativa a p<0,01.", "p05": 16, "p01": 20}, "estado_de_verificacao": {"metodo": "Dados extraídos visualmente do manual em PDF escaneado (sem texto digital). Cada linha de subteste foi transcrita como prefixo ascendente + preenchimento mecânico do platô superior (19, efeito teto, itens além do máximo do subteste = não aplicável). Validado end-to-end contra os 3 estudos de caso completos do manual (Capítulo 9): idades 5;9, 6;3 e 7;9.", "resultado_validacao": "11 de 12 valores de subteste (4 subtestes × 3 casos) bateram exatamente com o manual, incluindo TODOS os escores finais (SON-EE, SON-ER, SON-QI, percentil, IC80%) dos casos 2 e 3. Um erro de transcrição real foi encontrado e corrigido (Categorias, idade 5;9).", "discrepancia_conhecida_nao_resolvida": "Padrões, idade 5;9, escore bruto 8: o Caso 1 do manual indica escore normatizado = 1, mas a tabela transcrita (conferida duas vezes) dá 6. Como esta mesma linha (Padrões) validou corretamente nos Casos 2 e 3, e o restante do Caso 1 fecha perfeitamente, suspeita-se de erro de leitura pontual no formulário escaneado do Caso 1, não na tabela — mas isso NÃO foi confirmado. Recomenda-se conferir a tabela de 5;9 anos (Tabela 68, p. 200) contra o manual físico antes de uso clínico, especialmente a linha \"Pad\".", "recomendacao": "Ferramenta de apoio ao cálculo, não substitui a conferência do psicólogo. Antes de uso clínico, recomenda-se conferir pelo menos a tabela da idade real de cada paciente contra o manual impresso, sobretudo para os subtestes/idades fora dos 3 casos validados acima."}};
+
+  var IDADES_VALIDAS = Object.keys(DADOS.normas_subtestes);
+  var SUBTESTES = ['Mos', 'Cat', 'Sit', 'Pad'];
+
+  /**
+   * Converte idade em anos+meses completos para a chave "anos;meses" usada
+   * nas tabelas (ex.: 5 anos e 9 meses -> "5;9"). A idade é sempre
+   * arredondada para baixo, seguindo a regra do manual.
+   */
+  function chaveIdade(anos, meses) {
+    return anos + ';' + meses;
+  }
+
+  /**
+   * Calcula idade em anos e meses completos a partir da data de nascimento
+   * e da data de aplicação (ambas Date ou string 'YYYY-MM-DD').
+   */
+  function calcularIdade(dataNascimento, dataAplicacao) {
+    var nasc = dataNascimento instanceof Date ? dataNascimento : new Date(dataNascimento);
+    var apl = dataAplicacao instanceof Date ? dataAplicacao : new Date(dataAplicacao);
+    var anos = apl.getFullYear() - nasc.getFullYear();
+    var meses = apl.getMonth() - nasc.getMonth();
+    var dias = apl.getDate() - nasc.getDate();
+    if (dias < 0) meses -= 1;
+    if (meses < 0) { anos -= 1; meses += 12; }
+    return { anos: anos, meses: meses };
+  }
+
+  /**
+   * Ajusta a idade calculada para a faixa coberta pelas tabelas (2;6 a 7;11),
+   * conforme instrução do manual ("< 2;6" e "> 7;11" não têm norma; usa-se o limite).
+   */
+  function normalizarChaveIdade(anos, meses) {
+    var totalMeses = anos * 12 + meses;
+    var minMeses = 2 * 12 + 6;   // 2;6
+    var maxMeses = 7 * 12 + 11;  // 7;11
+    if (totalMeses < minMeses) totalMeses = minMeses;
+    if (totalMeses > maxMeses) totalMeses = maxMeses;
+    var a = Math.floor(totalMeses / 12);
+    var m = totalMeses % 12;
+    return chaveIdade(a, m);
+  }
+
+  /**
+   * Normaliza o escore bruto de um subteste (0-16) para escore normatizado
+   * (1-19, média 10, DP 3) usando a tabela da idade informada.
+   * @param {string} idadeChave - "anos;meses", ex. "5;9"
+   * @param {string} subteste - 'Mos' | 'Cat' | 'Sit' | 'Pad'
+   * @param {number} bruto - escore bruto do subteste
+   */
+  function normalizarSubteste(idadeChave, subteste, bruto) {
+    var tabelaIdade = DADOS.normas_subtestes[idadeChave];
+    if (!tabelaIdade) {
+      throw new Error('Idade fora da faixa normatizada (2;6 a 7;11): "' + idadeChave + '"');
+    }
+    var linha = tabelaIdade[subteste];
+    if (bruto == null || bruto < 0 || bruto >= linha.length || linha[bruto] === null) {
+      throw new Error('Escore bruto inválido para ' + subteste + ' na idade ' + idadeChave + ': ' + bruto);
+    }
+    return linha[bruto];
+  }
+
+  function classificarQI(qi) {
+    var faixas = DADOS.classificacao_qi;
+    for (var i = 0; i < faixas.length; i++) {
+      var f = faixas[i];
+      var min = f.qi_min == null ? -Infinity : f.qi_min;
+      var max = f.qi_max == null ? Infinity : f.qi_max;
+      if (qi >= min && qi <= max) return f.classificacao;
+    }
+    return null;
+  }
+
+  /**
+   * Corrige o SON-R 2½-7[a] completo a partir dos 4 escores brutos.
+   *
+   * @param {Object} escoresBrutos - { Mos, Cat, Sit, Pad } (cada um o escore
+   *        bruto já calculado pelo psicólogo na aplicação: número do último
+   *        item aplicado menos erros e recusas — ver DADOS.regras_pontuacao).
+   * @param {Object} opcoes
+   * @param {string} [opcoes.idade] - chave direta "anos;meses", ex. "5;9"
+   * @param {Date|string} [opcoes.dataNascimento] - alternativa a opcoes.idade
+   * @param {Date|string} [opcoes.dataAplicacao] - usado junto com dataNascimento
+   * @returns {Object} resultado com escores normatizados por subteste,
+   *          SON-EE, SON-ER, SON-QI, IC80%, percentil e classificação.
+   */
+  function corrigir(escoresBrutos, opcoes) {
+    opcoes = opcoes || {};
+    escoresBrutos = escoresBrutos || {};
+
+    var idadeChave = opcoes.idade;
+    if (!idadeChave) {
+      if (!opcoes.dataNascimento || !opcoes.dataAplicacao) {
+        throw new Error('Informe opcoes.idade ("anos;meses", ex. "5;9") ou opcoes.dataNascimento + opcoes.dataAplicacao.');
+      }
+      var idadeCalc = calcularIdade(opcoes.dataNascimento, opcoes.dataAplicacao);
+      idadeChave = normalizarChaveIdade(idadeCalc.anos, idadeCalc.meses);
+    }
+    if (IDADES_VALIDAS.indexOf(idadeChave) === -1) {
+      throw new Error('Idade inválida: "' + idadeChave + '". Deve estar entre "2;6" e "7;11".');
+    }
+
+    var resultado = { instrumento: 'SON-R 2½-7[a]', idade: idadeChave, subtestes: {} };
+    var normalizados = {};
+    var subtestesAdministrados = 0;
+
+    SUBTESTES.forEach(function (sub) {
+      var bruto = escoresBrutos[sub];
+      if (bruto === undefined || bruto === null || bruto === '') {
+        resultado.subtestes[sub] = null;
+        return;
+      }
+      var n = normalizarSubteste(idadeChave, sub, Number(bruto));
+      normalizados[sub] = n;
+      subtestesAdministrados++;
+      resultado.subtestes[sub] = {
+        nome: DADOS.subtestes[sub].nome,
+        escala: DADOS.subtestes[sub].escala,
+        escoreBruto: Number(bruto),
+        escoreNormatizado: n,
+      };
+    });
+
+    if (subtestesAdministrados < 4) {
+      resultado.aviso = 'SON-QI requer os 4 subtestes administrados. Com menos de 4, apenas os ' +
+        'escores normatizados individuais são calculados (sem SON-EE / SON-ER / SON-QI).';
+      resultado.sonEE = null;
+      resultado.sonER = null;
+      resultado.sonQI = null;
+      return resultado;
+    }
+
+    var somaEE = normalizados.Mos + normalizados.Pad;   // Execução: Mosaicos + Padrões
+    var somaER = normalizados.Cat + normalizados.Sit;   // Raciocínio: Categorias + Situações
+    var soma1a4 = somaEE + somaER;
+
+    var ee = DADOS.combinacao_ee_er_qi.soma_ee[String(somaEE)];
+    var er = DADOS.combinacao_ee_er_qi.soma_er[String(somaER)];
+    var qiInfo = DADOS.combinacao_ee_er_qi.soma_qi[String(soma1a4)];
+
+    var meiaEE = DADOS.intervalos_confianca_80_simplificados.SON_EE.meia_amplitude;
+    var meiaER = DADOS.intervalos_confianca_80_simplificados.SON_ER.meia_amplitude;
+
+    resultado.sonEE = {
+      nome: 'Escala de Execução (SON-EE)',
+      somaNormatizados: somaEE,
+      escore: ee,
+      ic80: { min: ee - meiaEE, max: ee + meiaEE },
+    };
+    resultado.sonER = {
+      nome: 'Escala de Raciocínio (SON-ER)',
+      somaNormatizados: somaER,
+      escore: er,
+      ic80: { min: er - meiaER, max: er + meiaER },
+    };
+    resultado.sonQI = {
+      nome: 'Escala Geral (SON-QI)',
+      somaNormatizados: soma1a4,
+      escore: qiInfo.qi,
+      ic80: { min: qiInfo.ic80_min, max: qiInfo.ic80_max },
+      percentil: qiInfo.percentil,
+      classificacao: classificarQI(qiInfo.qi),
+    };
+
+    var diffEE_ER = Math.abs(ee - er);
+    var difLimiares = DADOS.diferenca_ee_er_significativa;
+    resultado.diferencaEeEr = {
+      diferenca: ee - er,
+      significativa_p05: diffEE_ER >= difLimiares.p05,
+      significativa_p01: diffEE_ER >= difLimiares.p01,
+      observacao: 'Baseado nos limiares fixos do manual (Tabela 76): não usa erro padrão por idade.',
+    };
+
+    return resultado;
+  }
+
+  return {
+    dados: DADOS,
+    subtestes: DADOS.subtestes,
+    idadesValidas: IDADES_VALIDAS,
+    calcularIdade: calcularIdade,
+    normalizarChaveIdade: normalizarChaveIdade,
+    classificarQI: classificarQI,
+    corrigir: corrigir,
+  };
+});
