@@ -5789,5 +5789,239 @@
   "discrepancia_anterior_resolvida": "A discrepância documentada em versões anteriores deste arquivo — subteste Padrões, idade 5;9, \"escore bruto 8\" — foi um erro de leitura da folha de registro escaneada do Caso 1 na primeira passagem (baixa resolução): o escore bruto real de Padrões no Caso 1 é 3, não 8. Com a leitura correta (bruto=3), o motor retorna escore normatizado=1, que bate exatamente com o manual. A linha \"Padrões\" da Tabela 68 (idade 5;9) estava correta desde o início; o erro era só na leitura do caso, não na tabela.",
   "ressalva_paginas_com_dobra": "Duas células (Situações, idades 5;0 e 5;1, escores brutos 13-14) caem exatamente sobre uma dobra física da página no scan de origem. Foram lidas com o valor estruturalmente mais consistente (respeitando o padrão de \"2 pontos finais\" do subteste Situações), mas têm confiança levemente menor que o resto da tabela — afetam apenas escores brutos muito altos (raros clinicamente) nessas duas idades.",
   "recomendacao": "Ferramenta de apoio ao cálculo, não substitui a conferência do psicólogo. Confiança alta em toda a tabela após a segunda passagem; ainda assim, recomenda-se conferir a tabela da idade real do paciente contra o manual impresso antes de uso clínico, como boa prática padrão para qualquer tabela extraída de scan."
+ },
+ "fidedignidade_por_idade": {
+  "fonte": "Tabela 30 do manual (p.88): Fidedignidade Lambda 2 de Guttman e EPM dos escores normatizados, depois do ajuste. 10 grupos de idade (centros de faixas de 6 meses, de 3;3 a 7;9). Para idades fora desse intervalo (2;6 a 3;2, ou seja, abaixo do primeiro grupo), usa-se o grupo mais próximo disponível (3;3).",
+  "grupos_idade": [
+   "3;3",
+   "3;9",
+   "4;3",
+   "4;9",
+   "5;3",
+   "5;9",
+   "6;3",
+   "6;9",
+   "7;3",
+   "7;9"
+  ],
+  "fidedignidade": {
+   "3;3": {
+    "Mos": 0.75,
+    "Cat": 0.9,
+    "Sit": 0.82,
+    "Pad": 0.82,
+    "M": 0.82,
+    "EE": 0.87,
+    "ER": 0.91,
+    "QI": 0.93
+   },
+   "3;9": {
+    "Mos": 0.82,
+    "Cat": 0.86,
+    "Sit": 0.82,
+    "Pad": 0.81,
+    "M": 0.83,
+    "EE": 0.88,
+    "ER": 0.9,
+    "QI": 0.93
+   },
+   "4;3": {
+    "Mos": 0.83,
+    "Cat": 0.84,
+    "Sit": 0.8,
+    "Pad": 0.8,
+    "M": 0.82,
+    "EE": 0.89,
+    "ER": 0.89,
+    "QI": 0.93
+   },
+   "4;9": {
+    "Mos": 0.81,
+    "Cat": 0.82,
+    "Sit": 0.79,
+    "Pad": 0.8,
+    "M": 0.81,
+    "EE": 0.88,
+    "ER": 0.88,
+    "QI": 0.93
+   },
+   "5;3": {
+    "Mos": 0.79,
+    "Cat": 0.81,
+    "Sit": 0.77,
+    "Pad": 0.8,
+    "M": 0.79,
+    "EE": 0.87,
+    "ER": 0.87,
+    "QI": 0.92
+   },
+   "5;9": {
+    "Mos": 0.77,
+    "Cat": 0.8,
+    "Sit": 0.76,
+    "Pad": 0.79,
+    "M": 0.78,
+    "EE": 0.87,
+    "ER": 0.86,
+    "QI": 0.92
+   },
+   "6;3": {
+    "Mos": 0.76,
+    "Cat": 0.79,
+    "Sit": 0.74,
+    "Pad": 0.79,
+    "M": 0.77,
+    "EE": 0.86,
+    "ER": 0.85,
+    "QI": 0.91
+   },
+   "6;9": {
+    "Mos": 0.76,
+    "Cat": 0.77,
+    "Sit": 0.73,
+    "Pad": 0.78,
+    "M": 0.76,
+    "EE": 0.86,
+    "ER": 0.84,
+    "QI": 0.91
+   },
+   "7;3": {
+    "Mos": 0.77,
+    "Cat": 0.76,
+    "Sit": 0.72,
+    "Pad": 0.76,
+    "M": 0.75,
+    "EE": 0.86,
+    "ER": 0.83,
+    "QI": 0.91
+   },
+   "7;9": {
+    "Mos": 0.79,
+    "Cat": 0.75,
+    "Sit": 0.71,
+    "Pad": 0.74,
+    "M": 0.75,
+    "EE": 0.86,
+    "ER": 0.83,
+    "QI": 0.9
+   }
+  },
+  "epm": {
+   "3;3": {
+    "Mos": 1.49,
+    "Cat": 0.96,
+    "Sit": 1.26,
+    "Pad": 1.27,
+    "M": 1.25,
+    "EE": 5.41,
+    "ER": 4.46,
+    "QI": 3.88
+   },
+   "3;9": {
+    "Mos": 1.29,
+    "Cat": 1.11,
+    "Sit": 1.29,
+    "Pad": 1.31,
+    "M": 1.25,
+    "EE": 5.09,
+    "ER": 4.79,
+    "QI": 3.86
+   },
+   "4;3": {
+    "Mos": 1.25,
+    "Cat": 1.2,
+    "Sit": 1.33,
+    "Pad": 1.33,
+    "M": 1.28,
+    "EE": 5.07,
+    "ER": 5.06,
+    "QI": 3.95
+   },
+   "4;9": {
+    "Mos": 1.31,
+    "Cat": 1.26,
+    "Sit": 1.38,
+    "Pad": 1.34,
+    "M": 1.32,
+    "EE": 5.18,
+    "ER": 5.27,
+    "QI": 4.08
+   },
+   "5;3": {
+    "Mos": 1.38,
+    "Cat": 1.31,
+    "Sit": 1.43,
+    "Pad": 1.34,
+    "M": 1.37,
+    "EE": 5.34,
+    "ER": 5.46,
+    "QI": 4.22
+   },
+   "5;9": {
+    "Mos": 1.45,
+    "Cat": 1.35,
+    "Sit": 1.48,
+    "Pad": 1.36,
+    "M": 1.41,
+    "EE": 5.5,
+    "ER": 5.64,
+    "QI": 4.35
+   },
+   "6;3": {
+    "Mos": 1.48,
+    "Cat": 1.38,
+    "Sit": 1.52,
+    "Pad": 1.38,
+    "M": 1.44,
+    "EE": 5.61,
+    "ER": 5.81,
+    "QI": 4.46
+   },
+   "6;9": {
+    "Mos": 1.47,
+    "Cat": 1.42,
+    "Sit": 1.56,
+    "Pad": 1.42,
+    "M": 1.47,
+    "EE": 5.67,
+    "ER": 5.97,
+    "QI": 4.54
+   },
+   "7;3": {
+    "Mos": 1.43,
+    "Cat": 1.46,
+    "Sit": 1.6,
+    "Pad": 1.47,
+    "M": 1.49,
+    "EE": 5.69,
+    "ER": 6.12,
+    "QI": 4.61
+   },
+   "7;9": {
+    "Mos": 1.37,
+    "Cat": 1.5,
+    "Sit": 1.63,
+    "Pad": 1.53,
+    "M": 1.51,
+    "EE": 5.67,
+    "ER": 6.25,
+    "QI": 4.66
+   }
+  }
+ },
+ "generalizabilidade": {
+  "fonte": "Tabela 31 do manual (p.89): Generalizabilidade e erro padrão de estimação (EPE) para SON-EE/SON-ER/SON-QI. Valores fixos em todos os grupos de idade (não há relação clara entre as covariâncias e a idade).",
+  "SON_EE": {
+   "generalizabilidade": 0.77,
+   "epe": 7.1
+  },
+  "SON_ER": {
+   "generalizabilidade": 0.73,
+   "epe": 7.8
+  },
+  "SON_QI": {
+   "generalizabilidade": 0.83,
+   "epe": 6.3
+  }
  }
 }

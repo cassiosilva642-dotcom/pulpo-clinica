@@ -261,7 +261,39 @@ function folhaNumberLineSVG(min, max, step, valor, w, h){
 }
 ```
 
-### 10.3 Substituir o bloco `else if(name==='SON-R')` da seção 8 por este
+### 10.3 Helper — escore verdadeiro (Kelley) e amplitude do IC por nível
+
+```js
+// z (valor crítico bicaudal) para cada nível de confiança suportado
+const Z_NIVEL_IC = { '80%': 1.2816, '90%': 1.6449, '95%': 1.96 };
+
+// Seleciona o grupo de idade da Tabela 30 (fidedignidade/EPM) mais próximo da
+// idade real da criança. A Tabela 30 só tem 10 grupos (centros de faixas de
+// 6 meses, 3;3 a 7;9); para idades fora desse intervalo usa-se o mais próximo.
+function grupoFidedignidadeMaisProximo(idadeChave, d){
+  const [a,m] = idadeChave.split(';').map(Number);
+  const totalMeses = a*12+m;
+  let melhor=null, melhorDist=Infinity;
+  for(const g of d.fidedignidade_por_idade.grupos_idade){
+    const [ga,gm] = g.split(';').map(Number);
+    const dist = Math.abs((ga*12+gm)-totalMeses);
+    if(dist<melhorDist){melhorDist=dist;melhor=g;}
+  }
+  return melhor;
+}
+
+// Escore verdadeiro (fórmula de Kelley): "encolhe" o escore observado em
+// direção à média (100) proporcionalmente à fidedignidade (alpha) da escala
+// naquela idade. Reproduz o método exato usado nos 3 casos do Cap. 9 do manual.
+function escoreVerdadeiro(escoreObservado, alpha){
+  return Math.round(100 + alpha*(escoreObservado-100));
+}
+function amplitudeIC(nivelIC, epe){
+  return Math.round((Z_NIVEL_IC[nivelIC]||Z_NIVEL_IC['80%'])*epe);
+}
+```
+
+### 10.4 Substituir o bloco `else if(name==='SON-R')` da seção 8 por este
 
 ```js
 else if(name==='SON-R'){
@@ -280,14 +312,22 @@ else if(name==='SON-R'){
   const erLinha = somaER!=null ? engSONRqi('tabela_ER', somaER) : null;
   const qiLinha = soma14!=null ? engSONRqi('tabela_QI', soma14) : null;
 
+  const nivelIC = SEL.nivelICsonr || '80%'; // troque por um seletor se quiser 90%/95%
   const eeValor = eeLinha?.valor ?? null;
   const erValor = erLinha?.valor ?? null;
-  const icCfg = d.intervalos_confianca_80_simplificados;
-  const eeIC = eeValor!=null ? `${eeValor-icCfg.SON_EE.meia_amplitude} - ${eeValor+icCfg.SON_EE.meia_amplitude}` : null;
-  const erIC = erValor!=null ? `${erValor-icCfg.SON_ER.meia_amplitude} - ${erValor+icCfg.SON_ER.meia_amplitude}` : null;
+  let tEE=null, tER=null, eeIC=null, erIC=null;
+  if(eeValor!=null || erValor!=null){
+    const grupo = grupoFidedignidadeMaisProximo(SEL.faixa.includes(';')?SEL.faixa:idadeSONRdoFormulario, d);
+    const fid = d.fidedignidade_por_idade.fidedignidade[grupo];
+    const g = d.generalizabilidade;
+    if(eeValor!=null){ tEE=escoreVerdadeiro(eeValor, fid.EE); const meia=amplitudeIC(nivelIC, g.SON_EE.epe); eeIC=`${tEE-meia} - ${tEE+meia}`; }
+    if(erValor!=null){ tER=escoreVerdadeiro(erValor, fid.ER); const meia=amplitudeIC(nivelIC, g.SON_ER.epe); erIC=`${tER-meia} - ${tER+meia}`; }
+  }
   const qiValor = qiLinha?.qi ?? null;
   const qiPct   = qiLinha?.percentil ?? null;
-  const qiIC    = qiLinha?.ic_80 ?? null;
+  // 80%: IC exato impresso na Tabela 76. 90%/95%: extensão via EPE do SON-QI (Tabela 31) -- não impresso no manual.
+  const qiIC = qiValor==null ? null : nivelIC==='80%' ? qiLinha.ic_80
+    : (()=>{const meia=amplitudeIC(nivelIC, d.generalizabilidade.SON_QI.epe); return `${qiValor-meia} - ${qiValor+meia}`;})();
 
   const dif = (eeValor!=null && erValor!=null) ? Math.abs(eeValor-erValor) : null;
   const lim = d.diferenca_ee_er_significativa;
@@ -323,7 +363,7 @@ else if(name==='SON-R'){
 
     <p class="eyebrow" style="margin:28px 0 10px">Folha de Registro — Escores Totais</p>
     <table class="rtable folha-tabela">
-      <thead><tr><th>Escore Total</th><th class="num">Idade Ref.</th><th class="num">N</th><th class="num">80%-int</th><th></th></tr></thead>
+      <thead><tr><th>Escore Total</th><th class="num">Idade Ref.</th><th class="num">N</th><th class="num">${nivelIC}-int</th><th></th></tr></thead>
       <tbody>
         ${linhaTot('SON-EE', eeValor, eeIC)}
         ${linhaTot('SON-ER', erValor, erIC)}
@@ -338,25 +378,38 @@ else if(name==='SON-R'){
       ${dif!=null?`<span class="subtle"> (diferença = ${dif})</span>`:''}
     </p>
     <p class="foot" style="border:none;margin-top:4px">"Idade Ref." não é calculada por este motor — depende do software oficial do SON-R (algoritmo não documentado nas tabelas de normas extraídas).</p>
-    <p class="foot" style="border:none;margin-top:2px">IC80% do SON-QI vem direto da Tabela 76 (exato). IC80% de SON-EE/SON-ER usa o método simplificado do manual (amplitude fixa ±${icCfg.SON_EE.meia_amplitude}/±${icCfg.SON_ER.meia_amplitude} sobre o escore bruto) — o manual também oferece um método mais preciso por "escore verdadeiro" com coeficiente de fidedignidade por idade (Tabelas 30/31), não incluído aqui; por isso esse IC pode diferir um pouco dos exemplos impressos no Capítulo 9. ${AMB_FOOT}</p>
+    <p class="foot" style="border:none;margin-top:2px">IC de SON-EE/SON-ER usa o método exato do manual (escore verdadeiro por Kelley, coeficiente de fidedignidade por idade — Tabela 30 — e EPE — Tabela 31). O IC80% do SON-QI vem direto da Tabela 76 (exato); 90%/95% do SON-QI são extensão via EPE (não impressos no manual). ${AMB_FOOT}</p>
   `;
   setStep(3); res.scrollIntoView({behavior:'smooth',block:'nearest'});
   return;
 }
 ```
 
-### 10.4 Notas de fidelidade ao formulário
+> `SEL.nivelICsonr` e `idadeSONRdoFormulario` no trecho acima são placeholders —
+> troque pela variável real que já guarda a idade digitada/selecionada para o
+> SON-R no seu `buildForm` (provavelmente a mesma idade usada para escolher
+> `SEL.faixa` na seção 7). Se quiser deixar 90%/95% selecionável, adicione um
+> `selField` igual ao que a seção 7 já faz para `SEL.faixa`, mas para
+> `SEL.nivelICsonr` com opções `['80%','90%','95%']`.
+
+### 10.5 Notas de fidelidade ao formulário
 
 - **f e g** (`0,91` e `0,83`) são constantes fixas do manual (fidedignidade e
   generalizabilidade do SON-QI, Tabela 76 rodapé) — não variam por paciente,
   então ficam hard-coded, exatamente como aparecem em todas as Folhas de
   Registro do Capítulo 9.
-- **EE-ER**: os limiares (16 / 20 pontos) e a amplitude fixa do IC80% de
-  SON-EE/SON-ER (`±9` / `±10`) são o método *simplificado* que o próprio
-  manual oferece como alternativa ao cálculo por escore verdadeiro (que exige
-  coeficientes de fidedignidade por idade — Tabelas 30/31 — não incluídos
-  nesta extração). O SON-QI usa o IC80% exato da Tabela 76 (`qiIC`), não o
-  simplificado.
+- **EE-ER**: os limiares de significância (16 / 20 pontos) são os fixos do
+  próprio manual (Tabela 76 rodapé). O IC de SON-EE/SON-ER agora usa o método
+  *exato* que o manual usa nos 3 casos do Capítulo 9 (escore verdadeiro por
+  Kelley + EPE por idade — Tabelas 30/31, extraídas em `fidedignidade_por_idade`
+  / `generalizabilidade` do bundle) — validado 100% contra os 3 casos, inclusive
+  o valor do escore verdadeiro (T_EE/T_ER) e o IC80% exato. O IC do SON-QI usa
+  a Tabela 76 no nível 80% (exato) e uma extensão via EPE nos níveis 90%/95%
+  (não impressos no manual, mas consistentes com o mesmo raciocínio).
+- **90%/95% de IC**: possível para as 3 escalas (SON-EE, SON-ER, SON-QI) porque
+  agora temos o EPE (Tabela 31) — a mesma técnica que WASI/WAIS já usam. O
+  manual só imprime 80%; os outros níveis são extrapolação padrão (z × EPE),
+  não um valor "oficial" do fabricante para esses níveis.
 - **"Idade Ref."**: deliberadamente fora do escopo (ver nota no rodapé do
   próprio painel) — o manual explica que só o software oficial calcula esse
   valor, e as tabelas de normas extraídas não contêm o algoritmo reverso
