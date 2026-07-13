@@ -8,31 +8,39 @@ normatização brasileira (Tellegen, Laros, de Jesus & Karino — Hogrefe CETEPP
 
 Diferente do ETDAH/SCARED/SDQ (que vieram de uma planilha Excel com fórmulas
 exatas), os dados normativos do SON-R vieram de um **manual em PDF escaneado**
-(fotos de página, sem texto digital). Foram transcritos visualmente e
-conferidos contra os 3 casos clínicos completos que o próprio manual traz
-resolvidos (Capítulo 9) — mas isso **não é o mesmo nível de certeza** que uma
-fórmula de planilha.
+(fotos de página, sem texto digital). Foram transcritos visualmente em duas
+passagens — a segunda a partir de um re-scan de alta resolução do mesmo
+capítulo — e conferidos contra os 3 casos clínicos completos que o próprio
+manual traz resolvidos (Capítulo 9).
 
-**Status da verificação:**
+**Status da verificação (atualizado após a 2ª passagem):**
 - ✅ **Tabela 76** (combinação Soma normatizada → SON-EE / SON-ER / SON-QI /
-  IC80% / percentil): validada em **3 de 3** casos do manual, valor a valor,
-  incluindo o percentil e o intervalo de confiança. Alta confiança.
-- ✅ **Tabelas de conversão bruto→normatizado por idade** (Tabelas 59-75):
-  conferidas contra os 3 casos (idades 5;9, 6;3 e 7;9) — **11 de 12** valores
-  bateram exatamente; 1 erro real de transcrição foi encontrado e corrigido
-  durante o processo.
-- ⚠️ **1 discrepância não resolvida**: subteste **Padrões, idade 5;9, escore
-  bruto 8** — o Caso 1 do manual indica normatizado = 1, a tabela transcrita
-  (conferida duas vezes) dá 6. Como a mesma linha "Padrões" validou certinha
-  nos outros dois casos, suspeita-se de erro de leitura pontual no formulário
-  do Caso 1 (não na tabela) — mas isso não foi confirmado.
-- ⚠️ As **idades fora dos 3 casos testados** (a maior parte da faixa 2;6-7;11)
-  não foram conferidas individualmente contra o manual físico.
+  IC80% / percentil): validada em **3 de 3** casos do manual, valor a valor.
+  Nenhuma célula divergiu entre as duas passagens. Alta confiança.
+- ✅ **Tabelas de conversão bruto→normatizado por idade** (Tabelas 59-75, 66
+  tabelas de idade): **28 das 66 tabelas** tinham pelo menos um erro pontual
+  de transcrição na 1ª passagem (tipicamente um degrau intermediário ausente
+  ou extra — algo que a checagem de monotonicidade sozinha não pega, porque a
+  sequência continua "válida", só com o ponto de virada deslocado). Todas
+  foram corrigidas nesta 2ª passagem e re-validadas.
+- ✅ **Discrepância anterior resolvida**: o caso documentado como "Padrões,
+  idade 5;9, escore bruto 8 → tabela dá 6, manual dá 1" era um **erro de
+  leitura do escore bruto do Caso 1** na folha de registro escaneada (baixa
+  resolução) — o valor real é **bruto = 3**, não 8. Com a leitura correta, o
+  motor devolve normatizado = 1, batendo exatamente com o manual. A tabela em
+  si (Tabela 68, idade 5;9) estava correta desde o início.
+- ✅ **Validação end-to-end**: os 3 casos do manual (idades 5;9, 6;3, 7;9)
+  batem **16 de 16** — os 4 escores normatizados de subteste + SON-EE + SON-ER
+  + SON-QI + percentil + IC80% de cada caso.
+- ⚠️ **2 células de confiança levemente menor**: subteste Situações, idades
+  5;0 e 5;1, escores brutos 13-14 — caem exatamente sobre uma dobra física da
+  página no scan de origem. Foram lidas com o valor estruturalmente mais
+  consistente, mas vale conferência manual se esses escores brutos altos
+  aparecerem na prática (são raros).
 
-**Recomendação:** use este motor como apoio ao cálculo, não como fonte única.
-Antes de emitir um laudo, confira pelo menos a tabela da idade real do paciente
-contra o manual impresso (Apêndice A), especialmente a linha do subteste
-Padrões.
+**Recomendação:** mesmo com confiança alta após a 2ª passagem, este motor é
+apoio ao cálculo, não substitui a conferência do psicólogo — como boa prática
+padrão para qualquer tabela extraída de scan.
 
 ## Arquivos
 
